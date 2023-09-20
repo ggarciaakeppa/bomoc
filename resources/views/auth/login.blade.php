@@ -85,10 +85,15 @@
             @endif
 
             <!-- Submit -->
-            <button class="btn btn-lg w-100 btn-primary mb-3">
+            <button class="btn btn-lg w-100 btn-outline-primary mb-3 lift ">
               Ingresar
             </button>
+            <div class="row">
+              <div class="col-md-12">
+                <a class="btn btn-lg w-100 btn-outline-primary mb-3 lift" href="/login-google"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Signup Using Google</a>
 
+              </div>
+          </div>
             <p class="text-center">
               <small class="text-muted text-center">
                 ¿Aun no tienes usuario? <a href="{{ route('register') }}">Registra aquí</a>.
@@ -96,7 +101,9 @@
             </p>
 
           </form>
+        
 
+        
         </div>
         <div class="col-12 col-md-7 col-lg-6 col-xl-8 d-none d-lg-block">
 

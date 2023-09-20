@@ -40,7 +40,7 @@
     <livewire:success-message class="mb-4" />
 
     <div class="col-12">
-        <div class="card">
+        <div class=" card border-primary mb-3">
             <div class="card-body">
                 <livewire:user-table />
             </div>

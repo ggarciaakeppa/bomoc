@@ -7,17 +7,11 @@ use App\Http\Livewire\Ingreso\IngresoAuto;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
+use Laravel\Socialite\Facades\Socialite;
+use Spatie\Permission\Models\Role;
+use Auth;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+
  
 Route::post('/forgot-password', function (Request $request) {
     $request->validate(['email' => 'required|email']);
@@ -43,8 +37,35 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/login-google', function () {
+    return Socialite::driver('google')->redirect();
+});
+
+Route::get('/google-callback', function () {
+    
+    $user_google = Socialite::driver('google')->stateless()->user();
+
+
+    $user = User::updateOrCreate([
+        'google_id'=> $user_google->id,
+    ],[ 
+        'name'=>$user_google->name,
+        'email'=>$user_google->email,
+        'status'=>1,
+        'phone'=>NULL,
+    ]);
+
+    $user->syncRoles(3);
+
+    Auth::login($user);
+
+    return redirect('/');
+    
+});
+
 Route::middleware([
     'auth:sanctum',
+    // 'verified',
     config('jetstream.auth_session')
 ])->group(function () {
     Route::get('/user/profile/security', [CustomUserProfileController::class, 'show'])->name('profile.security'); 

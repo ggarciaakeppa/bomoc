@@ -136,8 +136,8 @@
                 @endif
 
                 <!-- Submit -->
-                <button class="btn btn-lg w-100 btn-primary mb-3">
-                    {{ __('Register') }}
+                <button class="btn btn-lg w-100 btn-outline-primary mb-3 lift ">
+                   Registrar
                 </button>
 
                 <p class="text-center">
