@@ -6,7 +6,6 @@
     @endphp
     <nav class="navbar navbar-vertical fixed-start navbar-expand-md navbar-light" id="sidebar">
         <div class="container-fluid">
-
             <!-- Toggler -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarCollapse"
                 aria-controls="sidebarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,24 +133,27 @@
     {{-- Productos --}}
     <ul class="navbar-nav">
         <li class="nav-item">
-            @if (Route::is('products.*'))
-                <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button" aria-expanded="true"
-                    aria-controls="users" :active="request() - > routeIs('users.*')">
+            @if (Route::is('productos.*'))
+                <a class="nav-link" href="#productos" data-bs-toggle="collapse" role="button" aria-expanded="true"
+                    aria-controls="productos" :active="request() - > routeIs('productos.*')">
                 @else
-                    <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button"
-                        aria-expanded="false" aria-controls="users" :active="request() - > routeIs('users.*')">
+                    <a class="nav-link" href="#productos" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="productos" :active="request() - > routeIs('productos.*')">
             @endif
             <i class="fe fe-users"></i> Productos
             </a>
             @if (Route::is('products.*'))
-                <div class="collapse show" id="users">
+                <div class="collapse show" id="productos">
                 @else
-                    <div class="collapse" id="users">
+                    <div class="collapse" id="productos">
             @endif
             <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                    <x-jet-responsive-nav-link href="{{ route('users.index') }}" class="nav-link" :active="request()->routeIs('users.index')">
-                        Administración
+                    <x-jet-responsive-nav-link href="{{ route('productos.index') }}" class="nav-link" :active="request()->routeIs('productos.index')">
+                        Lista
+                    </x-jet-responsive-nav-link>
+                    <x-jet-responsive-nav-link href="{{ route('productos.create') }}" class="nav-link" :active="request()->routeIs('productos.index')">
+                        Nuevo
                     </x-jet-responsive-nav-link>
                 </li>
             </ul>
@@ -162,24 +164,27 @@
     {{-- Catalogos --}}
     <ul class="navbar-nav">
         <li class="nav-item">
-            @if (Route::is('products.*'))
-                <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button" aria-expanded="true"
-                    aria-controls="users" :active="request() - > routeIs('users.*')">
+            @if (Route::is('catalogos.*'))
+                <a class="nav-link" href="#catalogos" data-bs-toggle="collapse" role="button" aria-expanded="true"
+                    aria-controls="catalogos" :active="request() - > routeIs('catalogos.*')">
                 @else
-                    <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button"
-                        aria-expanded="false" aria-controls="users" :active="request() - > routeIs('users.*')">
+                    <a class="nav-link" href="#catalogos" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="catalogos" :active="request() - > routeIs('catalogos.*')">
             @endif
             <i class="fe fe-users"></i> Catalogos
             </a>
-            @if (Route::is('products.*'))
-                <div class="collapse show" id="users">
+            @if (Route::is('catalogos.*'))
+                <div class="collapse show" id="catalogos">
                 @else
-                    <div class="collapse" id="users">
+                    <div class="collapse" id="catalogos">
             @endif
             <ul class="nav nav-sm flex-column">
                 <li class="nav-item">
-                    <x-jet-responsive-nav-link href="{{ route('users.index') }}" class="nav-link" :active="request()->routeIs('users.index')">
+                    <x-jet-responsive-nav-link href="{{ route('productos.index') }}" class="nav-link" :active="request()->routeIs('productos.index')">
                         Administración
+                    </x-jet-responsive-nav-link>
+                    <x-jet-responsive-nav-link href="{{ route('productos.create') }}" class="nav-link" :active="request()->routeIs('productos.index')">
+                        Nuevo
                     </x-jet-responsive-nav-link>
                 </li>
             </ul>
@@ -190,19 +195,19 @@
     {{-- Pedidos --}}
     <ul class="navbar-nav">
         <li class="nav-item">
-            @if (Route::is('products.*'))
-                <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button" aria-expanded="true"
-                    aria-controls="users" :active="request() - > routeIs('users.*')">
+            @if (Route::is('pedidos.*'))
+                <a class="nav-link" href="#pedidos" data-bs-toggle="collapse" role="button" aria-expanded="true"
+                    aria-controls="pedidos" :active="request() - > routeIs('pedidos.*')">
                 @else
-                    <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button"
-                        aria-expanded="false" aria-controls="users" :active="request() - > routeIs('users.*')">
+                    <a class="nav-link" href="#pedidos" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="pedidos" :active="request() - > routeIs('pedidos.*')">
             @endif
             <i class="fe fe-users"></i> Pedidos
             </a>
-            @if (Route::is('products.*'))
-                <div class="collapse show" id="users">
+            @if (Route::is('pedidos.*'))
+                <div class="collapse show" id="pedidos">
                 @else
-                    <div class="collapse" id="users">
+                    <div class="collapse" id="pedidos">
             @endif
             <ul class="nav nav-sm flex-column">
                 <li class="nav-item">

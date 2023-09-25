@@ -27,29 +27,6 @@
 		<div class="card">
 			<div class="card-body">
                 <livewire:ingreso.ingreso-auto-table />
-                <!-- <table>
-                    <thead>
-                        <tr>
-                            <th>Placas</th>
-                            <th>Nombre</th>
-                            <th>Motivo</th>
-                            <th>Acciones</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($ingresos as $ingreso)
-                            <tr>
-                                <td>{{ $ingreso->placas }}</td>
-                                <td>{{ $ingreso->nombre }}</td>
-                                <td>{{ $ingreso->motivo }}</td>
-                                <td>
-                                    <a href="{{ route('ingreso-autos.edit', $ingreso->id) }}">Editar</a>
-                                    <button wire:click="deleteIngreso({{ $ingreso->id }})">Eliminar</button>
-                                </td>
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table> -->
 			</div>
 		</div>
 	</div>

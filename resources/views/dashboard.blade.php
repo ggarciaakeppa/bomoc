@@ -42,7 +42,7 @@
               <div class="card-body">
                 <h1 class="card-title ">Productos</h1>
                 <div class="card-text  text-end mb-2 ">
-                <a href="{{ route('users.index') }}" class="btn btn-md btn-primary w-50  mt-6 lift">Entrar</a>
+                <a href="{{ route('productos.index') }}" class="btn btn-md btn-primary w-50  mt-6 lift">Entrar</a>
               </div>
               </div>
             </div>

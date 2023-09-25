@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Rappasoft\LaravelLivewireTables\Views\Columns\BooleanColumn;
 use Rappasoft\LaravelLivewireTables\Views\Filters\SelectFilter;
 use Rappasoft\LaravelLivewireTables\Views\Columns\ImageColumn;
-use Rappasoft\LaravelLivewireTables\Views\Columns\ComponentColumn;
+use Rappasoft\LaravelLivewireTables\Views\Columns\LinkColumn;
 
 use App\Models\User;
 use Spatie\Permission\Models\Role;
@@ -351,6 +351,7 @@ class UserTable extends DataTableComponent
                 ->format(function($value) {
                     return Carbon::parse($value)->diffForHumans();
                 }),
+   
         ];
     }
 }
