@@ -38,14 +38,14 @@ class ProductoTable extends DataTableComponent
                 ->filter(function (Builder $builder, string $value) {
                     $builder->where('productos.modelo', 'like', '%' . $value . '%');
                 }),
-                SelectFilter::make('Activo')
-              
+            SelectFilter::make('Activo')
+
                 ->options([
                     '' => 'Todos',
                     '1' => 'Activo',
                     '0' => 'Inactivo',
                 ])
-                ->filter(function(Builder $builder, string $value) {
+                ->filter(function (Builder $builder, string $value) {
                     if ($value === '1') {
                         $builder->where('estatus', 1);
                     } elseif ($value === '0') {
@@ -60,9 +60,17 @@ class ProductoTable extends DataTableComponent
     {
         return [
             ImageColumn::make('Imagen')
-    ->location(
-        fn($row) => storage_path('app/public/photos/' . $row->id . '.jpg')
-    ),
+                ->location(
+
+                    fn ($row) => asset('/storage/photos/' . $row->id . '.jpeg')
+
+                )
+                ->attributes(function ($row) {
+                    return [
+                        'class' => 'avatar-img   mw-100px',
+
+                    ];
+                }),
             Column::make("Id", "id")
                 ->sortable(),
             Column::make("Tipo", "tipo")
@@ -100,14 +108,17 @@ class ProductoTable extends DataTableComponent
                 ->sortable(),
             Column::make("Pda", "pda")
                 ->sortable(),
-            Column::make("Nota", "nota")
-                ->sortable(),
+            Column::make("Nota del producto", "nota")
+                ->sortable()
+                ->html(),
             Column::make("Base", "base")
                 ->sortable(),
             Column::make("RuedasN", "ruedasN")
                 ->sortable(),
             Column::make("RuedasF", "ruedasF")
                 ->sortable(),
+            Column::make("Ficha","ficha")
+            ->sortable(),    
             Column::make("Material", "material")
                 ->sortable(),
             Column::make("Creado", "created_at")
@@ -130,33 +141,33 @@ class ProductoTable extends DataTableComponent
                 })
                 ->buttons([
                     LinkColumn::make('Eliminar')
-                    ->title(function ($row) {
-                        if ($row->estatus == '1') {
-                            return 'Baja';
-                        } else {
-                            return 'Alta';
-                        }
-                    })
-                    ->location(function ($row) {
-                        if ($row->estatus == '1') {
-                            return route('productos.delete', $row->id);
-                        } else {
-                            return route('productos.delete', $row->id);
-                        }
-                    })
-                    ->attributes(function ($row) {
-                        if ($row->estatus == '1') {
-                            return [
-                                'class' => 'btn btn-danger lift',
-                                'onclick' => "return confirm('¿Estás seguro de que deseas desactivar este producto?')"
-                            ];
-                        } else {
-                            return [
-                                'class' => 'btn btn-success lift',
-                                'onclick' => "return confirm('¿Estás seguro de que deseas activar este producto?')"
-                            ];
-                        }
-                    }),
+                        ->title(function ($row) {
+                            if ($row->estatus == '1') {
+                                return 'Baja';
+                            } else {
+                                return 'Alta';
+                            }
+                        })
+                        ->location(function ($row) {
+                            if ($row->estatus == '1') {
+                                return route('productos.delete', $row->id);
+                            } else {
+                                return route('productos.delete', $row->id);
+                            }
+                        })
+                        ->attributes(function ($row) {
+                            if ($row->estatus == '1') {
+                                return [
+                                    'class' => 'btn btn-danger lift',
+                                    'onclick' => "return confirm('¿Estás seguro de que deseas desactivar este producto?')"
+                                ];
+                            } else {
+                                return [
+                                    'class' => 'btn btn-success lift',
+                                    'onclick' => "return confirm('¿Estás seguro de que deseas activar este producto?')"
+                                ];
+                            }
+                        }),
                     LinkColumn::make('Edit')
                         ->title(fn ($row) => 'Editar ' . $row->name)
                         ->location(fn ($row) => route('productos.edit', $row->id))

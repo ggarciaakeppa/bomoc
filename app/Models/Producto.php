@@ -32,5 +32,7 @@ class Producto extends Model
         'ruedasF',
         'material',
         'estatus',
+        'pathPhoto',
+        'ficha',  
     ];
 }

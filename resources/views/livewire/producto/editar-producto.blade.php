@@ -145,6 +145,12 @@
                 </div>
             </div>
 
+            
+                    <div class="mt-3">
+                        <p>Imagen seleccionada:</p>
+                        <img src="{{$photo}}" alt="Imagen seleccionada" width="200">
+                    </div>
+            
         </div>
     </div>
 </div>

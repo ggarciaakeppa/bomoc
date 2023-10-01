@@ -130,8 +130,6 @@
                 </div>
                 <div class="row align-items-start">
                     <div class="col form-switch m-2">
-
-
                         <input class="form-check-input" type="checkbox" id="ruedasN" wire:model.defer="ruedasN">
                         <label class="form-check-label" for="flexSwitchCheckDefault">Ruedas N</label>
                     </div>
@@ -147,7 +145,12 @@
                 <div class="row align-items-start">
                     <div class="col">
                         <label for="photo">Foto</label>
-                        <input type="file" class="form-control"  id="photo" name="photo" wire:model="photo">
+                        <input type="file" class="form-control" required  id="photo" name="photo" wire:model="photo">
+                    </div>
+
+                    <div class="col">
+                        <label for="ficha">Ficha</label>
+                        <input type="text" id="ficha" class="form-control" wire:model.defer="ficha">
                     </div>
                 </div>
                 

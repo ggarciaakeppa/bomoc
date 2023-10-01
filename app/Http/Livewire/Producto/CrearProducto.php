@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Producto;
 
 use App\Models\Producto;
+use Illuminate\Console\View\Components\Alert;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use Livewire\WithFileUploads;
@@ -11,22 +12,35 @@ class CrearProducto extends Component
 {
     use WithFileUploads;
 
+    //Variables del modelo
     public $tipo;
     public $marca;
-    public $serie; 
+    public $serie;
     public  $modelo;
     public  $codigo;
-    public    $hp, $fases, $volts, $tamano, $rpm, $paso,
-        $descarga, $pasos, $btus, $diametro, $pda,
-        $nota, $base, $ruedasN, $ruedasF, $material;
-    
-        public $photo;
+    public    $hp;
+    public $fases;
+    public $volts;
+    public  $tamano;
+    public $rpm;
+    public $paso;
+    public $descarga;
+    public  $pasos;
+    public  $btus;
+    public $diametro;
+    public $pda;
+    public $nota;
+    public $base;
+    public  $ruedasN;
+    public $ruedasF;
+    public $material;
+    public $ficha;
+    public $photo;
 
-        public $photoPath; // Variable para almacenar la ruta del archivo
+    public $photoPath; // Variable para almacenar la ruta del archivo
 
     //    Definir reglas segun sea el caso
-    
-    
+
     /* protected $messages = [
          'modelo' => 'El modelo no puede ir vacio.',
          'marca' => 'La marca no pueden ir vacia.',
@@ -43,7 +57,7 @@ class CrearProducto extends Component
     public function createProducto()
     {
 
-    //     $this->validate();
+        //     $this->validate();
 
         $producto = Producto::create([
             'tipo' => $this->tipo,
@@ -67,20 +81,21 @@ class CrearProducto extends Component
             'ruedasN' => $this->ruedasN,
             'ruedasF' => $this->ruedasF,
             'material' => $this->material,
-            'estatus'=>1,   
-            'pathPhoto'=>null,
+            'estatus' => 1,
+            'pathPhoto' => null,
+            'ficha' => $this->ficha,
         ]);
-       
-       
-       
-         $path = $this->photo->storeAs('photos',$producto->id.'.jpg','public');
-        
-         // Almacenar la ruta en la variable
+
+        $path = $this->photo->storeAs('photos', $producto->id . '.jpeg', 'public');
+
+        // Almacenar la ruta en la variable
         $this->photoPath = $path;
-        
-        $producto->pathPhoto = asset('storage/'.$this->photoPath);
+
+        $producto->pathPhoto = asset('storage/' . $this->photoPath);
 
         $producto->save();
+
+        
 
         return redirect()->to('/productos');
     }
@@ -89,6 +104,4 @@ class CrearProducto extends Component
     {
         return view('livewire.producto.crear-producto');
     }
-
- 
 }

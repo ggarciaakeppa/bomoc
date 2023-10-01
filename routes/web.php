@@ -38,34 +38,33 @@ Route::post('/forgot-password', function (Request $request) {
 })->middleware('guest')->name('password.email');
 
 Route::get('/', function () {
-    return view('inicio2.index');
+    return view('welcome');
 });
 
-Route::view('/inicio2','inicio2.index')->name('inicio');
 
 //Rutas de Bombas
-Route::view('/bombas/altamira', 'bombas/altamira.index')->name('altamira');
-Route::view('/bombas/armstrong', 'bombas/armstrong.index')->name('armstrong');
-Route::view('/bombas/aurora', 'bombas/aurora.index')->name('aurora');
-Route::view('/bombas/barmesa', 'bombas/barmesa.index')->name('barmesa');
-Route::view('/bombas/franklin', 'bombas/franklin.index')->name('franklin');
-Route::view('/bombas/grundfos', 'bombas/grundfos.index')->name('grundfos');
-Route::view('/bombas/impel', 'bombas/impel.index')->name('impel');
-Route::view('/bombas/jandy', 'bombas/jandy.index')->name('jandy');
-Route::view('/bombas/mann', 'bombas/mann.index')->name('mann');
-Route::view('/bombas/netzsch', 'bombas/netzsch.index')->name('netzsch');
-Route::view('/bombas/pentar', 'bombas/pentar.index')->name('pentar');
-Route::view('/bombas/scott', 'bombas/scott.index')->name('scott');
-Route::view('/bombas/tsurumi', 'bombas/tsurumi.index')->name('tsurumi');
-Route::view('/bombas/wdm', 'bombas/wdm.index')->name('wdm');
-Route::view('/bombas/wilo', 'bombas/wilo.index')->name('wilo');
-Route::view('/bombas/yamada', 'bombas/yamada.index')->name('yamada');
-Route::view('/bombas/zoeller', 'bombas/zoeller.index')->name('zoeller');
+Route::view('/bombas/altamira', 'bombas.altamira')->name('altamira');
+Route::view('/bombas/armstrong', 'bombas.armstrong')->name('armstrong');
+Route::view('/bombas/aurora', 'bombas.aurora')->name('aurora');
+Route::view('/bombas/barmesa', 'bombas.barmesa')->name('barmesa');
+Route::view('/bombas/franklin', 'bombas.franklin')->name('franklin');
+Route::view('/bombas/grundfos', 'bombas.grundfos')->name('grundfos');
+Route::view('/bombas/impel', 'bombas.impel')->name('impel');
+Route::view('/bombas/jandy', 'bombas.jandy')->name('jandy');
+Route::view('/bombas/mann', 'bombas.mann')->name('mann');
+Route::view('/bombas/netzsch', 'bombas.netzsch')->name('netzsch');
+Route::view('/bombas/pentar', 'bombas.pentar')->name('pentar');
+Route::view('/bombas/scott', 'bombas.scott')->name('scott');
+Route::view('/bombas/tsurumi', 'bombas.tsurumi')->name('tsurumi');
+Route::view('/bombas/wdm', 'bombas.wdm')->name('wdm');
+Route::view('/bombas/wilo', 'bombas.wilo')->name('wilo');
+Route::view('/bombas/yamada', 'bombas.yamada')->name('yamada');
+Route::view('/bombas/zoeller', 'bombas.zoeller')->name('zoeller');
 
 //Rutas de Otras lineas de Productos
-Route::view('/contraincendios','contraincendios.index')->name('contraincendios');
-Route::view('/hidroneumaticos','hidroneumaticos.index')->name('hidroneumaticos');
-Route::view('/motores','motores.index')->name('motores');
+Route::view('/contraincendios','otros.contraincendios')->name('contraincendios');
+Route::view('/hidroneumaticos','otros.hidroneumaticos')->name('hidroneumaticos');
+Route::view('/motores','otros.motores')->name('motores');
 
 //Ruta de Blog
 Route::view('/blog','blog.index')->name('blog');
@@ -131,15 +130,4 @@ Route::middleware([
     Route::get('/productos/edit/{id}',EditarProducto::class)->name('productos.edit');
     Route::get('/productos/delete/{id}',[Productos::class,'delete'])->name('productos.delete');
     
-});
-
-
-Route::middleware([
-    'can:ingresos',
-    'auth:sanctum',
-    config('jetstream.auth_session')
-])->group(function () {
-    Route::get('/ingreso/auto', IngresoAuto::class)->name('ingreso.auto.index');
-    Route::get('/ingreso/auto/create', [IngresoAuto::class, 'create'])->name('ingreso-auto.create');
-    Route::get('/ingreso/auto/edit/{id}', [IngresoAuto::class, 'edit'])->name('ingreso-auto.edit');
 });

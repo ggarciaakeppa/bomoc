@@ -4,15 +4,23 @@ namespace App\Http\Livewire\Producto;
 
 use App\Models\Producto;
 use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class EditarProducto extends Component
 {
+
+    use WithFileUploads;
+
     public $tipo, $marca, $serie, $modelo, $codigo,
     $hp, $fases, $volts, $tamano, $rpm, $paso,
     $descarga, $pasos, $btus, $diametro, $pda,
-    $nota, $base, $ruedasN, $ruedasF, $material;
+    $nota, $base, $ruedasN, $ruedasF, $material,$pathPhoto;
 
 public $producto;
+
+public $photo;
+
+public $photoPath;
 
 public function mount($id)
 {
@@ -38,6 +46,7 @@ public function mount($id)
     $this->ruedasN = $this->producto->ruedasN;
     $this->ruedasF = $this->producto->ruedasF;
     $this->material = $this->producto->material;
+    $this->pathPhoto = $this->producto->pathnPhoto;
 }
 
     
@@ -45,7 +54,8 @@ public function mount($id)
 
     public function render()
     {
-        
+        $this->photo=$this->producto->pathPhoto;
+       
         return view('livewire.producto.editar-producto');
     }
 
@@ -75,6 +85,17 @@ public function mount($id)
             'ruedasN' => $this->ruedasN,
             'ruedasF' => $this->ruedasF,
             'material' => $this->material,
-        ]);    
+    
+        ]);   
+
+        $path = $this->photo->storeAs('photos', $this->producto->id . '.jpeg', 'public');
+
+        // Almacenar la ruta en la variable
+        $this->photoPath = $path;
+
+        $this->producto->pathPhoto = asset('storage/' . $this->photoPath);
+
+        $this->producto->save();
+
     }
 }
