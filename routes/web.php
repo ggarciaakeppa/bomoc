@@ -47,6 +47,7 @@ Route::view('/bombas/altamira', 'bombas.altamira')->name('altamira');
 Route::view('/bombas/armstrong', 'bombas.armstrong')->name('armstrong');
 Route::view('/bombas/aurora', 'bombas.aurora')->name('aurora');
 Route::view('/bombas/barmesa', 'bombas.barmesa')->name('barmesa');
+Route::view('/bombas/barmesa/autocebantes','bombas.barmesa.autocebantes')->name('autocebantes');
 Route::view('/bombas/franklin', 'bombas.franklin')->name('franklin');
 Route::view('/bombas/grundfos', 'bombas.grundfos')->name('grundfos');
 Route::view('/bombas/impel', 'bombas.impel')->name('impel');
