@@ -4,49 +4,62 @@ namespace App\Http\Livewire\Producto;
 
 use App\Models\Producto;
 use Livewire\Component;
-use Livewire\WithFileUploads;
+
 
 class EditarProducto extends Component
 {
 
-    use WithFileUploads;
+  
 
-    public $tipo, $marca, $serie, $modelo, $codigo,
-    $hp, $fases, $volts, $tamano, $rpm, $paso,
-    $descarga, $pasos, $btus, $diametro, $pda,
-    $nota, $base, $ruedasN, $ruedasF, $material,$pathPhoto;
+    public $tipo;
+    public $marca; 
+    public $serie;
+    public $modelo;
+    public $hp;
+    public $fases;
+    public $volts;
+    public $tamaño_suc_y_desc;
+    public $rpm;
+    public $paso_de_esfera;
+    public $descarga;
+    public $pasos;
+    public $diametro_de_pozo;
+    public $nota;
+    public $base_de_acero;
+    public $ruedas_neumaticas;
+    public $ruedas_de_fierro;
+    public $material;
+    public $estatus;
+    public $ficha;
+
 
 public $producto;
 
-public $photo;
-
-public $photoPath;
 
 public function mount($id)
 {
     $this->producto = Producto::findOrFail($id);
+    
     $this->tipo = $this->producto->tipo;
-    $this->modelo = $this->producto->modelo;
-    $this->marca = $this->producto->marca; 
+    $this->marca = $this->producto->marca;
     $this->serie = $this->producto->serie;
-    $this->codigo = $this->producto->codigo;
+    $this->modelo = $this->producto->modelo;
     $this->hp = $this->producto->hp;
     $this->fases = $this->producto->fases;
     $this->volts = $this->producto->volts;
-    $this->tamano = $this->producto->tamano;
+    $this->tamaño_suc_y_desc = $this->producto->tamaño_suc_y_desc;
     $this->rpm = $this->producto->rpm;
-    $this->paso = $this->producto->paso;
+    $this->paso_de_esfera = $this->producto->paso_de_esfera;
     $this->descarga = $this->producto->descarga;
     $this->pasos = $this->producto->pasos;
-    $this->btus = $this->producto->btus;
-    $this->diametro = $this->producto->diametro;
-    $this->pda = $this->producto->pda;
+    $this->diametro_de_pozo = $this->producto->diametro_de_pozo;
     $this->nota = $this->producto->nota;
-    $this->base = $this->producto->base;
-    $this->ruedasN = $this->producto->ruedasN;
-    $this->ruedasF = $this->producto->ruedasF;
+    $this->base_de_acero = $this->producto->base_de_acero;
+    $this->ruedas_neumaticas = $this->producto->ruedas_neumaticas;
+    $this->ruedas_de_fierro = $this->producto->ruedas_de_fierro;
     $this->material = $this->producto->material;
-    $this->pathPhoto = $this->producto->pathnPhoto;
+    $this->estatus = $this->producto->estatus;
+    $this->ficha = $this->producto->ficha;
 }
 
     
@@ -54,48 +67,36 @@ public function mount($id)
 
     public function render()
     {
-        $this->photo=$this->producto->pathPhoto;
        
         return view('livewire.producto.editar-producto');
     }
 
 
-    public function editProducto()
-    {
+    public function updateProducto()
+{
+    $this->producto->update([
+        'tipo' => $this->tipo,
+        'marca' => $this->marca,
+        'serie' => $this->serie,
+        'modelo' => $this->modelo,
+        'hp' => $this->hp,
+        'fases' => $this->fases,
+        'volts' => $this->volts,
+        'tamaño_suc_y_desc' => $this->tamaño_suc_y_desc,
+        'rpm' => $this->rpm,
+        'paso_de_esfera' => $this->paso_de_esfera,
+        'descarga' => $this->descarga,
+        'pasos' => $this->pasos,
+        'diametro_de_pozo' => $this->diametro_de_pozo,
+        'nota' => $this->nota,
+        'base_de_acero' => $this->base_de_acero,
+        'ruedas_neumaticas' => $this->ruedas_neumaticas,
+        'ruedas_de_fierro' => $this->ruedas_de_fierro,
+        'material' => $this->material,
+        'ficha' => $this->ficha,
+    ]);
 
-        $this->producto->update([
-            'tipo' => $this->tipo,
-            'marca' => $this->marca,
-            'serie' => $this->serie,
-            'modelo' => $this->modelo,
-            'codigo' => $this->codigo,
-            'hp' => $this->hp,
-            'fases' => $this->fases,
-            'volts' => $this->volts,
-            'tamano' => $this->tamano,
-            'rpm' => $this->rpm,
-            'paso' => $this->paso,
-            'descarga' => $this->descarga,
-            'pasos' => $this->pasos,
-            'btus' => $this->btus,
-            'diametro' => $this->diametro,
-            'pda' => $this->pda,
-            'nota' => $this->nota,
-            'base' => $this->base,
-            'ruedasN' => $this->ruedasN,
-            'ruedasF' => $this->ruedasF,
-            'material' => $this->material,
-    
-        ]);   
+    return redirect()->to('/productos');
+}
 
-        $path = $this->photo->storeAs('photos', $this->producto->id . '.jpeg', 'public');
-
-        // Almacenar la ruta en la variable
-        $this->photoPath = $path;
-
-        $this->producto->pathPhoto = asset('storage/' . $this->photoPath);
-
-        $this->producto->save();
-
-    }
 }

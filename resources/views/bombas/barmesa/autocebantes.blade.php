@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <!-- Styles -->
-  
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -25,153 +25,323 @@
 </head>
 
 <body>
-    
+
     @include('navbar')
-   <div style=" background: #3789C8 url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
+    <div
+        style=" background: #3789C8 url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
    font-weight: 800;">
-   </div>
-        
-   <div class="container-fluid">
-    <div>
-        {{-- Logo --}}
-        <div class="text-center">
+    </div>
 
-            <figure class="figure">
-                <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}"
-                    class="figure-img img-fluid rounded" alt="...">
-            </figure>
-        </div>
-
-        {{-- Imagenes al seleccionar --}}
+    <div class="container-fluid">
         <div>
-             <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-{{-- Imagen de Series Tx --}}
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/diesel.jpg') }}" 
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h3 style="color: blue">Motor a diesel</h3>
-                        </figcaption>
-                    </figure>
-                </div>
-{{-- Imagen de Series KOR --}}
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/gasolina.jpg') }}" 
-                            height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                    <figcaption class="figure-caption ">
-                        <h3 style="color: blue">Motor a gasolina</h3>
-                    </figcaption>
-                </figure>
-                    </figure>
-                </div>
-{{-- Imagen de Series Flux --}}
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/electrico.jpg') }}" 
-                            height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                    <figcaption class="figure-caption ">
-                        <h3 style="color: blue">Motor electrico</h3>
-                    </figcaption>
-                    </figure>
-                </div>
+            {{-- Logo --}}
+            <div class="text-center">
 
-                <div class="col">
-                    <figure class="figure">
-                        <a href="#tx"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}" 
-                            height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                    <figcaption class="figure-caption ">
-                        <h3 style="color: blue">Transmisión Universal</h3>
-                    </figcaption>
-                    </figure>
+                <figure class="figure">
+                    <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
+                        alt="...">
+                </figure>
+            </div>
+
+            {{-- Imagenes al seleccionar --}}
+            <div>
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+                    {{-- Imagen Diesel --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/diesel.jpg') }}"
+                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h3 style="color: blue">Motor a diesel</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {{-- Imagen de Series KOR --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#tx"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/autocebantes/gasolina.jpg') }}"
+                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h3 style="color: blue">Motor a gasolina</h3>
+                            </figcaption>
+                        </figure>
+                        </figure>
+                    </div>
+                    {{-- Imagen de Series Flux --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#headingOne"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/autocebantes/electrico.jpg') }}"
+                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h3 style="color: blue">Motor electrico</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#tx"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
+                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h3 style="color: blue">Transmisión Universal</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="auto" class="mb-3">
+            <div class="accordion" id="diesel" >
+                {{-- Contenido JOHN DEERE --}}
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingOne" >
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            John Deere
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#1">
+                        <div class="accordion-body row">
+                            <div class="col md-6">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Modelo</th>
+                                            <th scope="col">HP</th>
+                                            <th scope="col">Tamaño suc y desc</th>
+                                            <th scope="col">RPM</th>
+                                            <th scope="col">Base de acero</th>
+                                            <th scope="col">Ruedas Nuemáticas</th>
+                                            <th scope="col">Ficha técnica</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>90MD-4045DF</td>
+                                            <td>80</td>
+                                            <td>6" x 6"</td>
+                                            <td>2500</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                            <td><img src="{{ asset('imagenes/icons/pdf.svg') }}"  alt="..." width="32" height="32"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>125MD-4045DF</td>
+                                            <td>80</td>
+                                            <td>8" x 8"</td>
+                                            <td>2500</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                            <td><img src="{{ asset('imagenes/icons/pdf.svg') }}"  alt="..." width="32" height="32"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>125MD-4045TF</td>
+                                            <td>115</td>
+                                            <td>8" x 8"</td>
+                                            <td>2500</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>  
+                                            <td><img src="{{ asset('imagenes/icons/pdf.svg') }}"  alt="..." width="32" height="32"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>200MD-4045TF</td>
+                                            <td>115</td>
+                                            <td>10" x 10"</td>
+                                            <td>2100</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                            <td><img src="{{ asset('imagenes/icons/pdf.svg') }}"  alt="..." width="32" height="32"></td>   
+                                        </tr>
+                                        <tr>
+                                            <td>200MD-6068TF</td>
+                                            <td>170</td>
+                                            <td>10" x 10"</td>
+                                            <td>2100</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td> 
+                                            <td><img src="{{ asset('imagenes/icons/pdf.svg') }}"  alt="..." width="32" height="32"></td>  
+                                        </tr>
+                                    </tbody>
+                                </table>    
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-success w-25" data-bs-target="#john"
+                                        data-bs-toggle="modal">nota</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="john" tabindex="-1" aria-labelledby="johnLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="johnLabel">Notas</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Tanque de combustible opcional de 120 litros
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {{-- lh-base --}}
+                            <div class="col-md-6 order-last order-md-first order-sm-first">
+                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel.jpg') }}"
+                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- Contenido KOHLER --}}
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingTwo" >
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Kohler
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#1">
+                        <div class="accordion-body row">
+                            <div class="col md-6 mt-5">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Modelo</th>
+                                            <th scope="col">HP</th>
+                                            <th scope="col">TAMAÑO SUC Y DESC</th>
+                                            <th scope="col">RPM</th>
+                                            <th scope="col">Base de acero</th>
+                                            <th scope="col">Ruedas Nuemáticas</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>50MD-250</td>
+                                            <td>25</td>
+                                            <td>6" x 6"</td>
+                                            <td>3600</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal"
+                                        data-bs-toggle="modal">nota</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Motor enfriado por aire<br>
+                                            No incluye acumulador ni cables
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {{-- lh-base --}}
+                            <div class="col-md-6 order-last order-md-first">
+                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel2.jpg') }}"
+                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 {{-- Contenido TEK-PRO --}}
+                 <div class="accordion-item">
+                    <h2 class="accordion-header " id="headingThree" >
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Tek-pro
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#1">
+                        <div class="accordion-body row">
+                            <div class="col md-6 mt-5">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Modelo</th>
+                                            <th scope="col">HP</th>
+                                            <th scope="col">TAMAÑO SUC Y DESC</th>
+                                            <th scope="col">RPM</th>
+                                            <th scope="col">Base de acero</th>
+                                            <th scope="col">Ruedas Nuemáticas</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>12M-TPD192</td>
+                                            <td>13</td>
+                                            <td>2" x 2"</td>
+                                            <td>3000</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12M-TPD192</td>
+                                            <td>13</td>
+                                            <td>3" x 3"</td>
+                                            <td>3000</td>
+                                            <td>Consultar</td>
+                                            <td>Consultar</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="d-flex justify-content-center">
+                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
+                                        data-bs-toggle="modal">nota</button>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                           Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
+                                            No incluye acumulador ni cables
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {{-- lh-base --}}
+                            <div class="col-md-6 order-last order-md-first">
+                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
+                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    {{-- Contenido Series TX --}}
-    <div >
-        <div class="row row-cols-2 ">
-            <h4 id="tx" class="h4">John Deere</h4>
-        </div>
-        <div class="row">
-            <div class="col md-6">
-                <table class="table table-hover">
-                    <thead>
-                        <tr>
-                          <th scope="col">Modelo</th>
-                          <th scope="col">HP</th>
-                          <th scope="col">TAMAÑO SUC Y DESC</th>
-                          <th scope="col">RPM</th>
-                          <th scope="col">Notas</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>90MD-4045DF</td>
-                          <td>80</td>
-                          <td>6" x 6"</td>
-                          <td>2500</td>
-                          <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Ver</button></td>
-                        </tr>
-                        <tr>
-                          <td>125MD-4045DF</td>
-                          <td>80</td>
-                          <td>8" x 8"</td>
-                          <td>2500</td>
-                          <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Ver</button></td>
-                        </tr>
-                        <tr>
-                            <td>125MD-4045TF</td>
-                            <td>115</td>
-                            <td>8" x 8"</td>
-                            <td>2500</td>
-                            <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Ver</button></td>
-                          </tr>
-                          <tr>
-                            <td>200MD-4045TF</td>
-                            <td>115</td>
-                            <td>10" x 10"</td>
-                            <td>2100</td>
-                            <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Ver</button></td>
-                          </tr>
-                          <tr>
-                            <td>200MD-6068TF</td>
-                            <td>170</td>
-                            <td>10" x 10"</td>
-                            <td>2100</td>
-                            <td><button type="button" class="btn btn-success" data-bs-target="#exampleModal" data-bs-toggle="modal">Ver</button></td>
-                          </tr>
-                      </tbody>
-                  </table>
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Tanque de combustible opcional de 120 litros  
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            {{-- lh-base --}}
-            <div class="col md-6 ">
-                <figure class="figure">
-                    <a href="#tx"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel.jpg') }}" 
-                      style="vertical-align: middle" class="figure-img img-fluid rounded" alt=""></a>
-              
-                </figure>
-            </div>
-        </div>
-    </div>
-</div>    
 </body>
 
 </html>

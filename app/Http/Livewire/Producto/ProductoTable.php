@@ -59,68 +59,48 @@ class ProductoTable extends DataTableComponent
     public function columns(): array
     {
         return [
-            ImageColumn::make('Imagen')
-                ->location(
-
-                    fn ($row) => asset('/storage/photos/' . $row->id . '.jpeg')
-
-                )
-                ->attributes(function ($row) {
-                    return [
-                        'class' => 'avatar-img   mw-100px',
-
-                    ];
-                }),
+          
             Column::make("Id", "id")
                 ->sortable(),
             Column::make("Tipo", "tipo")
-                ->sortable()
-                ->searchable(),
+                ->sortable(),
             Column::make("Marca", "marca")
-                ->sortable()
-                ->searchable(),
+                ->sortable(),
             Column::make("Serie", "serie")
+                ->searchable()
                 ->sortable(),
             Column::make("Modelo", "modelo")
-                ->sortable()
-                ->searchable(),
-            Column::make("Codigo", "codigo")
                 ->sortable(),
-            Column::make("Hp", "hp")
+            Column::make("HP", "hp")
                 ->sortable(),
             Column::make("Fases", "fases")
                 ->sortable(),
             Column::make("Volts", "volts")
                 ->sortable(),
-            Column::make("Tamano", "tamano")
+            Column::make("Tamaño suc y desc", "tamaño_suc_y_desc")
                 ->sortable(),
-            Column::make("Rpm", "rpm")
+            Column::make("RPM", "rpm")
                 ->sortable(),
-            Column::make("Paso", "paso")
+            Column::make("Paso de esfera", "paso_de_esfera")
                 ->sortable(),
             Column::make("Descarga", "descarga")
                 ->sortable(),
             Column::make("Pasos", "pasos")
                 ->sortable(),
-            Column::make("Btus", "btus")
-                ->sortable(),
-            Column::make("Diametro", "diametro")
-                ->sortable(),
-            Column::make("Pda", "pda")
+            Column::make("Diametro", "diametro_de_pozo")
                 ->sortable(),
             Column::make("Nota del producto", "nota")
-                ->sortable()
-                ->html(),
-            Column::make("Base", "base")
                 ->sortable(),
-            Column::make("RuedasN", "ruedasN")
+            Column::make("Base de acero", "base_de_acero")
                 ->sortable(),
-            Column::make("RuedasF", "ruedasF")
+            Column::make("RuedasN", "ruedas_neumaticas")
                 ->sortable(),
-            Column::make("Ficha","ficha")
+            Column::make("RuedasF", "ruedas_de_fierro")
+                ->sortable(),
+            Column::make("Material","material")
             ->sortable(),    
-            Column::make("Material", "material")
-                ->sortable(),
+                Column::make("Ficha","ficha")
+                ->sortable(),    
             Column::make("Creado", "created_at")
                 ->sortable()
                 ->format(function ($value) {

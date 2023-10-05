@@ -13,7 +13,7 @@
                 </h1>
             </div>
             <div class="col-auto" >
-                <button class="btn btn-primary lift" wire:click="editProducto">
+                <button class="btn btn-primary lift" wire:click="updateProducto">
                     Guardar
                 </button>
                 <a class="btn btn-danger lift" href="{{ route('productos.index') }}">
@@ -48,18 +48,8 @@
             </div>
             <div class="row align-items-start">
                 <div class="col">
-                    <label for="codigo">Codigo</label>
-                    <input type="text" id="codigo" class="form-control" wire:model.defer="codigo" >
-                </div>
-                <div class="col">
                     <label for="hp">HP</label>
-                    <select class="form-select form-select-lg mb-3" id="hp" aria-label=".form-select-md" wire:model.defer="hp">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                    
-                    
+                    <input type="text" id="hp" class="form-control" wire:model.defer="hp" >
                 </div>
                 <div class="col">
                     <label for="fases">Fases</label>
@@ -69,87 +59,72 @@
                     <label for="volts">Volts</label>
                     <input type="text" id="volts" class="form-control" wire:model.defer="volts">
                 </div>
+                <div class="col">
+                    <label for="tamaño_suc_y_desc">Tamaño</label>
+                    <input type="text" id="tamaño_suc_y_desc" class="form-control" wire:model.defer="tamaño_suc_y_desc">
+                </div>
             </div>
             <div class="row align-items-start">
-                <div class="col">
-                    <label for="tamano">Tamaño</label>
-                    <input type="text" id="tamano" class="form-control" wire:model.defer="tamano">
-                </div>
+                
                 <div class="col">
                     <label for="rpm">RPM</label>
                     <input type="text" id="rpm" class="form-control" wire:model.defer="rpm">
                 </div>
                 <div class="col">
-                    <label for="paso">Paso</label>
-                    <input type="text" id="paso" class="form-control" wire:model.defer="paso">
+                    <label for="paso_de_esfera">Paso de Esfera</label>
+                    <input type="text" id="paso_de_esfera" class="form-control" wire:model.defer="paso_de_esfera">
                 </div>
                 <div class="col">
                     <label for="descarga">Descarga</label>
                     <input type="text" id="descarga" class="form-control" wire:model.defer="descarga">
                 </div>
-            </div>
-            <div class="row align-items-start">
-                <div class="col">
-                    <label for="btus">BTUS</label>
-                    <input type="text" id="btus" class="form-control" wire:model.defer="btus">
-                </div>
-                <div class="col">
-                    <label for="diametro">Diametro</label>
-                    <input type="text" id="diametro" class="form-control" wire:model.defer="diametro">
-                </div>
-                <div class="col">
-                    <label for="pda">PDA</label>
-                    <input type="text" id="pda" class="form-control" wire:model.defer="pda">
-                </div>
-                <div class="col">
-                    <label for="base">Base</label>
-                    <input type="text" id="base" class="form-control" wire:model.defer="base">
-                </div>
-            </div>
-            <div class="row align-items-start">
-                <div class="col">
-                    <label for="nota">Nota</label>
-                    <input type="text" id="nota" class="form-control" wire:model.defer="nota">
-                </div>
-
-                <div class="col">
-                    <label for="material">Material</label>
-                    <input type="text" id="material" class="form-control" wire:model.defer="material">
-                </div>
-
                 <div class="col">
                     <label for="pasos">Pasos</label>
                     <input type="text" id="pasos" class="form-control" wire:model.defer="pasos">
                 </div>
             </div>
             <div class="row align-items-start">
-                <div class="col form-switch m-2">
-
-
-                    <input class="form-check-input" type="checkbox" id="ruedasN" wire:model.defer="ruedasN">
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Ruedas N</label>
-                </div>
-                <div class="col form-switch m-2">
-
-
-                    <input class="form-check-input" type="checkbox" id="ruedasF" wire:model.defer="ruedasF">
-
-                    <label class="form-check-label" for="flexSwitchCheckDefault">Ruedas F</label>
-                </div>
-            </div>
-
-            <div class="row align-items-start">
+             
                 <div class="col">
-                    <label for="foto">Foto</label>
-                    <input type="file" class="form-control" id="foto">
+                    <label for="diametro_de_pozo">Diametro de Pozo</label>
+                    <input type="text" id="diametro_de_pozo" class="form-control" wire:model.defer="diametro_de_pozo">
+                </div>
+               
+                <div class="col">
+                    <label for="base_de_acero">Base de acero</label>
+                    <input type="text" id="base_de_acero" class="form-control" wire:model.defer="base_de_acero">
+                </div>
+                <div class="col">
+                    <label for="material">Material</label>
+                    <input type="text" id="material" class="form-control" wire:model.defer="material">
+                </div>
+
+            </div>
+            <div class="row align-items-start">
+            
+                <div class="col">
+                    <label for="ruedas_neumaticas">Ruedas Nuematicas</label>
+                    <input type="text" id="ruedas_neumaticas" class="form-control" wire:model.defer="ruedas_neumaticas">
+                </div>
+                <div class="col">
+                    <label for="ruedas_de_fierro">Ruedas de Fierro</label>
+                    <input type="text" id="ruedas_de_fierro" class="form-control" wire:model.defer="ruedas_de_fierro">
+                </div>
+               
+               
+            </div>
+            <div class="row align-items-start">
+             
+                <div class="col">
+                    <label for="ficha">Ficha Técnica</label>
+                    <input type="text" id="ficha" class="form-control" wire:model.defer="ficha">
+                </div>
+                <div class="col">
+                    <label for="nota">Nota</label>
+                    <input type="text" id="nota" class="form-control" wire:model.defer="nota">
                 </div>
             </div>
 
-            
-                    <div class="mt-3">
-                        <p>Imagen seleccionada:</p>
-                        <img src="{{$photo}}" alt="Imagen seleccionada" width="200">
-                    </div>
             
         </div>
     </div>
