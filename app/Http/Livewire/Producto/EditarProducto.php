@@ -9,8 +9,6 @@ use Livewire\Component;
 class EditarProducto extends Component
 {
 
-  
-
     public $tipo;
     public $marca; 
     public $serie;
