@@ -4,21 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class AutocebantesDieselJohn extends Model
+class CentriAltaJohn extends Model
 {
-
-    protected $table = 'motor_diesel_john';
+    protected $table = 'alta_presion_john';
 
     protected $fillable = [
+
         'modelo',
-        'tamaño_suc_y_desc',
         'hp',
         'rpm',
-        'base_de_acero',
-        'ruedas_neumaticas',
+        'tamaño_suc_y_desc',
         'ficha',
         'nota',
-          
     ];
-
 }

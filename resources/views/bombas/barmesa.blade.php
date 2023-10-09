@@ -61,8 +61,8 @@
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('autocebantes') }}">Entrar</a>
+                            <h5>AUTOCEBANTES TRAGASÓLIDOS</h5>
+                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('tragasolidos') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
@@ -71,8 +71,8 @@
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('autocebantes') }}">Entrar</a>
+                            <h5>CENTRÍFUGAS DE ALTA PRESIÓN</h5>
+                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('centrifugadasAlta') }}">Entrar</a>
                         </div>
                     </div>
                 </div>

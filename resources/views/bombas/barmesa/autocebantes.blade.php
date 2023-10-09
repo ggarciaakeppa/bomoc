@@ -28,7 +28,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/altamira/portada.jpg) center center no-repeat;
+        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -46,7 +46,7 @@
                 </figure>
             </div>
 
-          
+
             <div>
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
                     {{-- Imagen Diesel --}}
@@ -71,10 +71,10 @@
                         </figure>
                         </figure>
                     </div>
-                    {{-- Imagen de Series Flux --}}
+                    {{-- Imagen Electrico --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#headingOne"><img
+                            <a href="#electrico"><img
                                     src="{{ asset('imagenes/bombas/barmesa/autocebantes/electrico.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
@@ -82,10 +82,10 @@
                             </figcaption>
                         </figure>
                     </div>
-
+                    {{-- Imagen Transmision Universal --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#tx"><img
+                            <a href="#universal"><img
                                     src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
@@ -97,507 +97,270 @@
             </div>
         </div>
         <div id="diesel" class="mb-3">
-            Diesel
-            <div class="accordion" id="diesel" >
+            <h1> Diesel</h1>
+            <div class="card">
                 {{-- Contenido JOHN DEERE --}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingOne" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            John Deere
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 w-50">
-                                <livewire:autocebantes-diesel-john-table />  
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#john"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="john" tabindex="-1" aria-labelledby="johnLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="johnLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Tanque de combustible opcional de 120 litros
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first order-sm-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
+                <div class="card-body">
+                    <h5 class="card-title">John Deere</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-diesel-john-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
                             </div>
                         </div>
-                    </div>
-                </div>
-                {{-- Contenido KOHLER --}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingTwo" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Kohler
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 w-50">
-                                <livewire:autocebantes-diesel-kohler-table />  
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Motor enfriado por aire<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel2.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 {{-- Contenido TEK-PRO --}}
-                 <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingThree" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Tek-pro
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 mt-5">
-                                <livewire:autocebantes-diesel-tekpro-table />
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                           Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- Contenido LOMBARDINI--}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingFour" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            Lombardini
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 mt-5">
-                                <livewire:autocebantes-diesel-lombardini-table />
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                           Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel4.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
                         </div>
                     </div>
                 </div>
             </div>
-            {{-- Contenido YANMAR--}}
-            <div class="accordion-item">
-                <h2 class="accordion-header " id="headingFive" >
-                    <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                       Yanmar
-                    </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-bs-parent="#1">
-                    <div class="accordion-body row">
-                        <div class="col md-6 mt-5">
+            <div class="card">
+                {{-- Contenido KOHLER --}}
+                <div class="card-body">
+                    <h5 class="card-title">Kohler</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-diesel-kohler-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel2.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido TEK-PRO --}}
+                <div class="card-body">
+                    <h5 class="card-title">Tek-Pro</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-diesel-tekpro-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido LOMBARDINI --}}
+                <div class="card-body">
+                    <h5 class="card-title">Lombardini</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-diesel-lombardini-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel4.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido YANMAR --}}
+                <div class="card-body">
+                    <h5 class="card-title">Yanmar</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
                             <livewire:autocebantes-diesel-yanmar-table />
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
-                                    data-bs-toggle="modal">nota</button>
+                                <button type="button" class="btn btn-success">Nota</button>
                             </div>
                         </div>
-                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                       Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
-                                        No incluye acumulador ni cables
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- lh-base --}}
-                        <div class="col-md-6 order-last order-md-first">
-                            <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel5.jpg') }}"
-                                    style="vertical-align: middle" class="figure-img img-fluid rounded">
-                            </a>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel5.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="gasolina" class="mb-3">
-            {{-- Motor a gasolina --}}
-            Gasolina
-            <div class="accordion" id="diesel" >
-                {{-- Contenido JOHN DEERE --}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingOne" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            John Deere
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 w-50">
-                                <livewire:autocebantes-gasolina-tekpro-table />  
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#john"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="john" tabindex="-1" aria-labelledby="johnLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="johnLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Tanque de combustible opcional de 120 litros
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first order-sm-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
+            <h1>Gasolina</h1>
+            <div class="card">
+                {{-- Contenido TEK-PRO --}}
+                <div class="card-body">
+                    <h5 class="card-title">Tek-Pro</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-gasolina-tekpro-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
                             </div>
                         </div>
-                    </div>
-                </div>
-                {{-- Contenido KOHLER --}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingTwo" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Kohler
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 w-50">
-                                <livewire:autocebantes-gasolina-kohler-table />  
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Motor enfriado por aire<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina2.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                 {{-- Contenido HONDA --}}
-                 <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingThree" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                            Tek-pro
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 mt-5">
-                                <livewire:autocebantes-gasolina-honda-table />
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                           Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina3.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- Contenido BRIGGS--}}
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingFour" >
-                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                            Lombardini
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#1">
-                        <div class="accordion-body row">
-                            <div class="col md-6 mt-5">
-                                <livewire:autocebantes-gasolina-briggs-table />
-                                <div class="d-flex justify-content-center">
-                                    <button type="button" class="btn btn-success w-25" data-bs-target="#exampleModal2"
-                                        data-bs-toggle="modal">nota</button>
-                                </div>
-                            </div>
-                            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Notas</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                           Es de arranque electrico y retractil e incluye tanque de combustible de 5.5 lt<br>
-                                            No incluye acumulador ni cables
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {{-- lh-base --}}
-                            <div class="col-md-6 order-last order-md-first">
-                                <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina4.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                            </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="electrico" class="mb-3">
-                Eléctrico
-                <div class="accordion" id="electrico" >
-                    {{-- Contenido Electrico --}}
-                    <div class="accordion-item">
-                        <h2 class="accordion-header " id="headingOne" >
-                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Acompladas directamente
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#1">
-                            <div class="accordion-body row">
-                                <div class="col md-6 w-50">
-                                    <livewire:autocebantes-electrico-table />  
-                                    <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn btn-success w-25" data-bs-target="#john"
-                                            data-bs-toggle="modal">nota</button>
-                                    </div>
-                                </div>
-                                <div class="modal fade" id="john" tabindex="-1" aria-labelledby="johnLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="johnLabel">Notas</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                Tanque de combustible opcional de 120 litros
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                {{-- lh-base --}}
-                                <div class="col-md-6 order-last order-md-first order-sm-first">
-                                    <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
-                                            style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                    </a>
-                                    <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico2.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                                </div>
+            <div class="card">
+                {{-- Contenido KOHLER --}}
+                <div class="card-body">
+                    <h5 class="card-title">Kohler</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-gasolina-kohler-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header " id="headingOne" >
-                            <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Acompladas directamente
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#1">
-                            <div class="accordion-body row">
-                                <div class="col md-6 w-50">
-                                    <livewire:autocebantes-electrico-flex-table />  
-                                    <div class="d-flex justify-content-center">
-                                        <button type="button" class="btn btn-success w-25" data-bs-target="#john"
-                                            data-bs-toggle="modal">nota</button>
-                                    </div>
-                                </div>
-                                <div class="modal fade" id="john" tabindex="-1" aria-labelledby="johnLabel"
-                                    aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="johnLabel">Notas</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                Tanque de combustible opcional de 120 litros
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                {{-- lh-base --}}
-                                <div class="col-md-6 order-last order-md-first order-sm-first">
-                                    <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
-                                            style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                    </a>
-                                    <a><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico2.jpg') }}"
-                                        style="vertical-align: middle" class="figure-img img-fluid rounded">
-                                </a>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina2.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
                         </div>
                     </div>
                 </div>
-            </div>        
-        </div>    
-    </div>
+            </div>
+            <div class="card">
+                {{-- Contenido HONDA --}}
+                <div class="card-body">
+                    <h5 class="card-title">Honda</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-gasolina-honda-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina3.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido BRIGGS & STRATTON --}}
+                <div class="card-body">
+                    <h5 class="card-title">Briggs & Stratton</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-gasolina-briggs-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina4.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="electrico" class="mb-3">
+            <h1>Eléctrico</h1>
+            <div class="card">
+                {{-- Contenido ACOPLADAS DIRECTAMENTE --}}
+                <div class="card-body">
+                    <h5 class="card-title">Acopladas directamente</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-electrico-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico2.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido COPLE FLEXIBLE --}}
+                <div class="card-body">
+                    <h5 class="card-title">Cople flexible</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-electrico-flex-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico3.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico4.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="universal" class="mb-3">
+            <h1>Transmisión Universal</h1>
+            <div class="card">
+                {{-- Contenido COPLE FLEXIBLE --}}
+                <div class="card-body">
+                    <h5 class="card-title">Transmisión Universal</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:autocebantes-transmision-universal-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <a class='flotante' href='#' style="text-decoration: aliceblue"><img src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
+        <style>
+           .flotante {
+        display: none; 
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+        </style>
+        <script>
+            window.addEventListener('scroll', function() {
+                var enlaceFlotante = document.querySelector('.flotante');
+              
+                if (window.scrollY > 200) {
+                    enlaceFlotante.style.display = 'block';
+                } else {
+                    enlaceFlotante.style.display = 'none';
+                }
+            });
+        </script>
 </body>
 
 </html>

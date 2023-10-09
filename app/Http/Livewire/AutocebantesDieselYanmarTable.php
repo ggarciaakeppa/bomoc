@@ -21,18 +21,19 @@ class AutocebantesDieselYanmarTable extends DataTableComponent
     public function columns(): array
     {
         return [
-            Column::make("Modelo", "modelo")
-            ->sortable(),
-        Column::make("Tamaño suc y desc", "tamaño_suc_y_desc")
-            ->sortable(),
-        Column::make("Rpm", "rpm")
-            ->sortable(),
-        Column::make("Base de acero", "base_de_acero")
-            ->sortable(),
-        Column::make("Ruedas neumaticas", "ruedas_neumaticas")
-            ->sortable(),
-        Column::make("Ficha", "ficha")
-            ->sortable(),
+            Column::make("Modelo", "modelo"),
+
+            Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
+
+            Column::make("HP", "hp"),
+
+            Column::make("Rpm", "rpm"),
+
+            Column::make("Base de acero", "base_de_acero"),
+
+            Column::make("Ruedas neumaticas", "ruedas_neumaticas"),
+
+            Column::make("Ficha", "ficha"),
         ];
     }
 }

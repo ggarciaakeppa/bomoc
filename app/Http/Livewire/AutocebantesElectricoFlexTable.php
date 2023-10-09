@@ -21,18 +21,17 @@ class AutocebantesElectricoFlexTable extends DataTableComponent
     public function columns(): array
     {
         return [
-            Column::make("Modelo", "modelo")
-            ->sortable(),
-        Column::make("Tamaño suc y desc", "tamaño_suc_y_desc")
-            ->sortable(),
-        Column::make("Hp", "hp")
-            ->sortable(),
-        Column::make("Fases", "fases")
-            ->sortable(),
-        Column::make("Rpm", "rpm")
-            ->sortable(),
-        Column::make("Ficha", "ficha")
-            ->sortable(),
+            Column::make("Modelo", "modelo"),
+                
+            Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
+                
+            Column::make("Hp", "hp"),
+                
+            Column::make("Fases", "fases"),
+                
+            Column::make("Rpm", "rpm"),
+             
+            Column::make("Ficha", "ficha"),
         ];
     }
 }

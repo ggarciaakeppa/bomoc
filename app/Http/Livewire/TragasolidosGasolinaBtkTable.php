@@ -4,11 +4,11 @@ namespace App\Http\Livewire;
 
 use Rappasoft\LaravelLivewireTables\DataTableComponent;
 use Rappasoft\LaravelLivewireTables\Views\Column;
-use App\Models\AutocebantesElectrico;
+use App\Models\TragasolidosGasolinaBtk;
 
-class AutocebantesElectricoTable extends DataTableComponent
+class TragasolidosGasolinaBtkTable extends DataTableComponent
 {
-    protected $model = AutocebantesElectrico::class;
+    protected $model = TragasolidosGasolinaBtk::class;
 
     public function configure(): void
     {
@@ -21,19 +21,19 @@ class AutocebantesElectricoTable extends DataTableComponent
     public function columns(): array
     {
         return [
-          
             Column::make("Modelo", "modelo"),
-                
-            Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
-                
+          
             Column::make("Hp", "hp"),
-                
-            Column::make("Fases", "fases"),
-                
-            Column::make("Rpm", "rpm"),
-             
+          
+            Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
+          
+            Column::make("Paso de esfera", "paso_de_esfera"),
+          
+            Column::make("Base de acero", "base_de_acero"),
+
+            Column::make("Ruedas de fierro", "ruedas_de_fierro"),
+          
             Column::make("Ficha", "ficha"),
-        
         ];
     }
 }

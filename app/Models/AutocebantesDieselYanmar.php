@@ -13,6 +13,7 @@ class AutocebantesDieselYanmar extends Model
         'modelo',
         'tamaño_suc_y_desc',
         'rpm',
+        'hp',
         'base_de_acero',
         'ruedas_neumaticas',
         'ficha',

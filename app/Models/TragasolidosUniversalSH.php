@@ -2,21 +2,17 @@
 
 namespace App\Models;
 
-
 use Illuminate\Database\Eloquent\Model;
 
-class AutocebantesDieselKohler extends Model
+class TragasolidosUniversalSH extends Model
 {
+    protected $table = 'tragasolidos_universal_sh';
     
-    protected $table = 'motor_diesel_kohler';
-
     protected $fillable = [
+
         'modelo',
         'tamaño_suc_y_desc',
-        'hp',
-        'rpm',
-        'base_de_acero',
-        'ruedas_neumaticas',
+        'paso_de_esfera',
         'ficha',
         'nota',
           
