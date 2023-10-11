@@ -2,20 +2,21 @@
 
 namespace App\Models;
 
+
 use Illuminate\Database\Eloquent\Model;
 
-class CentriAltaBarmesa extends Model
+class CentriMediaDiesel extends Model
 {
-    protected $table = 'alta_presion_barmesa';
+    protected $table = 'media_presion_diesel';
 
     protected $fillable =[
         
         'modelo',
         'hp',
-        'tamaño_suc_y_desc',
+        'rpm',
+        'fases',
+        'volts',
         'ficha',
         'nota',
     ];
-
-    
 }

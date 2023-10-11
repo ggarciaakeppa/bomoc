@@ -89,8 +89,8 @@
                 </div>
             </div>
         </div>
-        <div id="gasolina" class="mb-3">
-            <h1> Gasolina</h1>
+        <div id="diesel" class="mb-3">
+            <h1>Diesel</h1>
             <div class="card">
                 {{-- Contenido LOMBARDINI --}}
                 <div class="card-body">
@@ -136,6 +136,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="gasolina" class="mb-3">
+            <h1>Gasolina</h1>           
             <div class="card">
                 {{-- Contenido TEK-PRO / BRIGGS & STRATTON--}}
                 <div class="card-body">
@@ -186,6 +189,57 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-barmesa-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="electrico" class="mb-3">
+            <h1>Motor electrico</h1>
+            <div class="card">
+                {{-- Contenido Motores--}}
+                <div class="card-body">
+                    <h5 class="card-title">Acopladas Directamente</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <livewire:centri-alta-electrico-directa-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                {{-- Contenido Motores--}}
+                <div class="card-body">
+                    <h5 class="card-title">Acopladas Cope Flexible</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <livewire:centri-alta-electrico-flexible-table />
+                            <div class="d-flex justify-content-center">
+                                <button type="button" class="btn btn-success">Nota</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="universal" class="mb-3">
+            <h1>Transmisión Universal</h1>
+            <div class="card">
+                {{-- Contenido Motores--}}
+                <div class="card-body">
+                    <h5 class="card-title">Transmision Universal</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <livewire:centri-alta-electrico-universal-table />
                             <div class="d-flex justify-content-center">
                                 <button type="button" class="btn btn-success">Nota</button>
                             </div>

@@ -4,9 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class CentriAltaBarmesa extends Model
+class CentriMediaGasolinaHondaCg extends Model
 {
-    protected $table = 'alta_presion_barmesa';
+    protected $table = 'media_presion_gasolina_honda_cg';
 
     protected $fillable =[
         
@@ -16,6 +16,4 @@ class CentriAltaBarmesa extends Model
         'ficha',
         'nota',
     ];
-
-    
 }
