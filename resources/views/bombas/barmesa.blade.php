@@ -87,32 +87,32 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>CENTRÍFUGAS EN ACERO INOX. 316</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>CENTRÍFUGAS EN ACERO INOX.</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasInox') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>CENTRÍFUGAS CASERAS</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>CENTRÍFUGAS CASERAS Y POZO SOMERO</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasCaseras') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>CENTRÍFUGAS DE POZO SOMERO</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>CENTRÍFUGAS DE PROCESO ANSI</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasCaseras') }}">Entrar</a>
                         </div>
                     </div>
                 </div>

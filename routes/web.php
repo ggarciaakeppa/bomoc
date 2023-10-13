@@ -51,6 +51,8 @@ Route::view('/bombas/barmesa/autocebantes','bombas.barmesa.autocebantes')->name(
 Route::view('/bombas/barmesa/tragasolidos','bombas.barmesa.tragasolidos')->name('tragasolidos');
 Route::view('/bombas/barmesa/centrifugadas/alta','bombas.barmesa.altaPresion')->name('centrifugadasAlta');
 Route::view('/bombas/barmesa/centrifugadas/media','bombas.barmesa.mediaPresion')->name('centrifugadasMedia');
+Route::view('/bombas/barmesa/centrifugadas/inox','bombas.barmesa.inox')->name('centrifugadasInox');
+Route::view('/bombas/barmesa/centrifugadas/caseras','bombas.barmesa.caseras')->name('centrifugadasCaseras');
 Route::view('/bombas/franklin', 'bombas.franklin')->name('franklin');
 Route::view('/bombas/grundfos', 'bombas.grundfos')->name('grundfos');
 Route::view('/bombas/impel', 'bombas.impel')->name('impel');
