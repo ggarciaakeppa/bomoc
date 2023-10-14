@@ -41,7 +41,6 @@
             Nuestra Empresa
         </h1>
     </div>
-
     <p>
         Bombas y Motores de Occidente (BOMOC) somos una empresa 100% mexicana,
         fabricantes de tableros de control para contraincendios, hidroneumáticos,

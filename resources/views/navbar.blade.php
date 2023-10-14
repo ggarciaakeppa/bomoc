@@ -1,4 +1,5 @@
     <div class="container-fluid">
+  
         <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color:#808080; color:white">
 
             <div class="container-fluid">
@@ -100,6 +101,14 @@
                                 @endif
                             @endauth
                         @endif
+                        <li class="nav-item">
+                            @if(isset($fecha) && isset($dato))
+                            <p class="nav-link">Valor del tipo de cambio: {{ $dato + 0.1192}}</p>
+                            <p class="nav-link">Fecha: {{ $fecha}}</p>
+                        @else
+                            <p>No se pudo cargar la información de Banxico.</p>
+                        @endif
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -112,27 +112,27 @@
                             alt="...">
                         <div class="card-body">
                             <h5>CENTRÍFUGAS DE PROCESO ANSI</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasCaseras') }}">Entrar</a>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasAnsi') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>CENTRÍFUGAS DE PROCESO ANSI</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>SUMERGIBLES DE ACHIQUE</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergiblesAchique') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>SUMERGIBLES PARA AGUAS NEGRAS</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>SUMERGIBLES INOXIDABLES PARA DESAGÜE</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergiblesInox') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
