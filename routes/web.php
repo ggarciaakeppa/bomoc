@@ -38,7 +38,7 @@ Route::post('/forgot-password', function (Request $request) {
 })->middleware('guest')->name('password.email');
 
 Route::get('/', function () {
-
+    
     // Credenciales para la API
     $endpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43717/datos/oportuno';
     
@@ -79,6 +79,8 @@ Route::view('/bombas/barmesa/centrifugadas/caseras','bombas.barmesa.caseras')->n
 Route::view('/bombas/barmesa/centrifugadas/ansi','bombas.barmesa.ansi')->name('centrifugadasAnsi');
 Route::view('/bombas/barmesa/sumergilbles/achique','bombas.barmesa.sumergibleAchique')->name('sumergiblesAchique');
 Route::view('/bombas/barmesa/sumergilbles/inox','bombas.barmesa.sumergibleInox')->name('sumergiblesInox');
+Route::view('/bombas/barmesa/sumergilbles/lodosa','bombas.barmesa.sumergibleLodosa')->name('sumergiblesLodosa');
+Route::view('/bombas/barmesa/sumergilbles/eflentes','bombas.barmesa.sumergibleEfluentes')->name('sumergibleEfluentes');
 Route::view('/bombas/franklin', 'bombas.franklin')->name('franklin');
 Route::view('/bombas/grundfos', 'bombas.grundfos')->name('grundfos');
 Route::view('/bombas/impel', 'bombas.impel')->name('impel');

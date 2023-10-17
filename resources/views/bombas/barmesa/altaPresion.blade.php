@@ -248,6 +248,7 @@
                 </div>
             </div>
         </div>
+        
             <a class='flotante' href='#' style="text-decoration: aliceblue"><img
                     src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
             <style>
