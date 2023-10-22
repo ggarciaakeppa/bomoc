@@ -22,6 +22,7 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+    @livewireScripts
 </head>
 
 <body>
@@ -45,17 +46,15 @@
                         alt="...">
                 </figure>
             </div>
-
-
             <div>
-                <div class="text-center border-top border-bottom border-2 row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-2 g-2 g-lg-2">
                     {{-- Imagen Diesel --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/lodosa/KMUD.jpg') }}"
+                            <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Franklin.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Aguas Lodosas</h3>
+                                <h3 style="color: blue">Motores Franklin</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -63,87 +62,100 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#gasolina"><img
-                                    src="{{ asset('imagenes/bombas/barmesa/desague/KTM.jpg') }}"
+                                    src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Gibli.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Desagüe</h3>
+                                <h3 style="color: blue">Motores Gibli</h3>
                             </figcaption>
                         </figure>
                         </figure>
                     </div>
-           
-                    {{-- Imagen Transmision Universal --}}
-                    <div class="col">
-                        <figure class="figure">
-                            <a href="#universal"><img
-                                    src="{{ asset('imagenes/bombas/barmesa/drenaje/KAG.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
-                            <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Drenaje</h3>
-                            </figcaption>
-                        </figure>
+
+                </div>
+            </div>
+        </div>
+        <div  class="mb-3">
+            <h1>Serie Franklin Electric</h1>
+            <div class="card">
+                {{-- Contenido--}}
+                <div class="card-body">
+                    <h5 class="card-title">4" - 3 alambres  | 4" - 2 alambres</h5>
+                    {{-- lh-base --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <livewire:sumergibles-motores3-table />
+                        
+                        </div>
+                        <div class="col-md-6">
+                            <livewire:sumergibles-motores2-table />
+                            <div class="d-flex justify-content-center">
+                               <p>
+                                * Peso aproximado. ? Todos los motores se surten con conector para cable.
+                               </p>
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
         </div>
-        <div id="diesel" class="mb-3">
-            <h1> Aguas Lodosas</h1>
+        <div class="mb-3">
+            <h1>Serie Gibli</h1>
             <div class="card">
-                {{-- Contenido KMUD --}}
+                {{-- Contenido  --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie KMUD</h5>
+                    <h5 class="card-title">Enfriados por aceite/ Monofásicos (3 alambres)</h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
-                            <livewire:lodosa-kmud-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <livewire:sumergibles-gibli-mono-table />
+                            <div class="d-flex justify-content-star">
+                                <p>Requieren caja de control</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/lodosa/lodosaGeneral.jpg') }}"
+                            <div class="d-flex justify-content-center">
+                                <img src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Gibli.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
             </div>
-            <h1>Para Desagüe</h1>
             <div class="card">
-                {{-- Contenido KTM --}}
+                {{-- Contenido  --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie KTM</h5>
+                    <h5 class="card-title">Enfriados por aceite/ Trifásicos</h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
-                            <livewire:desague-ktm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <livewire:sumergibles-gibli-tri-table />
+                            <div class="d-flex justify-content-star">
+                                <p>Requieren caja de control</p>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/desague/desagueGeneral.jpg') }}"
+                         
+                                <img src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Gibli2.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
+                                <img src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Gibli3.jpg') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                       
+                        </div> 
                     </div>
                 </div>
             </div>
-            <h1>Para Drenaje</h1>
             <div class="card">
-                {{-- Contenido KAG --}}
+                {{-- Contenido  --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie KAG</h5>
+                    <h5 class="card-title">Enfriados por agua-glicol/ Trifásicos</h5>
                     {{-- lh-base --}}
                     <div class="row">
-                        <div class="col-md-6">
-                            <livewire:drenaje-kag-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        <div class="col-md-12">
+                            <livewire:sumergibles-gibli-agua-table />
+                          
                         </div>
-                        <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/drenaje/drenajeGeneral.jpg') }}"
-                                style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
                     </div>
                 </div>
             </div>

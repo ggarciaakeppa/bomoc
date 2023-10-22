@@ -142,181 +142,70 @@
                             alt="...">
                         <div class="card-body">
                             <h5>SUMERGIBLES AGUAS SUCIAS</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergiblesLodosa') }}">Entrar</a>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleAguaSucia') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>SUMERGIBLES AGUAS LIMPIA</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleAguaLimpia') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>MOTORES SUMERGIBLES</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleMotores') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>VERTICALES EN LÍNEA</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('verticalesLinea') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>MULTIETAPAS HORIZONTALES</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('multiHorizontales') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>MULTIETAPAS VERTICALES</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('multiVerticales') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
+                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
                             alt="...">
                         <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
+                            <h5>BIPARTIDAS</h5>
+                            <a class="btn btn-primary lift mb-3" href="{{ route('bipartidas') }}">Entrar</a>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary lift mb-3" href="/">Entrar</a>
-                        </div>
-                    </div>
-                </div>
-                
+                </div>               
             </div>   
         </div>
 </body>

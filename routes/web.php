@@ -69,6 +69,7 @@ Route::get('/', function () {
 Route::view('/bombas/altamira', 'bombas.altamira')->name('altamira');
 Route::view('/bombas/armstrong', 'bombas.armstrong')->name('armstrong');
 Route::view('/bombas/aurora', 'bombas.aurora')->name('aurora');
+
 Route::view('/bombas/barmesa', 'bombas.barmesa')->name('barmesa');
 Route::view('/bombas/barmesa/autocebantes','bombas.barmesa.autocebantes')->name('autocebantes');
 Route::view('/bombas/barmesa/tragasolidos','bombas.barmesa.tragasolidos')->name('tragasolidos');
@@ -79,8 +80,13 @@ Route::view('/bombas/barmesa/centrifugadas/caseras','bombas.barmesa.caseras')->n
 Route::view('/bombas/barmesa/centrifugadas/ansi','bombas.barmesa.ansi')->name('centrifugadasAnsi');
 Route::view('/bombas/barmesa/sumergilbles/achique','bombas.barmesa.sumergibleAchique')->name('sumergiblesAchique');
 Route::view('/bombas/barmesa/sumergilbles/inox','bombas.barmesa.sumergibleInox')->name('sumergiblesInox');
-Route::view('/bombas/barmesa/sumergilbles/lodosa','bombas.barmesa.sumergibleLodosa')->name('sumergiblesLodosa');
-Route::view('/bombas/barmesa/sumergilbles/eflentes','bombas.barmesa.sumergibleEfluentes')->name('sumergibleEfluentes');
+Route::view('/bombas/barmesa/sumergilbles/aguaSucia','bombas.barmesa.sumergibleAguaSucia')->name('sumergibleAguaSucia');
+Route::view('/bombas/barmesa/sumergilbles/aguaLimpia','bombas.barmesa.sumergibleAguaLimpia')->name('sumergibleAguaLimpia');
+Route::view('/bombas/barmesa/sumergilbles/motores','bombas.barmesa.sumergibleMotores')->name('sumergibleMotores');
+Route::view('/bombas/barmesa/verticales','bombas.barmesa.verticalesLinea')->name('verticalesLinea');
+Route::view('/bombas/barmesa/multietapas/horizontales','bombas.barmesa.multiHorizontales')->name('multiHorizontales');
+Route::view('/bombas/barmesa/multietapas/verticales','bombas.barmesa.multiVerticales')->name('multiVerticales');
+Route::view('/bombas/barmesa/bipartidas','bombas.barmesa.bipartidas')->name('bipartidas');
 Route::view('/bombas/franklin', 'bombas.franklin')->name('franklin');
 Route::view('/bombas/grundfos', 'bombas.grundfos')->name('grundfos');
 Route::view('/bombas/impel', 'bombas.impel')->name('impel');

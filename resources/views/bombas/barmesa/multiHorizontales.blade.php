@@ -48,102 +48,89 @@
 
 
             <div>
-                <div class="text-center border-top border-bottom border-2 row row-cols-3 row-cols-lg-3 g-2 g-lg-3">
-                    {{-- Imagen Diesel --}}
+                <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+                    {{-- Imagen  --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/lodosa/KMUD.jpg') }}"
+                            <a href="#MH"><img src="{{ asset('imagenes/bombas/barmesa/multiHori/MH.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Aguas Lodosas</h3>
+                                <h3 style="color: blue">Serie MH</h3>
                             </figcaption>
                         </figure>
                     </div>
-                    {{-- Imagen Gasolina --}}
+                    {{-- Imagen  --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#gasolina"><img
-                                    src="{{ asset('imagenes/bombas/barmesa/desague/KTM.jpg') }}"
+                            <a href="#PB"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/multiHori/PB.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Desagüe</h3>
+                                <h3 style="color: blue">Serie PB</h3>
                             </figcaption>
                         </figure>
                         </figure>
                     </div>
-           
-                    {{-- Imagen Transmision Universal --}}
+                    {{-- Imagen  --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#universal"><img
-                                    src="{{ asset('imagenes/bombas/barmesa/drenaje/KAG.jpg') }}"
+                            <a href="#CM"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/multiHori/CM.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Drenaje</h3>
+                                <h3 style="color: blue">Serie CM</h3>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {{-- Imagen  --}}
+                    <div class="col">
+                        <figure class="figure">
+                            <a href="#VAQ"><img
+                                    src="{{ asset('imagenes/bombas/barmesa/multiHori/VAQ.jpg') }}"
+                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                            <figcaption class="figure-caption ">
+                                <h3 style="color: blue">Serie VAQ</h3>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="diesel" class="mb-3">
-            <h1> Aguas Lodosas</h1>
+        <div class="text-center mb-3" style="margin-top: 10px">
+            <h1>Multietapas Horizontales</h1>
+        </div>
+        <div class="mb-3">
+            <h1>Serie MH | Serie PB</h1>
             <div class="card">
-                {{-- Contenido KMUD --}}
+                {{-- Contenido  --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie KMUD</h5>
+                    <h5 class="card-title"></h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
-                            <livewire:lodosa-kmud-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <livewire:multi-mh-table />
                         </div>
                         <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/lodosa/lodosaGeneral.jpg') }}"
-                                style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
+                            <livewire:multi-pb-table />
+                        </div>
                     </div>
                 </div>
             </div>
-            <h1>Para Desagüe</h1>
+        </div>
+        <div class="mb-3">
+            <h1>Serie CM | Serie VAQ</h1>
             <div class="card">
-                {{-- Contenido KTM --}}
+                {{-- Contenido  --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie KTM</h5>
+                    <h5 class="card-title">En acero inoxidable</h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
-                            <livewire:desague-ktm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <livewire:multi-cm-table />
                         </div>
                         <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/desague/desagueGeneral.jpg') }}"
-                                style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
-                    </div>
-                </div>
-            </div>
-            <h1>Para Drenaje</h1>
-            <div class="card">
-                {{-- Contenido KAG --}}
-                <div class="card-body">
-                    <h5 class="card-title">Serie KAG</h5>
-                    {{-- lh-base --}}
-                    <div class="row">
-                        <div class="col-md-6">
-                            <livewire:drenaje-kag-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <livewire:multi-vaq-table />
                         </div>
-                        <div class="col-md-6">
-                            <img src="{{ asset('imagenes/bombas/barmesa/drenaje/drenajeGeneral.jpg') }}"
-                                style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>  
                     </div>
                 </div>
             </div>
