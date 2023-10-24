@@ -28,7 +28,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -39,14 +39,11 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
                         alt="...">
                 </figure>
             </div>
-
-
             <div>
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
                     {{-- Imagen Diesel --}}
@@ -55,7 +52,7 @@
                             <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/autocebantes/diesel.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a diesel</h3>
+                                <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -66,7 +63,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/autocebantes/gasolina.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a gasolina</h3>
+                                <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -78,7 +75,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/autocebantes/electrico.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor electrico</h3>
+                                <h3 style="color: #f68221">Motor electrico</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -89,7 +86,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Transmisión Universal</h3>
+                                <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -109,8 +106,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-john-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class="d-flex justify-content-start">
+                               <p>* Tanque de combustible opcional de 120 litros</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -128,8 +125,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-kohler-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class="d-flex justify-content-start">
+                               <p>* Tanque de combustible opcional de 80 litros.</p>
+                               <p>* Motor enfriado por aire. No incluye acumulador.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -147,9 +145,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-tekpro-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <div class="d-flex justify-content-start">
+                                <p>* El motor TPD192 es de arranque eléctrico y retráctil e incluye tanque de combustible de. 5.5 litros.</p>
+                                 <p>* No incluye acumulador.</p>
+                             </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
@@ -166,8 +165,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-lombardini-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class="d-flex justify-content-start">
+                               <p>Cuenta con tablero de control que incluye horimetro y llave de encendido.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -185,8 +184,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-yanmar-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class="d-flex justify-content-start">
+                               <p>Tanque de combustible opcional de 80 litros</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -207,9 +206,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-tekpro-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina.jpg') }}"
@@ -226,9 +223,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-kohler-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina2.jpg') }}"
@@ -245,9 +240,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-honda-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                           
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina3.jpg') }}"
@@ -264,9 +257,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-briggs-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                       
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina4.jpg') }}"
@@ -286,9 +277,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-electrico-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                           
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
@@ -307,9 +296,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-electrico-flex-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                           
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico3.jpg') }}"
@@ -331,9 +318,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-transmision-universal-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"

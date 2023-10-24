@@ -9,7 +9,6 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
     <!-- Styles -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,7 +27,7 @@
 
     @include('navbar')
     <div
-        style="   background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
+        style="   background: #3789C8 url(/imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    margin: auto;

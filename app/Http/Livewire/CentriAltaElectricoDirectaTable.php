@@ -14,7 +14,6 @@ class CentriAltaElectricoDirectaTable extends DataTableComponent
     {
         $this->setPrimaryKey('id');
         $this->setSearchDisabled();
-        $this->setPaginationDisabled();
         $this->setColumnSelectDisabled();
     }
 
@@ -31,8 +30,6 @@ class CentriAltaElectricoDirectaTable extends DataTableComponent
             Column::make("Rpm", "rpm"),
                
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
-           
-            Column::make("Ficha", "ficha"),
          
         ];
     }

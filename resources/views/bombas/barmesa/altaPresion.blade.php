@@ -22,13 +22,14 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+    @livewireScripts
 </head>
 
 <body>
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -45,8 +46,6 @@
                         alt="...">
                 </figure>
             </div>
-
-
             <div>
                 <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
                     {{-- Imagen Diesel --}}
@@ -54,7 +53,7 @@
                         <figure class="figure">
                             <a href="#diesel"></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a diesel</h3>
+                                <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -63,7 +62,7 @@
                         <figure class="figure">
                             <a href="#gasolina"></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a gasolina</h3>
+                                <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -73,7 +72,7 @@
                         <figure class="figure">
                             <a href="#electrico"></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor electrico</h3>
+                                <h3 style="color: #f68221">Motor electrico</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -82,12 +81,15 @@
                         <figure class="figure">
                             <a href="#universal"></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Transmisión Universal</h3>
+                                <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center mb-3" style="margin-top: 10px">
+            <h1>CENTRIFUGAS DE ALTA PRESIÓN</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1>Diesel</h1>
@@ -187,7 +189,7 @@
                     <h5 class="card-title">Motores</h5>
                     {{-- lh-base --}}
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <livewire:centri-alta-barmesa-table />
                             <div class="d-flex justify-content-center">
                                 <button type="button" class="btn btn-success">Nota</button>
@@ -202,7 +204,7 @@
             <div class="card">
                 {{-- Contenido Motores--}}
                 <div class="card-body">
-                    <h5 class="card-title">Acopladas Directamente</h5>
+                    <h5 class="card-title">Acopladas Directamente a motor eléctrico TCCVE</h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-12">

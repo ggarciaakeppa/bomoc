@@ -28,7 +28,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -55,7 +55,7 @@
                             <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/tragasolidos/diesel.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a diesel</h3>
+                                <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -66,7 +66,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/tragasolidos/gasolina.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a gasolina</h3>
+                                <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -79,12 +79,15 @@
                                     src="{{ asset('imagenes/bombas/barmesa/tragasolidos/universal.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Transmisión Universal</h3>
+                                <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center mb-3" style="margin-top: 10px">
+            <h1>AUTOCEBANTES TRAGASÓLIDOS</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1> Diesel</h1>

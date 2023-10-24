@@ -14,8 +14,8 @@ class CentriAltaKohlerTable extends DataTableComponent
     {
         $this->setPrimaryKey('id');
         $this->setSearchDisabled();
-        $this->setPaginationDisabled();
         $this->setColumnSelectDisabled();
+        $this->setPaginationDisabled();
     }
 
     public function columns(): array
@@ -27,7 +27,7 @@ class CentriAltaKohlerTable extends DataTableComponent
         
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
         
-            Column::make("Ficha", "ficha"),
+          
         ];
     }
 }
