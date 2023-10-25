@@ -26,7 +26,7 @@ class TragasolidosGasolinaBarmesaTable extends DataTableComponent
                 
             Column::make("Hp", "hp"),
               
-            Column::make("Ficha", "ficha"),
+           
            
         ];
     }

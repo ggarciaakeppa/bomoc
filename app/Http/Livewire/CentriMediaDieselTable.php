@@ -32,8 +32,6 @@ class CentriMediaDieselTable extends DataTableComponent
                 
             Column::make("Cilindros", "volts"),
             
-            Column::make("Ficha", "ficha"),
-            
             
         ];
     }

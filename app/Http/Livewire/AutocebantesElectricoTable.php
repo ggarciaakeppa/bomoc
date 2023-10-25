@@ -32,7 +32,7 @@ class AutocebantesElectricoTable extends DataTableComponent
                 
             Column::make("Rpm", "rpm"),
              
-            Column::make("Ficha", "ficha"),
+          
         
         ];
     }

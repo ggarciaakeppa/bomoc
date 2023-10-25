@@ -25,7 +25,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -52,7 +52,7 @@
                             <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/diesel.jpg') }}"
                                 height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a diesel</h3>
+                                <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -62,7 +62,7 @@
                             <a href="#gasolina"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/gasolina.jpg') }}"
                                 height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor a gasolina</h3>
+                                <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -73,7 +73,7 @@
                             <a href="#electrico"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/electrico.jpg') }}"
                                 height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Motor electrico</h3>
+                                <h3 style="color: #f68221">Motor electrico</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -83,12 +83,15 @@
                             <a href="#universal"></a>
                             <figcaption class="figure-caption ">
                                 <h1 style="color: red">Imagen Pendiente </h1>
-                                <h3 style="color: blue">Transmisión Universal</h3>
+                                <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center mb-3" style="margin-top: 10px">
+            <h1>CENTRIFUGAS DE MEDIANA PRESIÓN</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1>Diesel</h1>

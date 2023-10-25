@@ -33,7 +33,7 @@ class TragasolidosGasolinaHondaTable extends DataTableComponent
 
             Column::make("Ruedas de fierro", "ruedas_de_fierro"),
           
-            Column::make("Ficha", "ficha"),
+            
         ];
     }
 }

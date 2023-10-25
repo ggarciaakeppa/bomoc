@@ -32,7 +32,7 @@ class CentriMediaElectricoBarmesaIcTable extends DataTableComponent
           
             Column::make("Fases", "fases"),
             
-            Column::make("Ficha", "ficha"),
+    
         ];
     }
 }

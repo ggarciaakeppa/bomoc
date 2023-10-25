@@ -34,7 +34,6 @@ class TragasolidosDieselYanmarTable extends DataTableComponent
 
             Column::make("Ruedas neumaticas", "ruedas_neumaticas"),
           
-            Column::make("Ficha", "ficha"),
           
         ];
     }

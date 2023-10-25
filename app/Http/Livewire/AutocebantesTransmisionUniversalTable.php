@@ -29,8 +29,6 @@ class AutocebantesTransmisionUniversalTable extends DataTableComponent
             Column::make("Hp", "hp"),
                
             Column::make("Rpm", "rpm"),
-               
-            Column::make("Ficha", "ficha"),
                 
         ];
     }

@@ -17,6 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -107,7 +109,7 @@
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-john-table />
                             <div class="d-flex justify-content-start">
-                               <p>* Tanque de combustible opcional de 120 litros</p>
+                                <p>* Tanque de combustible opcional de 120 litros</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -126,8 +128,8 @@
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-kohler-table />
                             <div class="d-flex justify-content-start">
-                               <p>* Tanque de combustible opcional de 80 litros.</p>
-                               <p>* Motor enfriado por aire. No incluye acumulador.</p>
+                                <p>* Tanque de combustible opcional de 80 litros.</p>
+                                <p>* Motor enfriado por aire. No incluye acumulador.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -146,9 +148,10 @@
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-tekpro-table />
                             <div class="d-flex justify-content-start">
-                                <p>* El motor TPD192 es de arranque eléctrico y retráctil e incluye tanque de combustible de. 5.5 litros.</p>
-                                 <p>* No incluye acumulador.</p>
-                             </div>
+                                <p>* El motor TPD192 es de arranque eléctrico y retráctil e incluye tanque de
+                                    combustible de. 5.5 litros.</p>
+                                <p>* No incluye acumulador.</p>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
@@ -166,7 +169,7 @@
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-lombardini-table />
                             <div class="d-flex justify-content-start">
-                               <p>Cuenta con tablero de control que incluye horimetro y llave de encendido.</p>
+                                <p>Cuenta con tablero de control que incluye horimetro y llave de encendido.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -185,7 +188,7 @@
                         <div class="col-md-6">
                             <livewire:autocebantes-diesel-yanmar-table />
                             <div class="d-flex justify-content-start">
-                               <p>Tanque de combustible opcional de 80 litros</p>
+                                <p>Tanque de combustible opcional de 80 litros</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -206,7 +209,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-tekpro-table />
-                         
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina.jpg') }}"
@@ -223,7 +226,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-kohler-table />
-                        
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina2.jpg') }}"
@@ -240,7 +243,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-honda-table />
-                           
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina3.jpg') }}"
@@ -257,7 +260,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-briggs-table />
-                       
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina4.jpg') }}"
@@ -277,7 +280,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-electrico-table />
-                           
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
@@ -296,7 +299,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-electrico-flex-table />
-                           
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico3.jpg') }}"
@@ -318,37 +321,57 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-transmision-universal-table />
-                        
+
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
 
-        <a class='flotante' href='#' style="text-decoration: aliceblue"><img src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
-        <style>
-           .flotante {
-        display: none; 
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-    }
-        </style>
-        <script>
-            window.addEventListener('scroll', function() {
-                var enlaceFlotante = document.querySelector('.flotante');
-              
-                if (window.scrollY > 200) {
-                    enlaceFlotante.style.display = 'block';
-                } else {
-                    enlaceFlotante.style.display = 'none';
+            <!-- Boton hacia arriba -->
+            <img class='ir-arriba' javascript:void(0) title="Volver arriba"
+                src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+            <style>
+                .ir-arriba {
+                    display: none;
+                    background-repeat: no-repeat;
+                    font-size: 20px;
+                    color: black;
+                    cursor: pointer;
+                    position: fixed;
+                    bottom: 10px;
+                    right: 10px;
+                    z-index: 2;
                 }
-            });
-        </script>
+            </style>
+            <script>
+                $(document).ready(function() {
+                    irArriba();
+                }); //Hacia arriba
+                function irArriba() {
+                    $('.ir-arriba').click(function() {
+                        $('body,html').animate({
+                            scrollTop: '0px'
+                        }, 1000);
+                    });
+                    $(window).scroll(function() {
+                        if ($(this).scrollTop() > 0) {
+                            $('.ir-arriba').slideDown(600);
+                        } else {
+                            $('.ir-arriba').slideUp(600);
+                        }
+                    });
+                    $('.ir-abajo').click(function() {
+                        $('body,html').animate({
+                            scrollTop: '1000px'
+                        }, 1000);
+                    });
+                }
+            </script>
+            
 </body>
-
 </html>

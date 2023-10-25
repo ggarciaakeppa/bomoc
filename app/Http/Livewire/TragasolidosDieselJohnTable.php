@@ -32,8 +32,7 @@ class TragasolidosDieselJohnTable extends DataTableComponent
             Column::make("Base de acero", "base_de_acero"),
 
             Column::make("Ruedas neumaticas", "ruedas_neumaticas"),
-          
-            Column::make("Ficha", "ficha"),
+
         ];
     }
 }

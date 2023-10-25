@@ -27,8 +27,6 @@ class CentriMediaGasolinaBarmesaNmTable extends DataTableComponent
           
             Column::make("Arranque", "fases"),
             
-            Column::make("Ficha", "ficha"),
-            
         ];
     }
 }

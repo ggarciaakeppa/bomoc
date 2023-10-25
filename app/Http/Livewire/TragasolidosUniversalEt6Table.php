@@ -28,7 +28,7 @@ class TragasolidosUniversalEt6Table extends DataTableComponent
           
             Column::make("Paso de esfera", "paso_de_esfera"),
           
-            Column::make("Ficha", "ficha"),
+          
         ];
     }
 }

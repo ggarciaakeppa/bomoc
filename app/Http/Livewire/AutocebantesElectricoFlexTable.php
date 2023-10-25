@@ -21,6 +21,7 @@ class AutocebantesElectricoFlexTable extends DataTableComponent
     public function columns(): array
     {
         return [
+            
             Column::make("Modelo", "modelo"),
                 
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
@@ -31,7 +32,6 @@ class AutocebantesElectricoFlexTable extends DataTableComponent
                 
             Column::make("Rpm", "rpm"),
              
-            Column::make("Ficha", "ficha"),
         ];
     }
 }
