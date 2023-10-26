@@ -39,30 +39,30 @@ Route::post('/forgot-password', function (Request $request) {
 
 Route::get('/', function () {
     
-    // Credenciales para la API
-    $endpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43717/datos/oportuno';
+    // // Credenciales para la API
+    // $endpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43717/datos/oportuno';
     
-    // Ojo el token tiene vigencia o si se usa mas de 50 veces en un lapso de 5 min se bloquea
-    $token = '8b340de89c0ec3971ae83dff7fa9f08821b997adf64cd7891ae721195e4a7bbe';
+    // // Ojo el token tiene vigencia o si se usa mas de 50 veces en un lapso de 5 min se bloquea
+    // $token = '8b340de89c0ec3971ae83dff7fa9f08821b997adf64cd7891ae721195e4a7bbe';
 
-    //Mandamos los headers
-    $response = Http::get($endpoint, [
-        'token' => $token,
-    ]);
+    // //Mandamos los headers
+    // $response = Http::get($endpoint, [
+    //     'token' => $token,
+    // ]);
 
-    // Validamos la petición 
-    if ($response->ok()) {
-        $data = $response->json();
+    // // Validamos la petición 
+    // if ($response->ok()) {
+    //     $data = $response->json();
 
-        // Obtén el valor del campo "dato" & "fecha"
-         $fecha = $data['bmx']['series'][0]['datos'][0]['fecha'];
-        $dato = $data['bmx']['series'][0]['datos'][0]['dato'];
+    //     // Obtén el valor del campo "dato" & "fecha"
+    //      $fecha = $data['bmx']['series'][0]['datos'][0]['fecha'];
+    //     $dato = $data['bmx']['series'][0]['datos'][0]['dato'];
 
-        return view('welcome', ['fecha' => $fecha, 'dato' => $dato]);
-    } else {
-        // Manejar el error si la solicitud falla.
-        return view('welcome', ['dato' => 0]);
-    }
+    //     return view('welcome', ['fecha' => $fecha, 'dato' => $dato]);
+    // } else {
+    //     // Manejar el error si la solicitud falla.
+    //     return view('welcome', ['dato' => 0]);
+    //}
 });
 
 //Rutas de Bombas
@@ -78,11 +78,11 @@ Route::view('/bombas/barmesa/centrifugadas/media','bombas.barmesa.mediaPresion')
 Route::view('/bombas/barmesa/centrifugadas/inox','bombas.barmesa.inox')->name('centrifugadasInox');
 Route::view('/bombas/barmesa/centrifugadas/caseras','bombas.barmesa.caseras')->name('centrifugadasCaseras');
 Route::view('/bombas/barmesa/centrifugadas/ansi','bombas.barmesa.ansi')->name('centrifugadasAnsi');
-Route::view('/bombas/barmesa/sumergilbles/achique','bombas.barmesa.sumergibleAchique')->name('sumergiblesAchique');
-Route::view('/bombas/barmesa/sumergilbles/inox','bombas.barmesa.sumergibleInox')->name('sumergiblesInox');
-Route::view('/bombas/barmesa/sumergilbles/aguaSucia','bombas.barmesa.sumergibleAguaSucia')->name('sumergibleAguaSucia');
-Route::view('/bombas/barmesa/sumergilbles/aguaLimpia','bombas.barmesa.sumergibleAguaLimpia')->name('sumergibleAguaLimpia');
-Route::view('/bombas/barmesa/sumergilbles/motores','bombas.barmesa.sumergibleMotores')->name('sumergibleMotores');
+Route::view('/bombas/barmesa/sumergibles/achique','bombas.barmesa.sumergibleAchique')->name('sumergiblesAchique');
+Route::view('/bombas/barmesa/sumergibles/inox','bombas.barmesa.sumergibleInox')->name('sumergiblesInox');
+Route::view('/bombas/barmesa/sumergibles/aguaSucia','bombas.barmesa.sumergibleAguaSucia')->name('sumergibleAguaSucia');
+Route::view('/bombas/barmesa/sumergibles/aguaLimpia','bombas.barmesa.sumergibleAguaLimpia')->name('sumergibleAguaLimpia');
+Route::view('/bombas/barmesa/sumergibles/motores','bombas.barmesa.sumergibleMotores')->name('sumergibleMotores');
 Route::view('/bombas/barmesa/verticales','bombas.barmesa.verticalesLinea')->name('verticalesLinea');
 Route::view('/bombas/barmesa/multietapas/horizontales','bombas.barmesa.multiHorizontales')->name('multiHorizontales');
 Route::view('/bombas/barmesa/multietapas/verticales','bombas.barmesa.multiVerticales')->name('multiVerticales');

@@ -32,7 +32,6 @@ class NegrasSwTable extends DataTableComponent
 
             Column::make("RPM", "rpm"),
 
-            Column::make("Descarga", "descarga"),
                 
         ];
     }

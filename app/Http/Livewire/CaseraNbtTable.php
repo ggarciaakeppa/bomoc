@@ -29,7 +29,7 @@ class CaseraNbtTable extends DataTableComponent
           
             Column::make("Fases", "fases"),
             
-            Column::make("Ficha", "ficha"),
+        
         ];
         
     }

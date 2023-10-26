@@ -32,8 +32,7 @@ class Inox304PsTable extends DataTableComponent
             Column::make("RPM", "rpm"),
             
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
-              
-            Column::make("Ficha", "ficha"),
+          
         ];
     }
 }

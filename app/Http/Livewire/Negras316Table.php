@@ -33,6 +33,8 @@ class Negras316Table extends DataTableComponent
             Column::make("RPM", "rpm"),
 
             Column::make("Descarga", "descarga"),
+
+            Column::make("Paso de Esfera","paso_de_esfera"),
                 
         ];
     }

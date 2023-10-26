@@ -22,10 +22,9 @@ class BipartidasTable extends DataTableComponent
     public function columns(): array
     {
         return [
-            Column::make("Modelo", "modelo")
-                ->sortable(),
-            Column::make("Tamaño", "tamaño_suc_y_desc")
-                ->sortable(),
+            Column::make("Modelo", "modelo"),
+            
+            Column::make("Tamaño", "tamaño_suc_y_desc"),
           
         ];
     }

@@ -28,8 +28,7 @@ class CaseraNbTable extends DataTableComponent
             Column::make("Tamaño", "tamaño_suc_y_desc"),
           
             Column::make("Fases", "fases"),
-            
-            Column::make("Ficha", "ficha"),
+         
         ];
     }
 }

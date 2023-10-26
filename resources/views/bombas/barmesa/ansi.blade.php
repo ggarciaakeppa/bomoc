@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -24,7 +25,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav2.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -44,14 +45,14 @@
 
 
             <div>
-                <div class="text-center border-top border-bottom border-2 row row-cols-4 row-cols-lg-4 g-4 g-lg-4">
+                <div class="text-center  border-bottom border-2 row row-cols-2 row-md-cols-2 row-cols-lg-4 g-4 g-lg-4">
                     {{-- Imagen 911S --}}
                     <div class="col">
                         <figure class="figure">
                             <a href="#911s"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911s.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">911 S</h3>
+                                <h3 style="color: #00599c">911 S</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -61,7 +62,7 @@
                             <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911m.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">911 M</h3>
+                                <h3 style="color: #00599c">911 M</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -71,7 +72,7 @@
                         <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911l.jpg') }}"
                                 height="25%" class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
-                            <h3 style="color: blue">911 L</h3>
+                            <h3 style="color: #00599c">911 L</h3>
                         </figcaption>
                     </figure>
                 </div>
@@ -81,7 +82,7 @@
                         <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911lx.jpg') }}"
                                 height="25%" class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
-                            <h3 style="color: blue">911 LX</h3>
+                            <h3 style="color: #00599c">911 LX</h3>
                         </figcaption>
                     </figure>
                 </div>
@@ -107,7 +108,7 @@
                         <div class="col-md-6">
                             <livewire:ansi911s-table />
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
                             </div>
                         </div> 
                     </div>
@@ -122,13 +123,13 @@
                         <div class="col-md-6">
                             <livewire:ansi911m-table />
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <livewire:ansi911l-table />
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
                             </div>
                         </div> 
                     </div>
@@ -143,38 +144,65 @@
                         <div class="col-md-6">
                             <livewire:ansi911lx-table />
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h1>Rellenar con algo XD</h1>
-                        </div>
+                        <p>
+                        Los precios NO incluyen estopero, sello mecánico, brida de sello y plan 11 de enfriamiento.
+                        </p>
+                        <p>
+                        Las bombas básicas se suministran sin recorte de impulsor.  
+                        </p>
+                        <p>
+                        El recorte solo aplica a las bombas.    
+                        </p>
+                        </div>    
                     </div>
                 </div>
             </div>
         </div>
         
-        <a class='flotante' href='#' style="text-decoration: aliceblue"><img
-                src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
-        <style>
-            .flotante {
-                display: none;
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-            }
-        </style>
-        <script>
-            window.addEventListener('scroll', function() {
-                var enlaceFlotante = document.querySelector('.flotante');
-
-                if (window.scrollY > 200) {
-                    enlaceFlotante.style.display = 'block';
-                } else {
-                    enlaceFlotante.style.display = 'none';
-                }
-            });
-        </script>
+     <!-- Boton hacia arriba -->
+     <img class='ir-arriba' javascript:void(0) title="Volver arriba"
+     src="{{ asset('imagenes/icons/up2.svg') }}" style="width: 48px; height: 48px;">
+ <style>
+     .ir-arriba {
+         display: none;
+         background-repeat: no-repeat;
+         font-size: 20px;
+         color: black;
+         cursor: pointer;
+         position: fixed;
+         bottom: 10px;
+         right: 10px;
+         z-index: 2;
+     }
+ </style>
+ <script>
+     $(document).ready(function() {
+         irArriba();
+     }); //Hacia arriba
+     function irArriba() {
+         $('.ir-arriba').click(function() {
+             $('body,html').animate({
+                 scrollTop: '0px'
+             }, 1000);
+         });
+         $(window).scroll(function() {
+             if ($(this).scrollTop() > 0) {
+                 $('.ir-arriba').slideDown(600);
+             } else {
+                 $('.ir-arriba').slideUp(600);
+             }
+         });
+         $('.ir-abajo').click(function() {
+             $('body,html').animate({
+                 scrollTop: '1000px'
+             }, 1000);
+         });
+     }
+ </script>
 
 </body>
 

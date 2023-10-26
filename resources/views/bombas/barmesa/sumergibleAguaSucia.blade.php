@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Bomoc</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -17,6 +17,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -28,7 +29,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -55,7 +56,7 @@
                             <a href="#lodosa"><img src="{{ asset('imagenes/bombas/barmesa/lodosa/KMUD.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Aguas Lodosas</h3>
+                                <h3 style="color: #f68221">Aguas Lodosas</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -65,7 +66,7 @@
                             <a href="#desague"><img src="{{ asset('imagenes/bombas/barmesa/desague/KTM.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Desagüe</h3>
+                                <h3 style="color: #f68221">Desagüe</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -75,7 +76,7 @@
                             <a href="#drenaje"><img src="{{ asset('imagenes/bombas/barmesa/drenaje/KAG.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Drenaje</h3>
+                                <h3 style="color: #f68221">Drenaje</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -85,7 +86,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/efluentes/efluentes.jpg') }}" height="25%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Efluentes</h3>
+                                <h3 style="color: #f68221">Efluentes</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -94,7 +95,7 @@
                             <a href="#lodos"><img src="{{ asset('imagenes/bombas/barmesa/lodos/lodos.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Lodos</h3>
+                                <h3 style="color: #f68221">Lodos</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -104,7 +105,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/cortadoras/cortadorasGeneral.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Roto-Blade<sub>&reg;</sub></h3>
+                                <h3 style="color: #f68221">Roto-Blade<sub>&reg;</sub></h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -114,7 +115,7 @@
                                     src="{{ asset('imagenes/bombas/barmesa/trituradoras/trituradorasGeneral.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Trituradoras</h3>
+                                <h3 style="color: #f68221">Trituradoras</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -124,22 +125,25 @@
                                     src="{{ asset('imagenes/bombas/barmesa/negras/negrasGeneral.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Agua negras</h3>
+                                <h3 style="color: #f68221">Agua negras</h3>
                             </figcaption>
                         </figure>
                     </div>
                     <div class="col">
                         <figure class="figure">
-                            <a href="#cortadoras"><img
+                            <a href="#inox"><img
                                     src="{{ asset('imagenes/bombas/barmesa/negras/negrasGeneral9.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Acero Inox. 316</h3>
+                                <h3 style="color: #f68221">Acero Inox. 316</h3>
                             </figcaption>
                         </figure>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="text-center mb-3" style="margin-top: 10px">
+            <h1>Sumergibles para aguas sucias</h1>
         </div>
         <div class="mb-3">
             <h1> Aguas Lodosas</h1>
@@ -303,7 +307,7 @@
                 </div>
             </div>
             <h1 id="negras">Aguas Negras</h1>
-            <div class="card">
+            <div class="card" id="negras">
                 {{-- Contenido KTM --}}
                 <div class="card-body">
                     <h5 class="card-title">Serie KAT</h5>
@@ -368,10 +372,11 @@
                     </div>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="inox">
                 {{-- Contenido KTM --}}
                 <div class="card-body">
                     <h5 class="card-title">Serie BSV-DS</h5>
+                    <h3>Con impulsor <i>vortex</i> en inox. 316 </h3>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
@@ -385,27 +390,46 @@
                 </div>
             </div>
         </div>
-        <a class='flotante' href='#' style="text-decoration: aliceblue"><img
-                src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
-        <style>
-            .flotante {
-                display: none;
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-            }
-        </style>
-        <script>
-            window.addEventListener('scroll', function() {
-                var enlaceFlotante = document.querySelector('.flotante');
-
-                if (window.scrollY > 200) {
-                    enlaceFlotante.style.display = 'block';
+        <!-- Boton hacia arriba -->
+        <img class='ir-arriba' javascript:void(0) title="Volver arriba"
+        src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+    <style>
+        .ir-arriba {
+            display: none;
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 2;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            irArriba();
+        }); //Hacia arriba
+        function irArriba() {
+            $('.ir-arriba').click(function() {
+                $('body,html').animate({
+                    scrollTop: '0px'
+                }, 1000);
+            });
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(600);
                 } else {
-                    enlaceFlotante.style.display = 'none';
+                    $('.ir-arriba').slideUp(600);
                 }
             });
-        </script>
+            $('.ir-abajo').click(function() {
+                $('body,html').animate({
+                    scrollTop: '1000px'
+                }, 1000);
+            });
+        }
+    </script>
 </body>
 
 </html>

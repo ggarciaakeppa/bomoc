@@ -25,7 +25,7 @@ class Ansi911lTable extends DataTableComponent
 
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
 
-            Column::make("Ficha", "ficha"),
+    
 
         ];
     }

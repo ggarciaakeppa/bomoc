@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -24,7 +25,7 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(../imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
+        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backNav.jpg) center center no-repeat;
    background-size: cover;
    padding: 150px 70px 70px;
    font-size: 2.5rem;
@@ -44,14 +45,14 @@
 
 
             <div>
-                <div class="text-center border-top border-bottom border-2 row row-cols-5 row-cols-lg-5 g-5 g-lg-5">
+                <div class="text-center  border-bottom border-2 row row-cols-2 row-cols-lg-5 g-5 g-lg-5">
                     {{-- Imagen BCS --}}
                     <div class="col">
                         <figure class="figure">
                             <a href="#bcs"><img src="{{ asset('imagenes/bombas/barmesa/inox316/BCS.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Serie BCS</h3>
+                                <h3 style="color:  #f68221">Serie BCS</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -61,7 +62,7 @@
                             <a href="#bcsf"><img src="{{ asset('imagenes/bombas/barmesa/inox316/BCSF.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Serie BCSF</h3>
+                                <h3 style="color:  #f68221">Serie BCSF</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -72,7 +73,7 @@
                             <a href="#cd"><img src="{{ asset('imagenes/bombas/barmesa/inox316/CD.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Serie CD</h3>
+                                <h3 style="color:  #f68221">Serie CD</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -83,7 +84,7 @@
                             <a href="#ps"><img src="{{ asset('imagenes/bombas/barmesa/inox316/PS.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Serie PS</h3>
+                                <h3 style="color:  #f68221">Serie PS</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -94,7 +95,7 @@
                             <a href="#sox"><img src="{{ asset('imagenes/bombas/barmesa/inox316/SOX.jpg') }}"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: blue">Serie SOX</h3>
+                                <h3 style="color:  #f68221">Serie SOX</h3>
                             </figcaption>
                         </figure>
                         </figure>
@@ -174,27 +175,46 @@
                 </div>
             </div>
         </div>
-        <a class='flotante' href='#' style="text-decoration: aliceblue"><img
-                src="{{ asset('imagenes/icons/up.svg') }}">Arriba</a>
-        <style>
-            .flotante {
-                display: none;
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-            }
-        </style>
-        <script>
-            window.addEventListener('scroll', function() {
-                var enlaceFlotante = document.querySelector('.flotante');
-
-                if (window.scrollY > 200) {
-                    enlaceFlotante.style.display = 'block';
+        <!-- Boton hacia arriba -->
+        <img class='ir-arriba' javascript:void(0) title="Volver arriba"
+        src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+    <style>
+        .ir-arriba {
+            display: none;
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 2;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            irArriba();
+        }); //Hacia arriba
+        function irArriba() {
+            $('.ir-arriba').click(function() {
+                $('body,html').animate({
+                    scrollTop: '0px'
+                }, 1000);
+            });
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(600);
                 } else {
-                    enlaceFlotante.style.display = 'none';
+                    $('.ir-arriba').slideUp(600);
                 }
             });
-        </script>
+            $('.ir-abajo').click(function() {
+                $('body,html').animate({
+                    scrollTop: '1000px'
+                }, 1000);
+            });
+        }
+    </script>
 
 </body>
 

@@ -30,8 +30,7 @@ class SomeroJbTable extends DataTableComponent
             Column::make("Voltaje", "volts"),
 
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
-              
-            Column::make("Ficha", "ficha"),
+    
         ];
     }
 }
