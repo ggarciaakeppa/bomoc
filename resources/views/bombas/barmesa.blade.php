@@ -22,6 +22,7 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+    
 </head>
 
 <body>
@@ -45,7 +46,7 @@
                 </figure>
             </div>
             {{-- Layout barmesa --}}
-            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4   g-4 ">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  g-4 ">
                 <div class="col">
                     <div class="card text-center bg-light border-dark" style="max-width: 540px;">
                         <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
@@ -248,5 +249,8 @@ function irArriba() {
     });
 }
 </script>
+<livewire:inicio-carrusel/>
+<livewire:footer />
+
 </body>
 </html>
