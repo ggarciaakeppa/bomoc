@@ -102,7 +102,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
+        <livewire:inicio-carrusel/>
+        <livewire:maps/>
+        <livewire:footer/>
 
 </body>
 

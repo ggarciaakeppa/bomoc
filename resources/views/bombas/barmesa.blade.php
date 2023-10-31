@@ -249,7 +249,7 @@ function irArriba() {
     });
 }
 </script>
-<livewire:inicio-carrusel/>
+
 <livewire:footer />
 
 </body>

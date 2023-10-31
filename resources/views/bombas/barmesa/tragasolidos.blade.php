@@ -256,6 +256,7 @@
             });
         }
     </script>
+    <livewire:footer/>
 </body>
 
 </html>
