@@ -104,7 +104,7 @@
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">
-            <h1>CENTRÍFUGAS EN ACERO INOX. 316</h1>
+            <h1>Centrífugas en Acero Inoxidable .316</h1>
         </div>
         <div class="mb-3">
             <h1>Serie BCS | Serie BCSF</h1>
@@ -116,22 +116,29 @@
                     <div class="row">
                         <div class="col-md-6" id="bcs">
                             <livewire:inox316-bcs-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <div class=" justify-content-center">
+                                <h5>Serie BCS</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bcs.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_bcs-bcsf.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                <h5>Serie BCSF</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bcsf.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_bcs-bcsf.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>  
                         </div>
                         <div class="col-md-6" id="bcsf">
                             <livewire:inox316-bcsf-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">
-            <h1>CENTRÍFUGAS EN ACERO INOX. 304</h1>
+            <h1>Centrífugas en Acero Inoxidable .304</h1>
         </div>
         <div class="mb-3">
             <h1>Serie CD | Serie PS</h1>
@@ -143,15 +150,22 @@
                     <div class="row">
                         <div class="col-md-6" id="cd">
                             <livewire:inox304-cd-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <div class=" justify-content-center">
+                                <h5>Serie CD</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-cd.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-cd.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                <h5>Serie PS</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-ps.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-ps.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>  
                         </div>
                         <div class="col-md-6" id="ps">
                             <livewire:inox304-ps-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -167,8 +181,12 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:inox304-sox-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class=" justify-content-center">
+                                <h5>Serie SOX</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-sox.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-sox.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>
                         </div>
                     </div>

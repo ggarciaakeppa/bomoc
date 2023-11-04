@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Barmesa</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -115,6 +115,10 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_40md.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -135,6 +139,10 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel2.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_50md-250.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -156,6 +164,10 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel3.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_12md.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -175,6 +187,12 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel4.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_27m-29m-md.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_27-29-m-md.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -194,6 +212,10 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalDiesel5.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_40md.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -214,6 +236,12 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_12m.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_12m.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -231,6 +259,12 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina2.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_27m-29m-md.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_27-29-m-md.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -248,7 +282,11 @@
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina3.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_al13m.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -260,11 +298,16 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-gasolina-briggs-table />
-
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalGasolina4.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_18m-22m.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_18m-22m.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>    
                         </div>
                     </div>
                 </div>
@@ -280,13 +323,54 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-electrico-table />
-
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico2.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-sp-autocebante.pdf" style="text-decoration: none; color: #f68221;">SP Ficha Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_2n.pdf" style="text-decoration: none; color: #f68221;">2N Ficha Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_3n.pdf" style="text-decoration: none; color: #f68221;">3N Ficha Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bsp3cce.pdf" style="text-decoration: none; color: #f68221;">BSP3 Ficha Técnica</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="row">
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bsp10cce.pdf" style="text-decoration: none; color: #f68221;">BSP10 Ficha Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bsp15cce.pdf" style="text-decoration: none; color: #f68221;">BSP15 Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bsp20cce.pdf" style="text-decoration: none; color: #f68221;">BSP20 Ficha Técnica</a>
+                                            </div>
+                                            <div class="col">
+                                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bsp25cce.pdf" style="text-decoration: none; color: #f68221;">BSP25 Ficha Técnica</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -306,6 +390,20 @@
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/generalElectrico4.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="d-flex justify-content-center">
+                                    
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_10mu.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_10mu.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>
+                                <br>
+                                <div class="d-flex justify-content-center">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_20mu.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_20mu.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>        
                         </div>
                     </div>
                 </div>
@@ -321,17 +419,14 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:autocebantes-transmision-universal-table />
-
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/autocebantes/transmision.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-
                         </div>
                     </div>
                 </div>
             </div>
-
             <!-- Boton hacia arriba -->
             <img class='ir-arriba' javascript:void(0) title="Volver arriba"
                 src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">

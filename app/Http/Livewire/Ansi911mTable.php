@@ -25,7 +25,11 @@ class Ansi911mTable extends DataTableComponent
 
             Column::make("Tamaño suc y desc", "tamaño_suc_y_desc"),
 
-   
+            Column::make("Curvas de operación", "ficha")
+                ->format(
+                    fn($value) => "<a  target='_blank' href='$value' class='btn btn-primary'>Ver</a>"
+                )
+                ->html(),
 
         ];
     }

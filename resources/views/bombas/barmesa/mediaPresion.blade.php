@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">
-            <h1>CENTRIFUGAS DE MEDIANA PRESIÓN</h1>
+            <h1>Centrífugas de Mediana Presión</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1>Diesel</h1>
@@ -104,14 +104,19 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-diesel-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <div class=" justify-content-center">
+                                <h5>Serie 20CG</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-20cg.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_15-30cg.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div> 
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalDiesel.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                        </div>
+                             
+                            </div>
                     </div>
                 </div>
             </div>
@@ -126,9 +131,23 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-tek-cg-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            
+                            <div class=" justify-content-center">
+                                <h5>Serie 15CG</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-15cg.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_15-30cg.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>
+                            <br>
+                            
+                            <div class=" justify-content-center">
+                                <h5>Serie 30CG</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-30cg.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_15-30cg.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div> 
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalGasolina.jpg') }}"
@@ -145,15 +164,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-briggs-cg-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-honda-cg-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -166,15 +181,10 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-tekpro-nm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-briggs-nm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,9 +197,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-honda-nm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalGasolina.jpg') }}"
@@ -206,15 +214,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-kohler-nm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-media-gasolina-barmesa-nm-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                     </div>
                 </div>
@@ -230,15 +234,20 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-electrico-barmesa-ib-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                           
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalElectrico.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
                                 <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalElectrico2.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class=" justify-content-center">
+                                    <h5>Serie IB</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ib.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-ib.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>     
                         </div>
                     </div>
                 </div>
@@ -251,15 +260,25 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-electrico-barmesa-ic-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                            <div class=" justify-content-center">
+                                <h5>Serie IC1¼</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ic1.25.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ic1.25.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                <h5>Serie IC1½</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ic1.50.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ic1.50.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>      
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalElectrico3.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
                                 <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/generalElectrico4.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                               
                         </div>
                     </div>
                 </div>
@@ -275,9 +294,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-media-universal-barmesa-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                      
                         </div>
                         <div class="col-md-6">
                            <h1 style="color: red">Imagen Pendiente </h1>

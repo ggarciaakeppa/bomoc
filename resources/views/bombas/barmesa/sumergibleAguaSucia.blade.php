@@ -155,13 +155,47 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:lodosa-kmud-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/lodosa/lodosaGeneral.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                    <h5>Modelos: 3KMUD553 / 554</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_3kmud553.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                    <h5>Modelos: 4KMUD803 / 804</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_4kmud803.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                    <h5>Modelos: 6KMUD1203 / 1204</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_6kmud1203.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>
+                                <div class="col">
+                                    <h5>Modelos: 6KMUD1503 / 1504</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_6kmud1503.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                    <h5>Modelos: 8KMUD2003 / 2004</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_8kmud2003.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                    <h5>Modelos: 8KMUD3004</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_8kmud3004.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-kmud.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>
+                                </div>
                         </div>
                     </div>
                 </div>

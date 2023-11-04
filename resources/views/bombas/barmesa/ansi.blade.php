@@ -38,7 +38,7 @@
             <div class="text-center">
 
                 <figure class="figure">
-                    <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
+                    <img src="{{ asset('imagenes/bombas/barmesa/ansi/logo.png') }}" class="figure-img img-fluid rounded"
                         alt="...">
                 </figure>
             </div>
@@ -98,18 +98,13 @@
                     <h5 class="card-title">Modelo 911S</h5>
                     {{-- lh-base --}}
                     <div class="row">
-                        <div class="col-md-6" style="   display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        height: auto;">
-                            <img src="{{ asset('imagenes/bombas/barmesa/ansi/logo.png') }}"
-                            style="vertical-align: middle " class="figure-img img-fluid rounded">
+                        <div class="col-md-6 text-center">
+                            
                         </div>
+                        
                         <div class="col-md-6">
                             <livewire:ansi911s-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
-                            </div>
+                        
                         </div> 
                     </div>
                 </div>
@@ -122,15 +117,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:ansi911m-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
-                            </div>
+                           
                         </div>
                         <div class="col-md-6">
                             <livewire:ansi911l-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
-                            </div>
+                          
                         </div> 
                     </div>
                 </div>
@@ -143,9 +134,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:ansi911lx-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary" style="background-color: #00599c; border: #00599c">Nota</button>
-                            </div>
+                          
                         </div>
                         <div class="col-md-6">
                         <p>
@@ -178,6 +167,17 @@
          right: 10px;
          z-index: 2;
      }
+   
+
+            ul {
+                list-style: none;
+                /* Elimina los puntos de la lista */
+                padding: 0;
+            }
+            a{
+                text-decoration: none;
+                color: #00599c;
+            }
  </style>
  <script>
      $(document).ready(function() {

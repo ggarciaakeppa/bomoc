@@ -60,6 +60,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:practik-table /> 
+                            <div class=" justify-content-center">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_practik-151.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://barmesapumps.com/MX/productos/pdfs/mx_manual_practik-151.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/achique/practik.jpg') }}"

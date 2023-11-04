@@ -60,6 +60,13 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:klein-table /> 
+                            <div class=" justify-content-center">
+                                
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-klein.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-klein.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/klein/klein.jpg') }}"

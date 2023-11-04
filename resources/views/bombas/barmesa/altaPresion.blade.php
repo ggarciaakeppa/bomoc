@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">
-            <h1>CENTRIFUGAS DE ALTA PRESIÓN</h1>
+            <h1>Centrifugadas de alta presión Serie IA</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1>Diesel</h1>
@@ -100,11 +100,59 @@
                     <h5 class="card-title">Lombardini (acoplados directamente)</h5>
                     {{-- lh-base --}}
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <livewire:centri-alta-lombardini-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                          
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="card-title">Curvas de operación</h5>
+                            <div class="scrollbox">
+                                <ul>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA1½</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5h.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA1½H</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5xh.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA1½XH</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2h.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2H</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2hh.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2HH</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2eh.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2EH</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2exh.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2EXH</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2½</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5h.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2½H</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5bjm.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA2½BJM</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA3</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3h.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA3H</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3bjm.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA3BJM</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA4</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4bjh.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA4BJH</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4bu.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA4BU</a></li>
+                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia6bjm.pdf" target="_blank"
+                                            rel="noopener noreferrer" class="text-gray link-o">IA6BJM</a></li>
+                                </ul>
+
                             </div>
+                            <div class="d-flex justify-content-center">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ia.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ia.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -117,9 +165,6 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-yanmar-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,11 +175,9 @@
                     <h5 class="card-title">John Deere</h5>
                     {{-- lh-base --}}
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <livewire:centri-alta-john-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -150,15 +193,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-tekpro-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-alta-briggs-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -171,15 +210,11 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-kohler-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-alta-honda-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -192,9 +227,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-barmesa-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                     </div>
                 </div>
@@ -210,9 +243,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-electrico-directa-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -225,9 +256,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-electrico-flexible-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                     
                         </div>
                     </div>
                 </div>
@@ -243,56 +272,69 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-electrico-universal-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                        
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-          <!-- Boton hacia arriba -->
-          <img class='ir-arriba' javascript:void(0) title="Volver arriba"
-          src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
-      <style>
-          .ir-arriba {
-              display: none;
-              background-repeat: no-repeat;
-              font-size: 20px;
-              color: black;
-              cursor: pointer;
-              position: fixed;
-              bottom: 10px;
-              right: 10px;
-              z-index: 2;
-          }
-      </style>
-      <script>
-          $(document).ready(function() {
-              irArriba();
-          }); //Hacia arriba
-          function irArriba() {
-              $('.ir-arriba').click(function() {
-                  $('body,html').animate({
-                      scrollTop: '0px'
-                  }, 1000);
-              });
-              $(window).scroll(function() {
-                  if ($(this).scrollTop() > 0) {
-                      $('.ir-arriba').slideDown(600);
-                  } else {
-                      $('.ir-arriba').slideUp(600);
-                  }
-              });
-              $('.ir-abajo').click(function() {
-                  $('body,html').animate({
-                      scrollTop: '1000px'
-                  }, 1000);
-              });
-          }
-      </script>
-<livewire:footer/>
+        <!-- Boton hacia arriba -->
+        <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up.svg') }}"
+            style="width: 48px; height: 48px;">
+        <style>
+            .ir-arriba {
+                display: none;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                z-index: 2;
+            }
+
+            .scrollbox {
+                overflow: auto;
+                max-height: 200px;
+                /* Altura máxima del scrollbox */
+                border: 1px solid #ccc;
+                /* Puedes personalizar el estilo del scrollbox */
+                padding: 10px;
+            }
+
+            ul {
+                list-style: none;
+                /* Elimina los puntos de la lista */
+                padding: 0;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                irArriba();
+            }); //Hacia arriba
+            function irArriba() {
+                $('.ir-arriba').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '0px'
+                    }, 1000);
+                });
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 0) {
+                        $('.ir-arriba').slideDown(600);
+                    } else {
+                        $('.ir-arriba').slideUp(600);
+                    }
+                });
+                $('.ir-abajo').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '1000px'
+                    }, 1000);
+                });
+            }
+        </script>
+        <livewire:footer />
 </body>
 
 </html>

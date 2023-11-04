@@ -81,14 +81,20 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:casera-nb-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class=" justify-content-center">
+                                <h5>Serie NB</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_nb.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                
                             </div>
                         </div>
                         <div class="col-md-6">
                             <livewire:casera-nbt-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
+                            <div class=" justify-content-center">
+                                <h5>Serie NBT</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_nbt.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                               
                             </div>
                         </div>
                     </div>
@@ -107,9 +113,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:somero-jb-table />
-                            <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-success">Nota</button>
-                            </div>
+                         
                         </div>
                     </div>
                 </div>
