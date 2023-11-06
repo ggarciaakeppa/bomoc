@@ -16,13 +16,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
         }
     </style>
-    
+
 </head>
 
 <body>
@@ -46,56 +46,111 @@
                 </figure>
             </div>
             {{-- Layout barmesa --}}
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4  g-4 ">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4 ">
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES</h5>
-                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('autocebantes') }}">Entrar</a>
+                    <div class="card" id="autocebantes" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/8M.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Autocebantes</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#autocebantes");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('autocebantes') }}";
+                            });
+                        });
+                    </script>
+                </div>
+                 <div class="col">
+                    <div class="card" id="tragasolidos" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/SH6-4TNNV98C.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Autocebantes Tragasólidos</h4>
+                        </div>
+                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#tragasolidos");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('tragasolidos') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>AUTOCEBANTES TRAGASÓLIDOS</h5>
-                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('tragasolidos') }}">Entrar</a>
+                    <div class="card" id="centrifugadasAlta" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Centrífugadas de alta presión</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#centrifugadasAlta");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('centrifugadasAlta') }}";
+                            });
+                        });
+                    </script>
                 </div>
-                <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>CENTRÍFUGAS DE ALTA PRESIÓN</h5>
-                            <a class="btn btn-primary btn-lg mb-3" href="{{ route('centrifugadasAlta') }}">Entrar</a>
+               <div class="col">
+                    <div class="card" id="centrifugadasMedia" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Centrífugadas de mediana presión</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#centrifugadasMedia");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('centrifugadasMedia') }}";
+                            });
+                        });
+                    </script>
                 </div>
-                <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>CENTRÍFUGAS DE MEDIANA PRESIÓN</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasMedia') }}">Entrar</a>
+               <div class="col">
+                    <div class="card" id="centrifugadasInox" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PS.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Centrífugadas en acero inox.</h4>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>CENTRÍFUGAS EN ACERO INOX.</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasInox') }}">Entrar</a>
-                        </div>
-                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#centrifugadasInox");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('centrifugadasInox') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
                     <div class="card text-center bg-light border-dark" style="max-width: 540px;">
@@ -153,7 +208,8 @@
                             alt="...">
                         <div class="card-body">
                             <h5>SUMERGIBLES AGUAS LIMPIA</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleAguaLimpia') }}">Entrar</a>
+                            <a class="btn btn-primary lift mb-3"
+                                href="{{ route('sumergibleAguaLimpia') }}">Entrar</a>
                         </div>
                     </div>
                 </div>
@@ -206,51 +262,52 @@
                             <a class="btn btn-primary lift mb-3" href="{{ route('bipartidas') }}">Entrar</a>
                         </div>
                     </div>
-                </div>               
-            </div>   
+                </div>
+            </div>
         </div>
-               <!-- Boton hacia arriba -->
-<img class='ir-arriba' javascript:void(0) title="Volver arriba"
-src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
-<style>
-.ir-arriba {
-    display: none;
-    background-repeat: no-repeat;
-    font-size: 20px;
-    color: black;
-    cursor: pointer;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 2;
-}
-</style>
-<script>
-$(document).ready(function() {
-    irArriba();
-}); //Hacia arriba
-function irArriba() {
-    $('.ir-arriba').click(function() {
-        $('body,html').animate({
-            scrollTop: '0px'
-        }, 1000);
-    });
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 0) {
-            $('.ir-arriba').slideDown(600);
-        } else {
-            $('.ir-arriba').slideUp(600);
-        }
-    });
-    $('.ir-abajo').click(function() {
-        $('body,html').animate({
-            scrollTop: '1000px'
-        }, 1000);
-    });
-}
-</script>
+        <!-- Boton hacia arriba -->
+        <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up.svg') }}"
+            style="width: 48px; height: 48px;">
+        <style>
+            .ir-arriba {
+                display: none;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                z-index: 2;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                irArriba();
+            }); //Hacia arriba
+            function irArriba() {
+                $('.ir-arriba').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '0px'
+                    }, 1000);
+                });
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 0) {
+                        $('.ir-arriba').slideDown(600);
+                    } else {
+                        $('.ir-arriba').slideUp(600);
+                    }
+                });
+                $('.ir-abajo').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '1000px'
+                    }, 1000);
+                });
+            }
+        </script>
 
-<livewire:footer />
+        <livewire:footer />
 
 </body>
+
 </html>
