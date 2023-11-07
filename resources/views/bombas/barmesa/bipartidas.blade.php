@@ -56,69 +56,89 @@
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
-                            <livewire:bipartidas-table /> 
+                            <livewire:bipartidas-table />
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/bipartidas/Bipartida.jpg') }}"
-                            style="vertical-align: middle" class="figure-img img-fluid rounded">
-                            <br>
-                            <h5>
-                            Cuentan con sello mecánico «tipo 1».Si requiere estopero, se puede surtir sin costo adicional
-                            con tan solo especificarlo en el pedido. 
-                            </h5>
-                            <br>
-                            <h5>
-                                Cuentan con impulsor y anillo de desgaste de bronce SAE 40, y flecha de acero inoxidable. 
-                            </h5>
-                            <br>
-                            <h5>
-                                Si se requiere la bomba acoplada mediante cople flexible a motor eléctrico o de combustión
-                                , favor de solicitar precios de fabrica. 
-                            </h5>
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Serie L</h5>
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_folleto_bipartidas.pdf"
+                                        style="text-decoration: none; color: #f68221;">
+                                        <img src="/imagenes/icons/pdf.svg"
+                                            style="width: 24px; height: 24px;">Folleto</a>
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_curvas_bipartidas.pdf"
+                                        style="text-decoration: none; color: #f68221;">
+                                        <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">Curvas de
+                                        rendimiento</a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h5>
+                                    Cuentan con sello mecánico «tipo 1».Si requiere estopero, se puede surtir sin costo
+                                    adicional
+                                    con tan solo especificarlo en el pedido.
+                                </h5>
+                            </div>
+                            <div class="col">
+                                <h5>
+                                    Cuentan con impulsor y anillo de desgaste de bronce SAE 40, y flecha de acero
+                                    inoxidable.
+                                </h5>
+                            </div>
+                            <div class="col">
+                                <h5>
+                                    Si se requiere la bomba acoplada mediante cople flexible a motor eléctrico o de
+                                    combustión
+                                    , favor de solicitar precios de fabrica.
+                                </h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-                <!-- Boton hacia arriba -->
-<img class='ir-arriba' javascript:void(0) title="Volver arriba"
-src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
-<style>
-.ir-arriba {
-    display: none;
-    background-repeat: no-repeat;
-    font-size: 20px;
-    color: black;
-    cursor: pointer;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 2;
-}
-</style>
-<script>
-$(document).ready(function() {
-    irArriba();
-}); //Hacia arriba
-function irArriba() {
-    $('.ir-arriba').click(function() {
-        $('body,html').animate({
-            scrollTop: '0px'
-        }, 1000);
-    });
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 0) {
-            $('.ir-arriba').slideDown(600);
-        } else {
-            $('.ir-arriba').slideUp(600);
-        }
-    });
-    $('.ir-abajo').click(function() {
-        $('body,html').animate({
-            scrollTop: '1000px'
-        }, 1000);
-    });
-}
-</script>
+        <!-- Boton hacia arriba -->
+        <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up.svg') }}"
+            style="width: 48px; height: 48px;">
+        <style>
+            .ir-arriba {
+                display: none;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                z-index: 2;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                irArriba();
+            }); //Hacia arriba
+            function irArriba() {
+                $('.ir-arriba').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '0px'
+                    }, 1000);
+                });
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 0) {
+                        $('.ir-arriba').slideDown(600);
+                    } else {
+                        $('.ir-arriba').slideUp(600);
+                    }
+                });
+                $('.ir-abajo').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '1000px'
+                    }, 1000);
+                });
+            }
+        </script>
 </body>
+
 </html>

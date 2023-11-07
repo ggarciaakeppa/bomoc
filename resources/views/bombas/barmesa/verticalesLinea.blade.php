@@ -75,7 +75,17 @@
                     {{-- lh-base --}}
                     <div class="row">
                             <livewire:bvl-table /> 
-                        
+                            <div class="row">
+                                  
+                                <div class="col">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_curvas_serie-bvl.pdf" style="text-decoration: none; color: #f68221;">Curvas de Rendimiento</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_folleto_serie-bvl.pdf" style="text-decoration: none; color: #f68221;">Folleto</a>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-bvl.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

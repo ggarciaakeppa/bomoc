@@ -94,26 +94,25 @@
                             <livewire:sumergibles-motores2-table />
                             <div class="row justify-content-center">
                                 <div class="col">
+                                <h5>4"</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/folleto_4ss-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Folleto 4"</a>
-                                <h5>Modelo: EUSR</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_4ss-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <h5>Modelo: 2AHS</h5>
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_4ss-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica 4" (inglés)</a>
+                                <h5>6"</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_6sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_6sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica 6" (inglés)</a>
                                 </div>
                                 <div class="col">
-                                <h5>Modelo: EH</h5>
+                                <h5>8"</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_8sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <h5>Modelo: BPSTEP</h5>
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_8sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica 8" (inglés)</a>
+                                <h5>AIM</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/oem/manual-oem_sumergibles-Franklin-2015_mx.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/oem/manual-oem_sumergibles-Franklin-2015_mx.pdf" style="text-decoration: none; color: #f68221;">Manual AIM</a>
                                 </div>
                             </div>  
-                        </div>
-                      
+                        </div>                     
                     </div>
                 </div>
             </div>
@@ -133,10 +132,26 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="d-flex justify-content-center">
                                 <img src="{{ asset('imagenes/bombas/barmesa/motoresSumergibles/Gibli.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
-                            </div>
+                                
+                                <div class="row ">
+                                    <div class="col">
+                                    <h5>4"</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_motor-gibli-4.pdf" style="text-decoration: none; color: #f68221;">Manual</a>        
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_motores-gibli.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    <h5>6"</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_motores-gibli-6.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    </div>
+                                    <div class="col">
+                                    <h5>8"</h5>
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                    <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_motores-gibli-8.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                    </div>
+                                </div>
                         </div>
                       
                     </div>

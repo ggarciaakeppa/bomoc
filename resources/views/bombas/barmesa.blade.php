@@ -233,7 +233,7 @@
                             // Agregamos un evento de clic a la tarjeta
                             card.addEventListener("click", function() {
                                 // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
-                                window.location.href = "{{ route('sumergiblesAchique') }}";
+                                window.location.href = "{{ route('sumergiblesInox') }}";
                             });
                         });
                     </script>
@@ -302,44 +302,88 @@
                     </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>VERTICALES EN LÍNEA</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('verticalesLinea') }}">Entrar</a>
+                    <div class="card" id="verticalesLinea" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BVL.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Verticales en línea</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#verticalesLinea");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('verticalesLinea') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>MULTIETAPAS HORIZONTALES</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('multiHorizontales') }}">Entrar</a>
+                    <div class="card" id="multiHorizontales" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/MH.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Multietapas horizontales</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#multiHorizontales");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('multiHorizontales') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>MULTIETAPAS VERTICALES</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('multiVerticales') }}">Entrar</a>
+                    <div class="card" id="multiVerticales" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/HMV.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Multietapas verticales</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#multiVerticales");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('multiVerticales') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>BIPARTIDAS</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('bipartidas') }}">Entrar</a>
+                    <div class="card" id="bipartidas" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/HMV.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Bipartidas</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#bipartidas");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('bipartidas') }}";
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>

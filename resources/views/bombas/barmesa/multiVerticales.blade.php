@@ -77,7 +77,18 @@
                     {{-- lh-base --}}
                     <div class="row">
                             <livewire:multi-hmv-table /> 
-                        
+                            <div class="row">
+                                <div class="col">
+                                <h5>Serie HMV</h5>
+
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_folleto_serie-hmv.pdf"
+                                    style="text-decoration: none; color: #f68221;">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">Folleto</a>
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_hmv.pdf"
+                                    style="text-decoration: none; color: #f68221;">
+                                    <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">Manual</a>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>
