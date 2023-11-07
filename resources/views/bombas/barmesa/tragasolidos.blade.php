@@ -88,7 +88,7 @@
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">
-            <h1>AUTOCEBANTES TRAGASÓLIDOS</h1>
+            <h1>autocebantes Tragasólidos</h1>
         </div>
         <div id="diesel" class="mb-3">
             <h1> Diesel</h1>
@@ -101,6 +101,7 @@
                         <div class="col-md-6">
                             <livewire:tragasolidos-diesel-yanmar-table />
                             <div class="d-flex justify-content-center">
+                                <h5>Serie SH4-4TNV88C</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh4-rn-4tnv88c.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                             </div>
@@ -108,6 +109,7 @@
                         <div class="col-md-6">
                             <livewire:tragasolidos-diesel-john-table />
                             <div class="d-flex justify-content-center">
+                                <h5>Serie SH6-4TNV98C</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh6-rn-4tnv98c.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                             </div>
@@ -131,6 +133,7 @@
                         <div class="col-md-6">
                             <livewire:tragasolidos-gasolina-honda-table />
                             <div class="d-flex justify-content-center">
+                                <h5>Serie 4ATS</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_4ats.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                             </div>
@@ -151,6 +154,7 @@
                             <img src="{{ asset('imagenes/bombas/barmesa/tragasolidos/gasolina.jpg') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded">
                                 <div class="d-flex justify-content-center">
+                                    <h5>Serie 4ATS</h5>
                                     <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                     <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_4ats.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                 </div>
@@ -175,6 +179,7 @@
                         <div class="col-md-6">
                             <livewire:tragasolidos-universal-et6-table />
                             <div class="d-flex justify-content-center">
+                                <h5>Serie ET6-U</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_et6-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                             </div>
@@ -195,6 +200,7 @@
                         <div class="col-md-6">
                             <livewire:tragasolidos-universal-s-h-table />
                             <div class="d-flex justify-content-center">
+                                <h5>Serie SH</h5>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh3-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                             </div>
@@ -222,26 +228,30 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="row">
                                     <div class="col">
+                                        <h5>Serie SH3</h5>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh3-u.pdf" style="text-decoration: none; color: #f68221;">SH3 Ficha Técnica</a>
+                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh3-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                         <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_sh3-u.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                     </div>
                                     <div class="col">
+                                        <h5>Serie SH4</h5>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh4-u.pdf" style="text-decoration: none; color: #f68221;">SH4 Ficha Técnica</a>
+                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh4-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                         <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_sh4-u.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                     </div>
                                     <div class="col">
+                                        <h5>Serie SH6</h5>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh6-u.pdf" style="text-decoration: none; color: #f68221;">SH6 Ficha Técnica</a>
+                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh6-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                         <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_sh6-u.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                     </div>
                                     <div class="col">
+                                        <h5>Serie SH8</h5>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
-                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh8-u.pdf" style="text-decoration: none; color: #f68221;">SH8 Ficha Técnica</a>
+                                        <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_sh8-u.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                         <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
                                         <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_sh8-u.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                     </div>

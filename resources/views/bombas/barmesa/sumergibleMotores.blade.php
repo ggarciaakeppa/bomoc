@@ -92,15 +92,26 @@
                         </div>
                         <div class="col-md-6">
                             <livewire:sumergibles-motores2-table />
-                            <div class="d-flex justify-content-star">
-                               
-                                <p>
-                                Peso aproximado.
-                               <br>
-                               <br>
-                                Todos los motores se surten con conector para cable.
-                               </p>
-                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/folleto_4ss-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Folleto 4"</a>
+                                <h5>Modelo: EUSR</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_4ss-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <h5>Modelo: 2AHS</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_6sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>
+                                <div class="col">
+                                <h5>Modelo: EH</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/brochure_8sm-franklin-motors.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <h5>Modelo: BPSTEP</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/oem/manual-oem_sumergibles-Franklin-2015_mx.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                </div>
+                            </div>  
                         </div>
                       
                     </div>

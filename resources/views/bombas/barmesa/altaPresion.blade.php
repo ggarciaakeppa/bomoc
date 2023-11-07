@@ -108,47 +108,48 @@
                             <h5 class="card-title">Curvas de operación</h5>
                             <div class="scrollbox">
                                 <ul>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia1.5.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA1½</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5h.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia1.5h.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA1½H</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia1.5xh.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia1.5xh.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA1½XH</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2h.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2h.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2H</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2hh.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2hh.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2HH</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2eh.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2eh.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2EH</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2exh.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2exh.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2EXH</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2.5.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2½</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5h.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2.5h.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2½H</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia2.5bjm.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia2.5bjm.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA2½BJM</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia3.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA3</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3h.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia3h.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA3H</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia3bjm.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia3bjm.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA3BJM</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia4.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA4</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4bjh.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia4bjh.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA4BJH</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia4bu.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia4bu.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA4BU</a></li>
-                                    <li><a href="pdfs/curvas-ia/mx_curvas_ia6bjm.pdf" target="_blank"
+                                    <li><a href="https://www.barmesapumps.com/MX/productos/pdfs/curvas-ia/mx_curvas_ia6bjm.pdf" target="_blank"
                                             rel="noopener noreferrer" class="text-gray link-o">IA6BJM</a></li>
                                 </ul>
 
                             </div>
                             <div class="d-flex justify-content-center">
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <h5>Serie IA</h5>
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ia.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ia.pdf" style="text-decoration: none; color: #f68221;">Manual</a>

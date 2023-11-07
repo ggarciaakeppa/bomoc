@@ -93,6 +93,13 @@
                             <P>
                                 Diseñada para suministrar agua limpia de pozos y norias en zonas rurales donde no cuenten con suministro de energía eléctrica, ya que emplea la energía solar fotovoltaica para su funcionamiento
                             </P>
+                            <div class=" justify-content-center">
+                                <h5>Serie Q</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_solar-q.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_solar-q.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/solares/q.jpg') }}"
@@ -117,7 +124,13 @@
                             style="vertical-align: middle" class="figure-img img-fluid rounded">
                             <img src="{{ asset('imagenes/bombas/barmesa/pozoProfundo/SP2.jpg') }}"
                             style="vertical-align: middle" class="figure-img img-fluid rounded">
-                      
+                            <div class=" justify-content-center">
+                                <h5>Serie SP</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_folleto_serie-sp-(pozo-profundo).pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-sp-(pozo-profundo).pdf" style="text-decoration: none; color: #f68221;">Manual</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -137,6 +150,12 @@
                             style="vertical-align: middle" class="figure-img img-fluid rounded">
                             <img src="{{ asset('imagenes/bombas/barmesa/pozoProfundo/SS2.jpg') }}"
                             style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            <div class=" justify-content-center">
+                                <h5>Serie SS</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_folleto_serie-ss.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

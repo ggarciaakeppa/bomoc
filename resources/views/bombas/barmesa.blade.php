@@ -112,7 +112,7 @@
                 </div>
                <div class="col">
                     <div class="card" id="centrifugadasMedia" style="max-width: 540px; cursor: pointer;">
-                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IB.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
                             <h4 class="card-title">Centrífugadas de mediana presión</h4>
@@ -153,75 +153,153 @@
                     </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>CENTRÍFUGAS CASERAS Y POZO SOMERO</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasCaseras') }}">Entrar</a>
+                    <div class="card" id="centrifugadasCaseras" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/NB.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Centrifugas caseras y pozo somero</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#centrifugadasCaseras");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('centrifugadasCaseras') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>CENTRÍFUGAS DE PROCESO ANSI</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('centrifugadasAnsi') }}">Entrar</a>
+                    <div class="card" id="centrifugadasAnsi" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/911L.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Centrífugas de proceso ANSI</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#centrifugadasAnsi");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('centrifugadasAnsi') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>SUMERGIBLES DE ACHIQUE</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergiblesAchique') }}">Entrar</a>
+                    <div class="card" id="sumergiblesAchique" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PRACTIK.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Sumergibles de Achique</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#sumergiblesAchique");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('sumergiblesAchique') }}";
+                            });
+                        });
+                    </script>
+                </div>
+                
+                
+                <div class="col">
+                    <div class="card" id="sumergiblesInox" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/KLEIN.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Sumergibles inox. para desagüe</h4>
+                        </div>
+                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#sumergiblesInox");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('sumergiblesAchique') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>SUMERGIBLES INOXIDABLES PARA DESAGÜE</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergiblesInox') }}">Entrar</a>
+                    <div class="card" id="sumergibleAguaSucia" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/2BS501.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Sumergibles agua sucias</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#sumergibleAguaSucia");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('sumergibleAguaSucia') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>SUMERGIBLES AGUAS SUCIAS</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleAguaSucia') }}">Entrar</a>
+                    <div class="card" id="sumergibleAguaLimpia" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BOMBAS SUMERGIBLES.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Sumergibles agua limpia</h4>
                         </div>
                     </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#sumergibleAguaLimpia");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('sumergibleAguaLimpia') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>SUMERGIBLES AGUAS LIMPIA</h5>
-                            <a class="btn btn-primary lift mb-3"
-                                href="{{ route('sumergibleAguaLimpia') }}">Entrar</a>
+                    <div class="card" id="sumergibleMotores" style="max-width: 540px; cursor: pointer;">
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/MOTORES SUMERGIBLES.jpg') }}"
+                            alt="Card image">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Motores sumergibles</h4>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card text-center bg-light border-dark" style="max-width: 540px;">
-                        <img src="{{ asset('imagenes/bombas/barmesa/backgroundCard.jpeg') }}" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5>MOTORES SUMERGIBLES</h5>
-                            <a class="btn btn-primary lift mb-3" href="{{ route('sumergibleMotores') }}">Entrar</a>
-                        </div>
-                    </div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            // Obtenemos la tarjeta por su clase "card"
+                            var card = document.querySelector("#sumergibleMotores");
+
+                            // Agregamos un evento de clic a la tarjeta
+                            card.addEventListener("click", function() {
+                                // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
+                                window.location.href = "{{ route('sumergibleMotores') }}";
+                            });
+                        });
+                    </script>
                 </div>
                 <div class="col">
                     <div class="card text-center bg-light border-dark" style="max-width: 540px;">
