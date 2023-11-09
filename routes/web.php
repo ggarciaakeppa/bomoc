@@ -7,13 +7,14 @@ use App\Http\Livewire\Producto\EditarProducto;
 use App\Http\Livewire\Ingreso\IngresoAuto;
 use App\Http\Livewire\Producto\CrearProducto;
 use App\Http\Livewire\Producto\Productos;
+use App\Mail\ContactFormMailable;
 use App\Models\Producto;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Laravel\Socialite\Facades\Socialite;
-use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 
 
  
@@ -110,7 +111,7 @@ Route::view('/motores','otros.motores')->name('motores');
 Route::view('/blog','blog.index')->name('blog');
 
 //Ruta de Contacto
-Route::view('/contacto','contacto.index')->name('contacto');
+Route::view('/contacto','contacto.contacto')->name('contacto');
 
 //Ruta de Tienda
 Route::view('/tienda','tienda.index')->name('tienda');
@@ -142,6 +143,20 @@ Route::get('/google-callback', function () {
 
     return redirect('/');
     
+});
+
+Route::post('/contact', function (Request $request) {
+
+    $contact = $request->validate([
+        'name' => 'required',
+        'email' => 'required|email',
+        'contactMessage' => 'required',
+        'phone' => 'required',
+    ]); 
+
+    Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));
+
+    return back()->with('success_message', 'We received your message successfully and will get back to you shortly!');
 });
 
 Route::middleware([

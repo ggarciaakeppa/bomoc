@@ -68,7 +68,7 @@
                         });
                     </script>
                 </div>
-                 <div class="col">
+                <div class="col">
                     <div class="card" id="tragasolidos" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/SH6-4TNNV98C.jpg') }}"
                             alt="Card image">
@@ -110,7 +110,7 @@
                         });
                     </script>
                 </div>
-               <div class="col">
+                <div class="col">
                     <div class="card" id="centrifugadasMedia" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IB.jpg') }}"
                             alt="Card image">
@@ -131,7 +131,7 @@
                         });
                     </script>
                 </div>
-               <div class="col">
+                <div class="col">
                     <div class="card" id="centrifugadasInox" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PS.jpg') }}"
                             alt="Card image">
@@ -215,8 +215,8 @@
                         });
                     </script>
                 </div>
-                
-                
+
+
                 <div class="col">
                     <div class="card" id="sumergiblesInox" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/KLEIN.jpg') }}"
@@ -261,7 +261,8 @@
                 </div>
                 <div class="col">
                     <div class="card" id="sumergibleAguaLimpia" style="max-width: 540px; cursor: pointer;">
-                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BOMBAS SUMERGIBLES.jpg') }}"
+                        <img class="card-img-top"
+                            src="{{ asset('imagenes/bombas/barmesa/inicios/BOMBAS SUMERGIBLES.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
                             <h4 class="card-title">Sumergibles agua limpia</h4>
@@ -282,7 +283,8 @@
                 </div>
                 <div class="col">
                     <div class="card" id="sumergibleMotores" style="max-width: 540px; cursor: pointer;">
-                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/MOTORES SUMERGIBLES.jpg') }}"
+                        <img class="card-img-top"
+                            src="{{ asset('imagenes/bombas/barmesa/inicios/MOTORES SUMERGIBLES.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
                             <h4 class="card-title">Motores sumergibles</h4>
@@ -427,7 +429,6 @@
                 });
             }
         </script>
-
         <livewire:footer />
 
 </body>
