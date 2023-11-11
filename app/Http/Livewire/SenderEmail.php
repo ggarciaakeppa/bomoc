@@ -8,18 +8,18 @@ use Illuminate\Support\Facades\Mail;
 
 class SenderEmail extends Component
 {
-    public $name;
-    public $email;
-    public $phone;
-    public $contactMessage;
+    public $nombre;
+    public $correo;
+    public $teléfono;
+    public $mensaje;
     public $success_message;
 
     protected $rules = [
         
-        'name' => 'required|min:6',
-        'email' => 'required|email',
-        'contactMessage' => 'required',
-        'phone' => 'required|min:10', 
+        'nombre' => 'required|min:6',
+        'correo' => 'required|email',
+        'mensaje' => 'required',
+        'teléfono' => 'required|min:15', 
     ];
 
     public function updated($propertyName)
@@ -31,10 +31,10 @@ class SenderEmail extends Component
     {
         $this->validate();
 
-        $contact['name'] = $this->name;
-        $contact['email'] = $this->email;
-        $contact['phone']= $this->phone;
-        $contact['contactMessage'] = $this->contactMessage;
+        $contact['nombre'] = $this->nombre;
+        $contact['correo'] = $this->correo;
+        $contact['teléfono']= $this->teléfono;
+        $contact['mensaje'] = $this->mensaje;
 
         Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));
 
@@ -47,10 +47,10 @@ class SenderEmail extends Component
 
     private function resetForm()
     {
-        $this->name = '';
-        $this->email = '';
-        $this->phone = '';
-        $this->contactMessage = '';
+        $this->nombre = '';
+        $this->correo = '';
+        $this->teléfono = '';
+        $this->mensaje = '';
     }
     public function render()
     {

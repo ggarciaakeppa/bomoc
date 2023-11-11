@@ -148,10 +148,10 @@ Route::get('/google-callback', function () {
 Route::post('/contact', function (Request $request) {
 
     $contact = $request->validate([
-        'name' => 'required',
-        'email' => 'required|email',
-        'contactMessage' => 'required',
-        'phone' => 'required',
+        'nombre' => 'required',
+        'correo' => 'required|email',
+        'mensaje' => 'required',
+        'teléfono' => 'required',
     ]); 
 
     Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));

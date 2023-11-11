@@ -25,84 +25,33 @@
 </head>
 
 <body>
-
     @include('navbar')
-    <div
-        style="
-    background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 150px 70px 70px;
-    margin: auto;
-    font-size: 2.5rem;
-    font-weight: 800;">
+   
+
+    <div class="d-flex justify-content-center " style="height: 50vh; overflow: hidden;">
+        <video width="100%" height="100%" autoplay muted loop style="object-fit: cover;">
+            <source src="{{ asset('videos/Portadabomoc.mp4') }}" type="video/mp4">
+        </video>
     </div>
-    <div>
-        <h1 class="h1">
-            Nuestra Empresa
-        </h1>
+    
+    <div class="d-flex justify-content-center border-top border-bottom">
+        <h1>Bienvenido</h1>
+
     </div>
-    <p>
-        Bombas y Motores de Occidente (BOMOC) somos una empresa 100% mexicana,
-        fabricantes de tableros de control para contraincendios, hidroneumáticos,
-        cárcamos, etc., dedicada al asesoramiento, suministro e instalación de equipos de bombeo.
+    <div class=" row text-align: justify ms-2">
+        <div class="col-md-12">
+    <p>Nos visualizamos como una empresa líder y referente en la industria de equipos contra incendios y bombeo, reconocida por su excelencia en productos y servicios. Nuestra visión es proporcionar soluciones integrales y confiables que contribuyan a la seguridad y bienestar de las comunidades a las que servimos. Queremos ser conocidas por nuestra pasión por la innovación, la calidad y la atención al cliente excepcional.
     </p>
-    <p>
-        Contamos con las distribuciones de las mejores marcas de equipos de bombeo,
-        bombas sanitarias, de procesos, motores, reductores, variadores de velocidad y
-        una amplia variedad de equipos especializados. Brindamos soluciones y servicios,
-        al sector agrícola, hotelería, industria alimentaria, plantas de tratamiento, industrias
-        en general, etc. En BOMOC estamos enfocados en la confiabilidad y durabilidad de nuestros
-        productos y refacciones por las marcas de calidad que manejamos.
-    </p>
-    <p>Distribuimos equipos de procesos o bombas ANSI con características a composición química
-        de los materiales y especificaciones de seguridad, que cubren las necesidades de la industria
-        de proceso químico. Estas bombas suelen usarse para las industrias como son: Automotriz, Alimenticia,
-        Textil, Petroquímica, Farmacéutica, Química, Pulpa y papel, Industria en general.
-    </p>
-    <div>
-        <h1 class="h1">BOMBAS INDUSTRIALES Y REFACCIONES DE ALTA PRECISIÓN.</h1>
+</div>
+</div>
 
+    <div class="d-flex justify-content-center border-top border-bottom">
+        <h1>Nuestras Marcas</h1>
 
     </div>
 
-    <div>
-        <h1>NUESTRAS MARCAS</h1>
-
-    </div>
-
-    <img src="{{ asset('imagenes/inicio/ehsr.jpg') }}" alt="" width=200px height=200px alt="">
-    </div>
-    <div>
-        <h5 class="h5">Testimonios de nuestros clientes.</h5>
-    </div>
-    <div class="border"></div>
-    <p class="lead">Opiniones que nuestros clientes han escrito en nuestra página Bombas de Occidente en Google maps.
-    </p>
-    </div>
-    {{-- Imagen como carrusel --}}
-    <div>
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
+ 
+ 
         <livewire:inicio-carrusel/>
         <livewire:maps/>
         <livewire:footer/>

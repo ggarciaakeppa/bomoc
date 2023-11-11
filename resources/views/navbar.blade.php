@@ -1,11 +1,11 @@
     <div class="container-fluid">
   
-        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color:#808080; color:white">
+        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color:#ffff; color:black">
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="/"> <img src="{{ asset('imagenes/logo/logo.png') }}" width=200px
-                        height=50px alt=""></a>
+                <a class="navbar-brand" href="/"> <img src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"
+                       ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +19,7 @@
                                 Bombas
                             </a>
                             <ul class="dropdown-menu "
-                                style="max-height: 300px;
+                                style="max-height: 200px;
                 overflow-x: hidden;
                 overflow-y: scroll;"
                                 aria-labelledby="navbarDropdown">
@@ -65,9 +65,6 @@
                             <a class="nav-link" href="{{ route('contacto') }}">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('tienda') }}">Tienda</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('servicios') }}">Servicios</a>
                         </li>
                         @if (Route::has('login'))
@@ -96,20 +93,19 @@
                                 </li>
                                 @if (Route::has('register'))
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ route('register') }}">Registrate Aqui</a>
+                                        <a class="nav-link" href="{{ route('register') }}">Registrate</a>
                                     </li>
                                 @endif
                             @endauth
                         @endif
-                        <li class="nav-item">
-                            @if(isset($fecha) && isset($dato))
-                            <p class="nav-link">Valor del tipo de cambio: {{ $dato + 0.1192}}</p>
-                            <p class="nav-link">Fecha: {{ $fecha}}</p>
-                        @else
-                            <p>No se pudo cargar la información de Banxico.</p>
-                        @endif
-                        </li>
+                     
                     </ul>
+                    @if(isset($fecha) && isset($dato))
+                    <a class="nav-link" style="color: black"> Fecha :{{$fecha}} Valor del tipo de cambio: {{ $dato + 0.1192}}</a>
+                  
+                @else
+                    <p>No se pudo cargar la información de Banxico.</p>
+                @endif
                 </div>
             </div>
         </nav>

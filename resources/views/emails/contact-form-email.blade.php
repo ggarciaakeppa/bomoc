@@ -10,9 +10,11 @@
         .container {
             max-width: 600px;
             margin: 0 auto;
-            background-color: #666;
+            background-color: #ffffff;
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: #333;
+            border-radius: 5%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
         .header {
@@ -21,11 +23,11 @@
         }
 
         h2 {
-            color: #333;
+            color: black;
         }
 
         p {
-            color: #333;
+            color: black;
         }
 
         .contact-info {
