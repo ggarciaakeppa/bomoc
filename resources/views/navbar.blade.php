@@ -1,17 +1,17 @@
-    <div class="container-fluid">
-  
-        <nav class="navbar navbar-expand-md fixed-top navbar-light" style="background-color:#ffff; color:black">
+    <div >
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color:#ffff; color:black">
 
             <div class="container-fluid">
-
-                <a class="navbar-brand" href="/"> <img src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"
-                       ></a>
+                <a class="navbar-brand" href="/"> <img
+                        src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="bombasDropdown" role="button"
@@ -98,14 +98,10 @@
                                 @endif
                             @endauth
                         @endif
-                     
+
+
                     </ul>
-                    @if(isset($fecha) && isset($dato))
-                    <a class="nav-link" style="color: black"> Fecha :{{$fecha}} Valor del tipo de cambio: {{ $dato + 0.1192}}</a>
-                  
-                @else
-                    <p>No se pudo cargar la información de Banxico.</p>
-                @endif
+                    @livewire('exchange-rate')
                 </div>
             </div>
         </nav>

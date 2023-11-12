@@ -32,7 +32,7 @@ class ContactFormMailable extends Mailable
     public function build()
     {
         $this->from($this->contact['email'])
-            ->subject('New Contact Form')
+            ->subject('Mensaje de contacto')
             ->markdown('emails.contact-form-email');
     }
 }

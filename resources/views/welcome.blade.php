@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Bombas y Motores de Occidente</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
     <!-- Styles -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -40,7 +40,9 @@
     </div>
     <div class=" row text-align: justify ms-2">
         <div class="col-md-12">
-    <p>Nos visualizamos como una empresa líder y referente en la industria de equipos contra incendios y bombeo, reconocida por su excelencia en productos y servicios. Nuestra visión es proporcionar soluciones integrales y confiables que contribuyan a la seguridad y bienestar de las comunidades a las que servimos. Queremos ser conocidas por nuestra pasión por la innovación, la calidad y la atención al cliente excepcional.
+    <p>Nos visualizamos como una empresa líder y referente en la industria de equipos contra incendios y bombeo, reconocida por su excelencia en productos y servicios. 
+       Nuestra visión es proporcionar soluciones integrales y confiables que contribuyan a la seguridad y bienestar de las comunidades a las que servimos. 
+        <br>Queremos ser conocidas por nuestra pasión por la innovación, la calidad y la atención al cliente excepcional.
     </p>
 </div>
 </div>
