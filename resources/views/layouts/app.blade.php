@@ -6,11 +6,11 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta name="description" content="@yield('meta_description', config('app.name'))">
         <meta name="author" content="@yield('meta_author', config('app.name'))">
-        
+                
         <!-- Favicon -->
         <!--<link rel="stylesheet" href="{{ asset('assets/vendor/font-awesome/css/font-awesome.min.css') }}">-->
-        <link rel="shortcut icon" href="{{ asset('assets/favicon/favicon.ico') }}" type="image/x-icon"/>
-        
+        <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
+        <title>Bombas y Motores de Occidente</title>        
         <!-- Map CSS -->
         <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
         @php $showarray = Config::get('theme.var'); @endphp

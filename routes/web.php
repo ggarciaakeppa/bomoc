@@ -133,7 +133,7 @@ Route::post('/contact', function (Request $request) {
 
     Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));
 
-    return back()->with('success_message', 'We received your message successfully and will get back to you shortly!');
+    return back()->with('success_message', 'Hemos recibido tu mensaje correctamente y nos pondremos en contacto contigo en breve.');
 });
 
 Route::middleware([

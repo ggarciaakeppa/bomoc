@@ -1,7 +1,5 @@
-    <div >
-
+    <div>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color:#ffff; color:black">
-
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"> <img
                         src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"></a>
@@ -11,7 +9,6 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="bombasDropdown" role="button"
@@ -20,8 +17,8 @@
                             </a>
                             <ul class="dropdown-menu "
                                 style="max-height: 200px;
-                overflow-x: hidden;
-                overflow-y: scroll;"
+                                overflow-x: hidden;
+                                overflow-y: scroll;"
                                 aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{ route('altamira') }}">Altamira</a></li>
                                 <li><a class="dropdown-item" href="{{ route('armstrong') }}">Armstrong</a></li>

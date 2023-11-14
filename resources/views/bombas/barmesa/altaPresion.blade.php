@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
+    <title>Bombas y Motores de Occidente</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -53,7 +53,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#diesel"></a>
-                            <figcaption class="figure-caption ">
+                            <figcaption class="figure-caption">
                                 <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
                         </figure>

@@ -46,14 +46,14 @@
         <div class="header">
             <h2>Mensaje de contacto</h2>
         </div>
-        <p>De: {{ $contact['name'] }}</p>
-        <p>Teléfono: {{ $contact['phone'] }}</p>
-        <p>Correo: {{ $contact['email'] }}</p>
+        <p>De: {{ $contact['nombre'] }}</p>
+        <p>Teléfono: {{ $contact['teléfono'] }}</p>
+        <p>Correo: {{ $contact['correo'] }}</p>
         <p>Mensaje:</p>
-        <p>{{ $contact['contactMessage'] }}</p>
+        <p>{{ $contact['mensaje'] }} </p>
 
         <div class="contact-info">
-            <p>Motores y Bombas de Occidentes.</p>
+            <p>Motores y Bombas de Occidentes. © Copyright</p>
         </div>
 
     </div>

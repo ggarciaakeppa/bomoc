@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
+    <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
+    <title>Bombas y Motores de Occidente</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Styles -->
@@ -52,7 +51,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/8M.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Autocebantes</h4>
+                            <h4 class="card-title text-center">Autocebantes</h4>
                         </div>
                     </div>
                     <script>
@@ -73,7 +72,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/SH6-4TNNV98C.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Autocebantes Tragasólidos</h4>
+                            <h4 class="card-title text-center">Autocebantes Tragasólidos</h4>
                         </div>
                     </div>
                     <script>
@@ -94,7 +93,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Centrífugadas de alta presión</h4>
+                            <h4 class="card-title text-center">Centrífugadas de alta presión</h4>
                         </div>
                     </div>
                     <script>
@@ -115,7 +114,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IB.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Centrífugadas de mediana presión</h4>
+                            <h4 class="card-title text-center">Centrífugadas de mediana presión</h4>
                         </div>
                     </div>
                     <script>
@@ -136,7 +135,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PS.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Centrífugadas en acero inox.</h4>
+                            <h4 class="card-title text-center">Centrífugadas en acero inox.</h4>
                         </div>
                     </div>
                     <script>
@@ -157,7 +156,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/NB.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Centrifugas caseras y pozo somero</h4>
+                            <h4 class="card-title text-center">Centrifugas caseras y pozo somero</h4>
                         </div>
                     </div>
                     <script>
@@ -178,7 +177,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/911L.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Centrífugas de proceso ANSI</h4>
+                            <h4 class="card-title text-center">Centrífugas de proceso ANSI</h4>
                         </div>
                     </div>
                     <script>
@@ -199,7 +198,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PRACTIK.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Sumergibles de Achique</h4>
+                            <h4 class="card-title text-center">Sumergibles de Achique</h4>
                         </div>
                     </div>
                     <script>
@@ -222,7 +221,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/KLEIN.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Sumergibles inox. para desagüe</h4>
+                            <h4 class="card-title text-center">Sumergibles inox. para desagüe</h4>
                         </div>
                     </div>
                     <script>
@@ -243,7 +242,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/2BS501.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Sumergibles agua sucias</h4>
+                            <h4 class="card-title text-center">Sumergibles agua sucias</h4>
                         </div>
                     </div>
                     <script>
@@ -265,7 +264,7 @@
                             src="{{ asset('imagenes/bombas/barmesa/inicios/BOMBAS SUMERGIBLES.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Sumergibles agua limpia</h4>
+                            <h4 class="card-title text-center">Sumergibles agua limpia</h4>
                         </div>
                     </div>
                     <script>
@@ -287,7 +286,7 @@
                             src="{{ asset('imagenes/bombas/barmesa/inicios/MOTORES SUMERGIBLES.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Motores sumergibles</h4>
+                            <h4 class="card-title text-center">Motores sumergibles</h4>
                         </div>
                     </div>
                     <script>
@@ -308,7 +307,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BVL.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Verticales en línea</h4>
+                            <h4 class="card-title text-center">Verticales en línea</h4>
                         </div>
                     </div>
                     <script>
@@ -329,7 +328,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/MH.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Multietapas horizontales</h4>
+                            <h4 class="card-title text-center">Multietapas horizontales</h4>
                         </div>
                     </div>
                     <script>
@@ -350,14 +349,13 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/HMV.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Multietapas verticales</h4>
+                            <h4 class="card-title text-center">Multietapas verticales</h4>
                         </div>
                     </div>
                     <script>
                         document.addEventListener("DOMContentLoaded", function() {
                             // Obtenemos la tarjeta por su clase "card"
                             var card = document.querySelector("#multiVerticales");
-
                             // Agregamos un evento de clic a la tarjeta
                             card.addEventListener("click", function() {
                                 // Redirigir al usuario a la ruta deseada al hacer clic en la tarjeta
@@ -368,10 +366,10 @@
                 </div>
                 <div class="col">
                     <div class="card" id="bipartidas" style="max-width: 540px; cursor: pointer;">
-                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/HMV.jpg') }}"
+                        <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BIPARTIDA.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title">Bipartidas</h4>
+                            <h4 class="card-title text-center">Bipartidas</h4>
                         </div>
                     </div>
                     <script>
