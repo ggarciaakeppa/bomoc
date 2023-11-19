@@ -18,6 +18,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -1240,7 +1241,7 @@
       {{-- Fin de container --}}
       </div>
  <!-- Boton hacia arriba -->
- <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up.svg') }}"
+ <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
  style="width: 48px; height: 48px;">
 <style>
  .ir-arriba {
