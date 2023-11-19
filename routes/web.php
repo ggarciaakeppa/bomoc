@@ -38,11 +38,15 @@ Route::post('/forgot-password', function (Request $request) {
                 : back()->withErrors(['email' => __($status)]);
 })->middleware('guest')->name('password.email');
 
-Route::get('/', function () {
-         return view('welcome');
-    
-});
 
+
+//Rastreo de rutas
+Route::middleware(['web', 'App\Http\Middleware\LogVisit'])->group(function () {
+    // Tus rutas aquí
+    Route::get('/', function () {
+        return view('welcome');
+   
+});
 //Rutas de Bombas
 Route::view('/bombas/altamira', 'bombas.altamira')->name('altamira');
 Route::view('/bombas/armstrong', 'bombas.armstrong')->name('armstrong');
@@ -95,6 +99,8 @@ Route::view('/tienda','tienda.index')->name('tienda');
 
 //Ruta de Servicios
 Route::view('/servicios','servicios.index')->name('servicios');
+
+});
 
 Route::get('/login-google', function () {
     return Socialite::driver('google')->redirect();
