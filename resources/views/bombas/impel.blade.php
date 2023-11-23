@@ -20,6 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <style>
         body {
             font-family: 'Nunito', sans-serif;
@@ -479,15 +480,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="60%"
+            <div class="col-md-4 ">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="90%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-3">
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">Series L</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
                     Bombas con alto paso de sólidos en suspensión para manejo de aguas residuales domésticas
@@ -503,7 +504,7 @@
             </div>
         </div>
         <!-- Tabla -->
-        <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+        <div class="col-lg-12 " style="overflow-x:auto;">
             <h4 class="h4">Especificaciones Técnicas</h4>
             <table class="table table-striped">
                 <thead>
@@ -837,15 +838,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="60%"
+            <div class="col-md-4 ">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="90%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-5">
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">Series G</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
                     Bombas Trituradoras para manejo de sólidos suaves domésticos en gastos moderados y altas cargas
@@ -861,7 +862,8 @@
             </div>
         </div>
         <!-- Tabla -->
-        <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+
+        <div class="col-md-12" style="overflow-x:auto;">
             <h4 class="h4">Unidad basica o "portatil</h4>
             <table class="table table-striped">
                 <thead>
@@ -957,19 +959,19 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3">
-                <div class="ms-2">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="60%"
+            <div class="col-md-4 ">
+                <div class="m-1">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="95%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
             </div>
-                <div class="ms-5">
-                <figcaption class="ms-5">
-                    <h6 class="h6">Series H</h6>
+                
+                <figcaption class="d-flex justify-content-center">
+                    <h6>Series H</h6>
                 </figcaption>
+        
             </div>
-            </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 mt-5 mb-3">
                 <!-- Texto -->
                 <p>
                     Bombas de flujo axial, de baja velocidad, con alto paso de sólidos en suspensión para manejo de
@@ -1029,15 +1031,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="60%"
+            <div class="col-md-4 ">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AC.png') }}" width="90%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-5">
-                    <h6 class="h6">Series AC</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6>Series AC</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 mt-5 mb-3">
                 <!-- Texto -->
                 <p>
                     Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
@@ -1170,15 +1172,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
-                        width="60%" class="figure-img img-fluid rounded" alt="">
+            <div class="col-md-4 ">
+                <figure class="figure p-1"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
+                        width="90%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5">
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">Serie AMS</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
                     Aereadores eléctricos sumergibles en potencias desde 0.5 HP hasta 60 HP y capacidad de
@@ -1254,15 +1256,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
-                        width="60%" class="figure-img img-fluid rounded" alt="">
+            <div class="col-md-4 ">
+                <figure class="figure m-4"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
+                        width="100%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
-                    <h6 class="h6">Aereadores Mecánicos Flotantes</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6>Aereadores Mecánicos Flotantes</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
 
@@ -1372,17 +1374,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <div class="ms-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="60%"
+            <div class="col-md-5">
+                <figure class="figure d-flex justify-content-center" ><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="30%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-            </div>
-                <figcaption>
-                    <h6 class="h6">Aereadores Sumergibles ABV</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6 >Aereadores Sumergibles ABV</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-7">
                 <!-- Texto -->
                 <p>
                     Aereadores mecánicos superficiales de baja velocidad. Soportan sobrecargas momentáneas de hasta
@@ -1390,7 +1390,7 @@
                     Disponibles en capacidades de hasta 100 HP.
                 </p>
                     <!-- Aplicaciones -->
-                    <h4 class="h4">Aplicaciones</h4>
+                    <h4 >Aplicaciones</h4>
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
@@ -1465,6 +1465,47 @@
     </div>
 
     {{-- Fin de container --}}
+          <!-- Boton hacia arriba -->
+          <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
+            style="width: 48px; height: 48px;">
+        <style>
+            .ir-arriba {
+                display: none;
+                background-repeat: no-repeat;
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                z-index: 2;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                irArriba();
+            }); //Hacia arriba
+            function irArriba() {
+                $('.ir-arriba').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '0px'
+                    }, 1000);
+                });
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 0) {
+                        $('.ir-arriba').slideDown(600);
+                    } else {
+                        $('.ir-arriba').slideUp(600);
+                    }
+                });
+                $('.ir-abajo').click(function() {
+                    $('body,html').animate({
+                        scrollTop: '1000px'
+                    }, 1000);
+                });
+            }
+        </script>
+        <livewire:footer />
 </div>
 
 </body>

@@ -34,17 +34,24 @@
         </video>
     </div>
     
-    <div class="d-flex justify-content-center border-top border-bottom">
+    <div class="d-flex justify-content-center border-top border-bottom m-3">
         <h1>Bienvenido</h1>
 
     </div>
-    <div class=" row text-align: justify ms-2">
+    <div class=" row text-align: justify m-3">
         <div class="col-md-12">
-    <p>Nos visualizamos como una empresa líder y referente en la industria de equipos contra incendios y bombeo, reconocida por su excelencia en productos y servicios. 
-       Nuestra visión es proporcionar soluciones integrales y confiables que contribuyan a la seguridad y bienestar de las comunidades a las que servimos. 
-        <br>Queremos ser conocidas por nuestra pasión por la innovación, la calidad y la atención al cliente excepcional.
+    <p> Somos una empresa 100% mexicana, establecida en 2017 en Guadalajara, Jalisco, México, con una visión innovadora y compromiso total. 
+        Contamos con experiencia sólida en el mercado nacional, destacando en la fabricación y distribución de equipos de bombeo de primera calidad.
+        </p>
+        <p>
+        Nuestra propuesta se distingue por ofrecer marcas líderes y soluciones especializadas para diversas aplicaciones en el manejo de fluidos y gases. 
+        Trabajamos en estrecha colaboración con los fabricantes, garantizando precios competitivos y un acceso directo a productos de alta calidad. 
+        Nuestra filosofía se basa en el principio inquebrantable de brindar una atención al cliente excepcional y un servicio de calidad.
+        </p>
+
+    <p> Tenemos una amplia variedad en equipos para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.
+        Solucionamos el manejo de aceites, ácidos, asfalto, barniz, chocolate, combustóleo, diesel, fructosa, glucosa, grasas, jabón, melaza, parafina, pegamento, resinas, salsas, tintas, silicón, gases, etc.
     </p>
-</div>
 </div>
 
     <div class="d-flex justify-content-center border-top border-bottom">

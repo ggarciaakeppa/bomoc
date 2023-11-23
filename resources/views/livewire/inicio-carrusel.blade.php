@@ -19,7 +19,6 @@
                     <img src="{{ asset('/imagenes/marcas/04-delta-150x150.jpg') }}"
                     class="d-block">
                 </div>
-              
             </div>
         </div>
         <div class="carousel-item ">
@@ -92,7 +91,7 @@
             <div class="row align-items-center">
                 <div class="col ">
                     <img src="{{ asset('/imagenes/marcas/17-wilo-150x150.jpg') }}"
-                         class="d-block">
+                         class="d-block" width='150px' height='150px'>
                 </div>
                 <div class="col">
                     <img src="{{ asset('/imagenes/marcas/18-weg-150x150.jpg') }}"
