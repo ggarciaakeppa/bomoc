@@ -75,7 +75,7 @@
                         <a href="#E"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="82%"
                                 class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">Serie E</h6>
+                            <h6>Serie E</h6>
                         </figcaption>
                     </figure>
                 </div>
@@ -160,7 +160,7 @@
                 {{-- Imagen de Aereadores de Baja Velocidad --}}
                 <div class="col">
                     <figure class="figure">
-                        <a href="#baja"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="34%"
+                        <a href="#baja"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="40%"
                                 class="figure-img img-fluid rounded" alt=""></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Aereadores de Baja Velocidad</h6>
@@ -187,15 +187,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="60%"
+            <div class="col-md-4">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="95%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-5">
-                    <h6 class="h6">Series AI</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6>Series AI</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8">
                 <!-- Texto -->
                 <p>
                     Esta bomba es de achique, son bombas portátiles utilizadas en construcción y minería ideales
@@ -206,12 +206,13 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
         <!-- Tabla -->
-        <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
-            <h4 class="h4">Especificaciones Técnicas</h4>
+        <div class="col-md-12 " style="overflow-x:auto;">
+            <h4>Especificaciones Técnicas</h4>
             <table class="table table-striped">
                 <thead>
                     <tr class="border-top border-danger">
@@ -278,15 +279,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="60%"
+            <div class="col-md-4">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-5">
-                    <h6 class="h6">Series E</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6>Series E</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
                     Bombas sumergibles portátiles o para instalación fija para manejo de aguas residuales domésticas
@@ -298,11 +299,12 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
         <!-- Tabla -->
-        <div class="col-lg-12 mt-3 mb-5 pb-5" style="overflow-x:auto;">
+        <div class="col-lg-12 " style="overflow-x:auto;">
             <h4 class="h4">Especificaciones Técnicas</h4>
             <table class="table table-striped">
                 <thead>
@@ -377,15 +379,15 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="60%"
+            <div class="col-md-4 ">
+                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/C.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption class="ms-5 ps-5">
-                    <h6 class="h6">Series C</h6>
+                <figcaption class="d-flex justify-content-center">
+                    <h6 >Series C</h6>
                 </figcaption>
             </div>
-            <div class="col-lg-7 mt-5 mb-3">
+            <div class="col-md-8">
                 <!-- Texto -->
                 <p>
                     Bombas portátiles y/o estacionarias para menejo de aguas residuales domésticas y municipales con
@@ -397,6 +399,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -495,6 +498,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -852,6 +856,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -975,6 +980,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -1042,6 +1048,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -1183,6 +1190,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -1268,6 +1276,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>
@@ -1385,6 +1394,7 @@
                     <ul>
                         <li>Comerciales</li>
                         <li>Industriales</li>
+                        <li>Aguas residuales</li>
                     </ul>
             </div>
         </div>

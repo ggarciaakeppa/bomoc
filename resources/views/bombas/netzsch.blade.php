@@ -28,11 +28,11 @@
 <body>
     
     @include('navbar')
-   <div style="  background: center bottom no-repeat;
+    <div style=" background:  url(../imagenes/bombas/netzsch/portada.png) no-repeat;
    background-size: cover;
-   padding: 10px 70px 70px;
+   padding: 400px 70px 70px;
    margin: auto;
-   font-size: 2.5rem;
+   font-size: 3rem;
    font-weight: 800;">
    </div>
         
@@ -41,10 +41,7 @@
     <div>
         {{-- Logo --}}
         <div class="text-center">
-            <figure class="figure">
-                <img src="{{ asset('imagenes/bombas/netzsch/portada.png') }}" class="figure-img img-fluid rounded"
-                    alt="...">
-            </figure>
+            
             <figure class="figure">
                 <img src="{{ asset('imagenes/bombas/netzsch/logo.png') }}" width=30% height=10%
                     class="figure-img img-fluid rounded" alt="...">

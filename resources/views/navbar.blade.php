@@ -22,7 +22,7 @@
                                 aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{ route('altamira') }}">Altamira</a></li>
                                 <li><a class="dropdown-item" href="{{ route('armstrong') }}">Armstrong</a></li>
-                                <li><a class="dropdown-item" href="{{ route('aurora') }}">Aurora picsa</a></li>
+                                <li><a class="dropdown-item" href="{{ route('aurora') }}">Aurora</a></li>
                                 <li><a class="dropdown-item" href="{{ route('barmesa') }}">Barmesa</a></li>
                                 <li><a class="dropdown-item" href="{{ route('franklin') }}">Franklin Electric</a></li>
                                 <li><a class="dropdown-item" href="{{ route('grundfos') }}">Grundfos</a></li>

@@ -29,7 +29,7 @@
 <body>
     
     @include('navbar')
-   <div style="   background:  url(../imagenes/bombas/armstrong/portada.jpg) no-repeat;
+   <div style="background:  url(/imagenes/bombas/armstrong/portada.jpg) no-repeat;
    background-position: center 50%;
    background-size: cover;
    padding: 250px 70px 70px;
@@ -43,7 +43,6 @@
           <div>
               {{-- Logo --}}
               <div class="text-center">
-
                   <figure class="figure">
                       <img src="{{ asset('imagenes/bombas/armstrong/logo.png') }}" width="100%"
                           class="figure-img img-fluid rounded" alt="...">
