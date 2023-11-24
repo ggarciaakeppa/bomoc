@@ -29,13 +29,14 @@
 <body>
     
     @include('navbar')
-   <div style="  background:  url(../imagenes/bombas/aurora/portada.png) no-repeat;
+   <div style="background:  url(../imagenes/bombas/aurora/portada.png) no-repeat;
    background-position: center 50%;
    background-size: cover;
    padding: 250px 70px 70px;
    margin: auto;
    font-size: 2.5rem;
-   font-weight: 800;">
+   font-weight: 800;
+   ">
    </div>
         
    <div class="container-fluid">

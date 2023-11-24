@@ -148,8 +148,9 @@
 
                             </div>
                             <div class="d-flex justify-content-center">
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                 
                                 <h5>Serie IA</h5>
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ia.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                 <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ia.pdf" style="text-decoration: none; color: #f68221;">Manual</a>

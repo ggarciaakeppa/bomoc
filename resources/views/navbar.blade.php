@@ -27,7 +27,7 @@
                                 <li><a class="dropdown-item" href="{{ route('franklin') }}">Franklin Electric</a></li>
                                 <li><a class="dropdown-item" href="{{ route('grundfos') }}">Grundfos</a></li>
                                 <li><a class="dropdown-item" href="{{ route('impel') }}">Impel</a></li>
-                                <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy</a></li>
+                                <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy/Astralpool</a></li>
                                 <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
                                 <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
                                 <li><a class="dropdown-item" href="{{ route('pentar') }}">Pentar</a></li>
