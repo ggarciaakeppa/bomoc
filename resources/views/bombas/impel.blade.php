@@ -160,14 +160,19 @@
 
                 {{-- Imagen de Aereadores de Baja Velocidad --}}
                 <div class="col">
-                    <figure class="figure">
-                        <a href="#baja"><img src="{{ asset('imagenes/bombas/impel/baja.png') }}" width="40%"
-                                class="figure-img img-fluid rounded" alt=""></a>
-                        <figcaption class="figure-caption ">
-                            <h6 class="h6">Aereadores de Baja Velocidad</h6>
-                        </figcaption>
-                    </figure>
-                </div>
+    <figure class="figure">
+        <a href="#baja">
+            <img src="{{ asset('imagenes/bombas/impel/baja.png') }}" 
+                 class="figure-img img-fluid rounded d-block mx-auto" 
+                 alt=""
+                 style="max-width: 40%; height: auto;">
+        </a>
+        <figcaption class="figure-caption">
+            <h6 class="h6">Aereadores de Baja Velocidad</h6>
+        </figcaption>
+    </figure>
+</div>
+
 
                 {{-- Cierre de Fila --}}
             </div>
@@ -189,7 +194,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="95%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/AI.png') }}" width="95%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -281,7 +286,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/E.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -481,7 +486,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4 ">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="90%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/L.png') }}" width="90%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -839,7 +844,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4 ">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="90%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/G.png') }}" width="90%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -961,7 +966,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4 ">
                 <div class="m-1">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="95%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/H.png') }}" width="95%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
             </div>
@@ -1173,7 +1178,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4 ">
-                <figure class="figure p-1"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/sumergibles.png') }}"
                         width="90%" class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -1257,7 +1262,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-4 ">
-                <figure class="figure m-4"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/impel/mecanicos.png') }}"
                         width="100%" class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">

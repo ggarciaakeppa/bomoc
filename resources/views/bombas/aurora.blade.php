@@ -24,6 +24,14 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+     <style>
+    @media (max-width: 767px) {
+        iframe {
+            width: auto; 
+            height: auto;
+        }
+    }
+</style>
 </head>
 
 <body>
@@ -132,7 +140,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/3800.png') }}" width="80%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/3800.png') }}" width="80%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -185,8 +193,8 @@
             <div class="col-md-6 mt-lg-5 text-justify">
 
                 <!-- Video -->
-                <div class="mb-5">
-                    <iframe width="100%" height="150%" src="https://www.youtube.com/embed/R863qzWo3RQ"
+                <div class="d-flex justify-content-center align-items-center">
+                    <iframe width="80%" height="315" src="https://www.youtube.com/embed/R863qzWo3RQ"
                         title="Pentair Aurora Pump 3800 series" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
@@ -196,7 +204,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2 mt-5 pt-5">
             <!-- Tabla -->
             <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
-                <h4 class="h4">Especificaciones Técnicas de la Serie 3800 (3550 RPM):</h4>
+                <h4>Especificaciones Técnicas de la Serie 3800 (3550 RPM):</h4>
                 <table class="table table-striped">
                     <thead>
                         <tr class="border-top border-danger">
@@ -443,7 +451,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/340.png') }}" width="100%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/340.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -668,8 +676,8 @@
             </div>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
-            <div class="col-lg-5 mt-3 mb-3 ps-5">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/380.png') }}" width="100%"
+            <div class="col-md-6 ">
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/380.png') }}" width="100%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -1128,7 +1136,7 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/630.png') }}" width="80%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/630.png') }}" width="80%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
