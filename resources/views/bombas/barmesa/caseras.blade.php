@@ -60,14 +60,13 @@
                     {{-- Imagen BCSF --}}
                     <div class="col">
                         <figure class="figure">
-                            <h1 style="color: red">Imagen Pendiente </h1>
+                        <a href="#somero"><img src="{{ asset('imagenes/bombas/barmesa/caserasSomero/JB (1).png') }}"
+                        height="15%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: #f68221">Pozo Somero</h3>
+                                <h3 style="color: #f68221">Pozo somero</h3>
                             </figcaption>
                         </figure>
-                        </figure>
-                    </div>
-                   
+                    </div>      
             </div>
         </div>
         <div class="text-center mb-3" style="margin-top: 10px">

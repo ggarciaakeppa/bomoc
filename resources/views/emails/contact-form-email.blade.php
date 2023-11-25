@@ -47,7 +47,11 @@
             <h2>Mensaje de contacto</h2>
         </div>
         <p>De: {{ $contact['nombre'] }}</p>
-        <p>Teléfono: {{ $contact['teléfono'] }}</p>
+        @if(isset($contact['teléfono']))
+            <p>Teléfono: {{ $contact['teléfono'] }}</p>
+        @else
+            <p>Teléfono: No dado</p>
+        @endif
         <p>Correo: {{ $contact['correo'] }}</p>
         <p>Mensaje:</p>
         <p>{{ $contact['mensaje'] }} </p>

@@ -26,11 +26,9 @@
                     <div>
                         <label for="teléfono" class="form-label"></label>
                         <input wire:model="teléfono" type="text" name="teléfono"
-                            class="form-control @error('teléfono') is-invalid @enderror" id="teléfono"
+                            class="form-control" id="teléfono"
                             placeholder="Teléfono" value="{{ old('teléfono') }}">
-                        @error('teléfono')
-                            <div class="invalid-feedback">{{ $message }}</div>
-                        @enderror
+                       
                     </div>
                     <div>
                         <label for="correo" class="form-label"></label>

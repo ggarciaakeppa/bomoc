@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
+    <title>Bombas y Motores de Occidente</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -119,9 +120,9 @@
         <div>
             <div class="col m-2 mt-3 pb-3">
                 <div class="row m-1">
-                    <h4 id="IA" class="h4">Bomba ECI-IA (bomba centrífuga de alta presión).</h4>
+                    <h4 id="IA" class="h4">Bomba ECI-IA (bomba centrífuga de alta presión)</h4>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3  border-bottom border-2">
                     <div class="col-md-6 ">
                         <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/incendios/ECI-IA.jpg') }}" width="80%"
                                 class="figure-img img-fluid rounded" alt=""></figure>
@@ -133,12 +134,12 @@
                     </div>
                     <div class="col-md-6 mt-lg-5 text-justify">
                         <ul>
-                            <li>Diseño bajo la norma NFPA 20 para sistemas contraincendio</li>
-                            <li>Motores calculados sobre la curva de operación</li>
-                            <li>Bomba centrífuga de alta presión serie IA</li>
-                            <li>Automatización completa</li>
-                            <li>Fácil operación</li>
-                            <li>Silencioso</li>
+                            <li>Diseño bajo la norma NFPA 20 para sistemas contraincendio</li><br>
+                            <li>Motores calculados sobre la curva de operación</li><br>
+                            <li>Bomba centrífuga de alta presión serie IA</li><br>
+                            <li>Automatización completa</li><br>
+                            <li>Fácil operación</li><br>
+                            <li>Silencioso</li><br>
                             <li>Con base estructural</li>
                         </ul>
                     </div>
@@ -182,9 +183,9 @@
         <div>
             <div class="col m-2 mt-3 pb-3">
                 <div class="row m-1">
-                    <h4 id="HMV" class="h4">ECI-HMV (Con Cabezal Engranado).</h4>
+                    <h4 id="HMV" >ECI-HMV (Con Cabezal Engranado)</h4>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 border-bottom border-2">
                     <div class="col-md-6 ">
                         <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/incendios/ECI-HMV.jpg') }}" width="80%"
                                 class="figure-img img-fluid rounded" alt=""></figure>
@@ -195,24 +196,30 @@
                         </div>
                     </div>
                     <div class="col-md-6 mt-lg-5 text-justify">
-                        <p>
+                        <ul>
                             <li>Motor montado en base de acero estructural con revestimiento de lámina
                                 antiderrapante,
                                 que incluye un contenedor para la batería del equipo (batería no incluida) y
                                 está
                                 diseñada con preparación para montacargas.</li>
+                                <br>
                             <li>Bomba centrífuga vertical multietapas serie HMV acoplada al motor mediante
                                 cabezal
                                 engranado.</li>
+                                <br>
                             <li>Probado hidrostáticamente en fábrica por un lapso de 2 horas continuas y
                                 calibrado
                                 al punto de operación especificado.</li>
+                                <br>
                             <li>Incluye tablero de control principal de 1 ó 2 baterías y tablero de arranque
                                 manual.
                             </li>
+                            <br>
                             <li>Incluye precalentador con control de temperatura (termostato).</li>
+                            <br>
                             <li>Garantía de 3 años por defecto de fábrica. </li>
-                        </p>
+                            <br>
+                            </ul> 
                     </div>
                     <div class="col-md-12 mt-lg-5 text-justify" style="overflow-x:auto;">
                         <h4>Características Técnicas</h4>
@@ -266,9 +273,9 @@
         <div>
             <div class="col m-2 mt-3 pb-3">
                 <div class="row m-1">
-                    <h4 id="BTVD" class="h4">ECI-BTVD (Bomba tipo Turbina Vertical).</h4>
+                    <h4 id="BTVD" class="h4">ECI-BTVD (Bomba tipo Turbina Vertical)</h4>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 border-bottom border-2">
                     <div class="col-md-6 mt-3">
                         <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/incendios/ECI-BTVD.jpg') }}"
                                 width="80%" class="figure-img img-fluid rounded" alt="">
@@ -286,18 +293,23 @@
                                 operación como menciona la norma NFPA 20, al 100% y 150% del flujo, sin
                                 bajar del
                                 65% de la presión nominal.</li>
+                                <br>
                             <li>Equipo integrado en una sola base, acoplado directamente a cabezal
                                 engranado para
                                 transmisión de movimiento a 90°</li>
+                                <br>
                             <li>Motor a diésel marca Yanmar ó John Deere de 4 tiempos, aspiración
                                 natural o
                                 turbocargado y totalmente automatizado.</li>
+                                <br>
                             <li>Cabezal de descarga bridado lubricado a base de agua, cuenta con flecha
                                 y tuerca de
                                 ajuste, cuña, estopero y todos sus accesorios para su correcta
                                 operación.</li>
+                                <br>
                             <li>Columna de tubo de acero cédula 40 de largo estándar de 3 metros, ASTM
                                 A-36.</li>
+                                <br>
                             <li>Cuerpo de tazones y colador dimensionados de acuerdo al flujo y presión
                                 requeridos.
                                 ó Incluye tanque de combustible horizontal con capacidad de acuerdo a la
@@ -354,10 +366,10 @@
         <div>
             <div class="col m-2 mt-3 pb-3">
                 <div class="row m-1">
-                    <h4 id="BTVE" class="h4">Bomba ECI-BTVE (Bomba tipo Turbina Vertical).
+                    <h4 id="BTVE" class="h4">Bomba ECI-BTVE (Bomba tipo Turbina Vertical)
                     </h4>
                 </div>
-                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+                <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 border-bottom border-2">
                     <div class="col-md-6 mt-3">
                         <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/incendios/ECI-BTVE.jpg') }}"
                                 width="80%" class="figure-img img-fluid rounded" alt="">
@@ -375,14 +387,19 @@
                                 acero ASTM A36 tipo ligero. Está compuesto de flecha de ajuste, cuña,
                                 tornillos
                                 prisioneros, estopero y todos sus accesorios.</li>
+                                <br>
                             <li>Columna roscada de acero al carbón ASTM A36, con flecha de transmisión
                                 en acero al
                                 carbón SAE 1045 lubricada por agua.</li>
+                                <br>
                             <li>Cuerpos de tazones tipo turbina fabricados en fierro fundido ASTM A48,
                                 con
                                 impulsores fabricados en bronce SAE 40.</li>
+                                <br>
                             <li>Flecha de la bomba en acero inoxidable AISI 416.</li>
+                            <br>
                             <li>Colador para la bomba tipo canasta.</li>
+                            <br>
                             <li>Motor eléctrico vertical de eficiencia premium marca US Motors, de
                                 inducción tipo
                                 jaula de ardilla, abierto a prueba de goteo, trifásico 230/460 VCA de 2
@@ -390,6 +407,7 @@
                                 (según sea el caso), aislamiento clase axial. Cuenta con flecha hueca e
                                 incluye
                                 tuerca de ajuste y opresores.</li>
+                                <br>
                             <li>Interruptor de presión KPI 36 ó KPI 38 según la presión a manejar;
                                 incluye base tipo
                                 “L” para su instalación.</li>
@@ -440,7 +458,7 @@
         <div>
             <div class="col m-2  pb-3">
                 <div class="row m-1">
-                    <h4 id="FPS" class="h4">FPS (Equipo integrado Fire Pump System).</h4>
+                    <h4 id="FPS" class="h4">FPS (Equipo integrado Fire Pump System)</h4>
                 </div>
                 <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                     <div class="col-md-6 mt-3">

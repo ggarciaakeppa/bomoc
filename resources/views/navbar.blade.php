@@ -36,7 +36,7 @@
                                 <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>
                                 <li><a class="dropdown-item" href="{{ route('wilo') }}">Wilo</a></li>
                                 <li><a class="dropdown-item" href="{{ route('yamada') }}">Yamada</a></li>
-                                <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
+                           <!--     <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li> -->
                             </ul>
                             <!-- end menu desplegable -->
                         </li>
@@ -49,7 +49,9 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="{{ route('contraincendios') }}">Contraincendios</a>
                                 </li>
-                                <li><a class="dropdown-item" href="{{ route('hidroneumaticos') }}">Hidroneumaticos</a>
+                                <li><a class="dropdown-item" href="{{ route('tableros') }}">Tableros</a>
+                                </li>
+                                <li><a class="dropdown-item" href="{{ route('abb') }}">ABB</a>
                                 </li>
                                 <li><a class="dropdown-item" href="{{ route('motores') }}">Motores</a></li>
                             </ul>

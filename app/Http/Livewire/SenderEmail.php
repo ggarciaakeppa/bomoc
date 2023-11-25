@@ -9,8 +9,8 @@ use Illuminate\Support\Facades\Mail;
 class SenderEmail extends Component
 {
     public $nombre;
-    public $correo;
-    public $teléfono;
+    public $correo ;
+    public $teléfono="No";
     public $mensaje;
     public $success_message;
 
@@ -19,7 +19,7 @@ class SenderEmail extends Component
         'nombre' => 'required|min:6',
         'correo' => 'required|email',
         'mensaje' => 'required',
-        'teléfono' => 'required|min:15', 
+        
     ];
 
     public function updated($propertyName)

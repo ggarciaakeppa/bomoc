@@ -85,7 +85,8 @@ Route::view('/bombas/zoeller', 'bombas.zoeller')->name('zoeller');
 
 //Rutas de Otras lineas de Productos
 Route::view('/contraincendios','otros.contraincendios')->name('contraincendios');
-Route::view('/hidroneumaticos','otros.hidroneumaticos')->name('hidroneumaticos');
+Route::view('/tableros','otros.tableros')->name('tableros');
+Route::view('/abb','otros.abb')->name('abb');
 Route::view('/motores','otros.motores')->name('motores');
 
 //Ruta de Blog
@@ -134,7 +135,7 @@ Route::post('/contact', function (Request $request) {
         'nombre' => 'required',
         'correo' => 'required|email',
         'mensaje' => 'required',
-        'teléfono' => 'required',
+       
     ]); 
 
     Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));

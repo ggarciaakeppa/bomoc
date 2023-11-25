@@ -12,8 +12,8 @@
                     class="d-block">
                 </div>
                 <div class="col">
-                    <img src="{{ asset('/imagenes/marcas/03-picsa-150x150.jpg') }}"
-                    class="d-block">
+                    <img src="{{ asset('/imagenes/marcas/logo.png') }}"
+                    class="d-block" width='150px' height='auto'>
                 </div>
                 <div class="col">
                     <img src="{{ asset('/imagenes/marcas/04-delta-150x150.jpg') }}"
