@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
+    <title>Bombas y Motores de Occidente</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -28,8 +29,8 @@
 <body>
     
     @include('navbar')
-   <div style="background: url(../imagenes/bombas/wdm/portada.png) no-repeat;
-   background-position: top;
+   <div style="background: url(../imagenes/bombas/wdm/portada.avif) no-repeat;
+   background-position: 50%;
    background-size: cover;
    padding: 250px 70px 70px;
    margin: auto;

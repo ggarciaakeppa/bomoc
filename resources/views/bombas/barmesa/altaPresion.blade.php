@@ -52,7 +52,8 @@
                     {{-- Imagen Diesel --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#diesel"></a>
+                            <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor a diesel.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption">
                                 <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
@@ -61,7 +62,10 @@
                     {{-- Imagen Gasolina --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#gasolina"></a>
+                            <a href="#gasolina">
+                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor a gasolina.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                            </a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
@@ -71,7 +75,10 @@
                     {{-- Imagen Electrico --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#electrico"></a>
+                            <a href="#electrico">
+                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor electrico.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                            </a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Motor electrico</h3>
                             </figcaption>
@@ -80,7 +87,10 @@
                     {{-- Imagen Transmision Universal --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#universal"></a>
+                            <a href="#universal">
+                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/transmisión universal.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                            </a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>

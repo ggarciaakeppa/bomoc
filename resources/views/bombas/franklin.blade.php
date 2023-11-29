@@ -29,8 +29,9 @@
 <body>
     
     @include('navbar')
-   <div style=" background:  url(/imagenes/bombas/franklin/portada.png) center center no-repeat;
-    background-size: cover;
+   <div style=" background:  url(/imagenes/bombas/franklin/portada.jpg) center center no-repeat;
+    background-position: 50%;
+   background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
     font-size: 2.5rem;

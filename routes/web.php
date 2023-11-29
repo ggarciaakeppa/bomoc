@@ -95,11 +95,10 @@ Route::view('/blog','blog.index')->name('blog');
 //Ruta de Contacto
 Route::view('/contacto','contacto.contacto')->name('contacto');
 
-//Ruta de Tienda
-Route::view('/tienda','tienda.index')->name('tienda');
+
 
 //Ruta de Servicios
-Route::view('/servicios','servicios.index')->name('servicios');
+Route::view('/servicios','servicios.servicios')->name('servicios');
 
 });
 

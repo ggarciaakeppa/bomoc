@@ -62,7 +62,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#gasolina"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/gasolina.jpg') }}"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                               class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Motor a gasolina</h3>
                             </figcaption>
@@ -82,9 +82,9 @@
                     {{-- Imagen Transmision Universal --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#universal"></a>
+                        <a href="#electrico"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisión universal.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h1 style="color: red">Imagen Pendiente </h1>
                                 <h3 style="color: #f68221">Transmisión Universal</h3>
                             </figcaption>
                         </figure>
@@ -298,7 +298,9 @@
                       
                         </div>
                         <div class="col-md-6">
-                           <h1 style="color: red">Imagen Pendiente </h1>
+                      
+                                <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisión universal.webp') }}"
+                                style="vertical-align: middle" class="figure-img img-fluid rounded">
                         </div>
                     </div>
                 </div>

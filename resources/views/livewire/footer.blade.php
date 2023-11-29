@@ -6,7 +6,7 @@
         <li class="nav-item"><a href="mailto:contacto@bomoc.com.mx" class="nav-link px-2 text-muted"><img src="{{ asset('/imagenes/icons/Email.svg') }}" style="width: 24px; height: 24px; margin:10px;" />contacto@bomoc.com.mx</a></li>
         <li class="nav-item"><a href="http:\\www.bomoc.com.mx" class="nav-link px-2 text-muted"><img src="{{ asset('/imagenes/icons/www.svg') }}" style="width: 24px; height: 24px; margin:10px;" />bomoc.com.mx</a></li>
         <li class="nav-item"><a href="https://www.facebook.com/bombasdeoccidente"><img src="{{ asset('/imagenes/icons/Facebook.svg') }}" style="width: 24px; height: 24px; margin:10px;" /></a></li>
-        <li class="nav-item"><a href="https://www.instagram.com/bomocc"><img src="{{ asset('/imagenes/icons/Instagram.svg') }}" style="width: 24px; height: 24px; margin:10px;" /></a></li>
+        <li class="nav-item"><a href="https:\\www.linkedin.com/in/bombas-de-occidente-45892228a"><img src="{{ asset('/imagenes/icons/linkedin.svg') }}" style="width: 24px; height: 24px; margin:10px;" /></a></li>
       </ul>
       <p class="text-center ">© Copyright {{date('Y')}} BOMOC | Todos Los Derechos Reservados</p>
     </footer>
