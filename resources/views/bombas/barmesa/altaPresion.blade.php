@@ -79,7 +79,7 @@
                         width="75%"  class="figure-img img-fluid rounded" alt="">
                             </a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: #f68221">Motor electrico</h3>
+                                <h3 style="color: #f68221">Motor eléctrico</h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -245,7 +245,7 @@
             </div>
         </div>
         <div id="electrico" class="mb-3">
-            <h1>Motor electrico</h1>
+            <h1>Motor eléctrico</h1>
             <div class="card">
                 {{-- Contenido Motores --}}
                 <div class="card-body">

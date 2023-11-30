@@ -90,8 +90,8 @@
                     {{-- Imagen de Series VFD --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#VFD"><img src="{{ asset('imagenes/bombas/franklin/VFD.png') }}" height="200%"
-                                    class="figure-img  rounded" alt=""></a>
+                            <a href="#VFD"><img src="{{ asset('imagenes/bombas/franklin/VFD.jpeg') }}" width="100%"
+                                    class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Series VFD</h6>
                             </figcaption>

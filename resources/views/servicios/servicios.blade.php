@@ -119,7 +119,7 @@
             <div class="card">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/refacciones.jpg" class="img-fluid rounded-start h-100" alt="...">
+                        <img src="/imagenes/servicios/accesorios y refacciones.jpg" class="img-fluid rounded-start h-100" alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">

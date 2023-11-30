@@ -25,6 +25,7 @@
                                 <li><a class="dropdown-item" href="{{ route('aurora') }}">Aurora</a></li>
                                 <li><a class="dropdown-item" href="{{ route('barmesa') }}">Barmesa</a></li>
                                 <li><a class="dropdown-item" href="{{ route('franklin') }}">Franklin Electric</a></li>
+                                <li><a class="dropdown-item" href="{{ route('flygt') }}">Flygt</a></li>
                                 <li><a class="dropdown-item" href="{{ route('grundfos') }}">Grundfos</a></li>
                                 <li><a class="dropdown-item" href="{{ route('impel') }}">Impel</a></li>
                                 <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy/Astralpool</a></li>

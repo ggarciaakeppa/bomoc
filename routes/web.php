@@ -80,6 +80,7 @@ Route::view('/bombas/scott', 'bombas.scott')->name('scott');
 Route::view('/bombas/tsurumi', 'bombas.tsurumi')->name('tsurumi');
 Route::view('/bombas/wdm', 'bombas.wdm')->name('wdm');
 Route::view('/bombas/wilo', 'bombas.wilo')->name('wilo');
+Route::view('/bombas/flygt','bombas.flygt')->name('flygt');
 Route::view('/bombas/yamada', 'bombas.yamada')->name('yamada');
 Route::view('/bombas/zoeller', 'bombas.zoeller')->name('zoeller');
 
