@@ -27,11 +27,10 @@
 
     @include('navbar')
     <div
-        style=" background: #3789C8 url(/imagenes/bombas/barmesa/backgroundCard.jpeg) center center no-repeat;
-   background-size: cover;
-   padding: 150px 70px 70px;
-   font-size: 2.5rem;
-   font-weight: 800;">
+    style="background: #ffffff;
+    padding: 70px 70px;
+    font-size: 2.5rem;
+    font-weight: 100;">
     </div>
 
     <div class="container-fluid">

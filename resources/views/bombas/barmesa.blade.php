@@ -28,10 +28,8 @@
 
     @include('navbar')
     <div
-        style="   background: #ffffff;
-   
+    style="background: #ffffff;
     padding: 70px 70px;
-   
     font-size: 2.5rem;
     font-weight: 100;">
     </div>
@@ -93,7 +91,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title text-center">Centrífugadas de alta presión</h4>
+                            <h4 class="card-title text-center">Centrífugas de alta presión</h4>
                         </div>
                     </div>
                     <script>
@@ -114,7 +112,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IB.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title text-center">Centrífugadas de mediana presión</h4>
+                            <h4 class="card-title text-center">Centrífugas de mediana presión</h4>
                         </div>
                     </div>
                     <script>
@@ -135,7 +133,7 @@
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PS.jpg') }}"
                             alt="Card image">
                         <div class="card-img-overlay">
-                            <h4 class="card-title text-center">Centrífugadas en acero inox.</h4>
+                            <h4 class="card-title text-center">Centrífugas en acero inox.</h4>
                         </div>
                     </div>
                     <script>

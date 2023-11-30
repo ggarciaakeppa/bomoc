@@ -30,7 +30,7 @@
                                 <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy/Astralpool</a></li>
                                 <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
                                 <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
-                                <li><a class="dropdown-item" href="{{ route('pentar') }}">Pentair</a></li>
+                                <li><a class="dropdown-item" href="{{ route('pentair') }}">Pentair</a></li>
                                 <li><a class="dropdown-item" href="{{ route('scott') }}">Scott pump</a></li>
                                 <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
                                 <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>

@@ -75,7 +75,7 @@ Route::view('/bombas/impel', 'bombas.impel')->name('impel');
 Route::view('/bombas/jandy', 'bombas.jandy')->name('jandy');
 Route::view('/bombas/mann', 'bombas.mann')->name('mann');
 Route::view('/bombas/netzsch', 'bombas.netzsch')->name('netzsch');
-Route::view('/bombas/pentar', 'bombas.pentar')->name('pentar');
+Route::view('/bombas/pentar', 'bombas.pentar')->name('pentair');
 Route::view('/bombas/scott', 'bombas.scott')->name('scott');
 Route::view('/bombas/tsurumi', 'bombas.tsurumi')->name('tsurumi');
 Route::view('/bombas/wdm', 'bombas.wdm')->name('wdm');
