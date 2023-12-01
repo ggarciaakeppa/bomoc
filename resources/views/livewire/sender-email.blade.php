@@ -1,4 +1,4 @@
-<div class="container rounded-xl shadow p-2">
+<div class="container rounded-3 shadow p-2">
     <!-- Success is as dangerous as failure. -->
     <div class="row">
         <div class="col-md-6">

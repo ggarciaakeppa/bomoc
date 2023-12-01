@@ -23,6 +23,21 @@
             font-family: 'Nunito', sans-serif;
         }
     </style>
+    <style>
+        
+        @media (max-width: 576px){
+            iframe{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        @media (max-width: 768){
+            iframe{
+                width: 50%;
+                height: 50%;
+            }
+        }
+    </style>
      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
@@ -58,7 +73,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#VB"><img src="{{ asset('imagenes/bombas/flygt/colo bibo 2840.jpg') }}"
-                                    width="70%" class="figure-img img-fluid rounded" alt=""></a>
+                            width="70%" height="auto" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Bombas Bibo Serie 2800</h6>
                             </figcaption>
@@ -69,7 +84,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#SVPS"><img src="{{ asset('imagenes/bombas/flygt/Flygt N 3356.jpg') }}"
-                                    width="70%" class="figure-img img-fluid rounded" alt=""></a>
+                            width="70%" height="auto" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Bombas N de Flygt</h6>
                             </figcaption>
@@ -80,7 +95,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#M"><img src="{{ asset('imagenes/bombas/flygt/trituradora.jpg') }}"
-                                    height="90%" class="figure-img img-fluid rounded" alt=""></a>
+                                width="70%" height="auto" class="figure-img rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Trituradoras Inatascables Flygt M</h6>
                             </figcaption>
@@ -90,7 +105,8 @@
                     {{-- Imagen de Flygt Serie L --}}
                     {{-- <div class="col">
                         <figure class="figure">
-                            <a href="#SCV"><img src="{{ asset('imagenes/bombas/flygt/L 3602.jpg') }}" width="67%"
+                            <a href="#SCV"><img src="{{ asset('imagenes/bombas/flygt/L 3602.jpg') }}" 
+                            width="70%" height="auto"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Flygt Serie L</h6>
@@ -102,7 +118,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#SCK"><img src="{{ asset('imagenes/bombas/flygt/Bombas Doble Etapa.jpg') }}"
-                                    width="70%" class="figure-img img-fluid rounded" alt=""></a>
+                            width="70%" height="auto" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">Bomba de doble Etapa Flygt serie 2400.402</h6>
                             </figcaption>
@@ -127,46 +143,45 @@
                 </div>
                 <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                     <div class="col-md-6 mt-3">
-                        <figure class="figure"><img src="{{ asset('imagenes/bombas/flygt/colo bibo 2840.jpg ') }}"
-                                width="68%" class="figure-img img-fluid rounded" alt=""></figure>
-                        <figcaption>
-                        </figcaption>
+                        <figure class="d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/flygt/colo bibo 2840.jpg ') }}"
+                                width="60%" class="figure-img img-fluid rounded" alt=""></figure>
+                        
                         {{-- direccion de catalogo --}}
                         <div class="d-flex justify-content-center">
                             <a href="https://drive.google.com/file/d/1vDv6vjABAwmv_zaKjv9OLmke8Rl2lyWN/view"
-                                class="btn btn-primary ms-4">Bombas BIBO 2800</a>
+                                class="btn btn-primary">Bombas BIBO 2800</a>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-lg-5 text-justify">
-                        <p>
-                            <iframe width="395" height="315"
+                    <div class="col-md-6  text-justify">
+                        <div class="d-flex justify-content-center m-3">
+                            <iframe width="600" height="400"
                                 src="https://www.youtube.com/embed/KJgGhcwqmDM?si=rn5F1MTGodUgyUU9"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen></iframe>
-                        </p>
-
-                        <p>
+                                </div>
+                        <p class="m-2">
                             Con más de 60 años de experiencia en el diseño de bombas de achique para algunas de las
                             aplicaciones más exigentes de todo el mundo, la serie BIBO de Flygt se ha diseñado para
                             resistir las condiciones más duras.
-                        </p>
+                        <br>
                         El diseño de las bombas Flygt BIBO no tiene comparación con ninguna otra bomba del
                         mercado.
                         </p>
+                        
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 mt-lg-5 text-justify">
-                        <h4 class="h4">Aplicaciones</h4>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 m-1">
+                    <div class="col-md-6">
+                        <h4>Aplicaciones</h4>
                         <ul>
                             <li>Drenaje de minas a cielo abierto</li>
                             <li>Drenaje de emergencia de inundaciones</li>
                             <li>Transferencia general de agua</li>
                         </ul>
                     </div>
-                    <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
-                        <h4 class="h4">Características Técnicas</h4>
+                    <div class="col-md-6 " style="overflow-x:auto;">
+                        <h4>Características Técnicas</h4>
                         <table class="table table-striped">
                             <thead>
                                 <tr class="border-top border-danger">
@@ -234,30 +249,27 @@
                 </div>
                 <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                     <div class="col-md-6 mt-3">
-                        <figure class="figure"><img src="{{ asset('imagenes/bombas/flygt/Flygt N 3356.jpg') }}"
+                        <figure class="d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/flygt/Flygt N 3356.jpg') }}"
                                 width="68%" class="figure-img img-fluid rounded" alt="">
                         </figure>
-                        <figcaption>
-                        </figcaption>
+                       
                         {{-- direccion de catalogo --}}
                         <div class="d-flex justify-content-center">
                             <a href="https://www.xylem.com/siteassets/brand/flygt/resources/brochure/flygt-n-technology_lar.pdf"
-                                class="btn btn-primary ms-4">Serie N</a>
+                                class="btn btn-primary">Serie N</a>
                         </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
-                        <div class="col-md-6 mt-lg-5 text-justify">
-                            <p>
+                        <div class="col-md-6 text-justify">
+                            <p class="m-2">
                                 Mantienen la alta eficiencia de bombeo a lo largo del tiempo gracias a un exclusivo
                                 impulsor autolimpiante tipo abierto patentado. Estas bombas tienen potencias que van
                                 desde 17 HP hasta 415 HP, con caudales de hasta 1.000 l/sy alturas de elevación de hasta
                                 100 m.
                             </p>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col ms-5">
-                            <h4 class="h4">Aplicaciones</h4>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 m-1">
+                        <div class="col-md-6 ">
+                            <h4>Aplicaciones</h4>
                             <ul>
                                 <li>Aguas residuales</li>
                                 <li>Agua bruta</li>
@@ -275,30 +287,28 @@
         {{-- Contenido Bombas trituradoras inatascables Flygt M --}}
         <div>
             <div class="col m-2 mt-3 pb-3">
-                <h4 id="M" class="h4">trituradoras inatascables Flygt M</h4>
+                <h4 id="M" >Trituradoras inatascables Flygt M</h4>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure"><img src="{{ asset('imagenes/bombas/flygt/trituradora.jpg') }}"
-                            width="100%" class="figure-img img-fluid rounded" alt="">
+                    <figure class="d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/flygt/trituradora.jpg') }}"
+                            width="60%" class="figure-img img-fluid rounded" alt="">
                     </figure>
-                    <figcaption>
-                    </figcaption>
+            
                     {{-- direccion de catalogo --}}
                     <div class="d-flex justify-content-center">
                         <a href="https://asset.productmarketingcloud.com/api/assetstorage/3096_f98b9a57-bcf2-4493-8afb-7ac0a88fa657"
-                            class="btn btn-primary ms-4">Flygt Serie M</a>
+                            class="btn btn-primary">Flygt Serie M</a>
                     </div>
                 </div>
                 <div class="col-md-6 mt-lg-5 text-justify">
-                    <p>
-                        <iframe width="395" height="315"
+                    
+                        <iframe width="600" height="400"
                             src="https://www.youtube.com/embed/zWZJllqikas?si=aBKMVn2B2DrL1S-m"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
-                    </p>
-
+                    
                     <p>
                         Las <b>bombas trituradoras inatascables Flygt M </b> Son bombas muy potentes con cuchillas de
                         uso pesado. Estas bombas reducen atascos gracias a las navajas, teniendo una capacidad superior
@@ -307,9 +317,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
-                <div class="col-md-6 mt-lg-5 text-justify">
-                    <h4 class="h4">Aplicaciones</h4>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 m-1">
+                <div class="col-md-6 ">
+                    <h4>Aplicaciones</h4>
                     <ul>
                         <li>Instalaciones de bombas trituradoras</li>
                         <li>Bombeo de estiércol</li>
@@ -324,14 +334,14 @@
         {{-- Contenido Bomba de doble Etapa Flygt serie 2400.402 --}}
         <div>
             <div class="col m-2 mt-3 pb-3">
-                <h4 id="SCK" class="h4">Bomba
+                <h4 id="SCK">Bomba
                     de doble Etapa Flygt
                     serie 2400.402</h4>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure">
-                        <img src="{{ asset('imagenes/bombas/flygt/Bombas Doble Etapa.jpg') }}" width="100%"
+                    <figure class="d-flex justify-content-center">
+                        <img src="{{ asset('imagenes/bombas/flygt/Bombas Doble Etapa.jpg') }}" width="50%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
@@ -339,7 +349,7 @@
                     {{-- direccion de catalogo --}}
                     <div class="d-flex justify-content-center">
                         <a href="https://drive.google.com/file/d/1Ig3AFGZ3_C6ZUpmYfXef-cdKHzAHq7sx/view?usp=sharing"
-                            class="btn btn-primary ms-4">serie
+                            class="btn btn-primary">serie
                             2400.402</a>
                     </div>
                 </div>
@@ -353,9 +363,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 m-1">
                 <div class="col-md-6 mt-lg-5 text-justify">
-                    <h4 class="h4">
+                    <h4 >
                         Aplicaciones</h4>
                     <ul>
                         <li>Desague de aguas

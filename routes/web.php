@@ -47,11 +47,17 @@ Route::middleware(['web', 'App\Http\Middleware\LogVisit'])->group(function () {
         return view('welcome');
    
 });
+
+//Ruta fallida
+Route::get('/bombas', function () {
+    return redirect('/');
+});
+
+
 //Rutas de Bombas
 Route::view('/bombas/altamira', 'bombas.altamira')->name('altamira');
 Route::view('/bombas/armstrong', 'bombas.armstrong')->name('armstrong');
 Route::view('/bombas/aurora', 'bombas.aurora')->name('aurora');
-
 Route::view('/bombas/barmesa', 'bombas.barmesa')->name('barmesa');
 Route::view('/bombas/barmesa/autocebantes','bombas.barmesa.autocebantes')->name('autocebantes');
 Route::view('/bombas/barmesa/tragasolidos','bombas.barmesa.tragasolidos')->name('tragasolidos');
@@ -75,7 +81,7 @@ Route::view('/bombas/impel', 'bombas.impel')->name('impel');
 Route::view('/bombas/jandy', 'bombas.jandy')->name('jandy');
 Route::view('/bombas/mann', 'bombas.mann')->name('mann');
 Route::view('/bombas/netzsch', 'bombas.netzsch')->name('netzsch');
-Route::view('/bombas/pentar', 'bombas.pentar')->name('pentair');
+Route::view('/bombas/pentair', 'bombas.pentar')->name('pentair');
 Route::view('/bombas/scott', 'bombas.scott')->name('scott');
 Route::view('/bombas/tsurumi', 'bombas.tsurumi')->name('tsurumi');
 Route::view('/bombas/wdm', 'bombas.wdm')->name('wdm');
@@ -100,6 +106,20 @@ Route::view('/contacto','contacto.contacto')->name('contacto');
 
 //Ruta de Servicios
 Route::view('/servicios','servicios.servicios')->name('servicios');
+
+Route::post('/contact', function (Request $request) {
+
+    $contact = $request->validate([
+        'nombre' => 'required',
+        'correo' => 'required|email',
+        'mensaje' => 'required',
+       
+    ]); 
+
+    Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));
+
+    return back()->with('success_message', 'Hemos recibido tu mensaje correctamente y nos pondremos en contacto contigo en breve.');
+});
 
 });
 
@@ -129,19 +149,7 @@ Route::get('/google-callback', function () {
     
 });
 
-Route::post('/contact', function (Request $request) {
 
-    $contact = $request->validate([
-        'nombre' => 'required',
-        'correo' => 'required|email',
-        'mensaje' => 'required',
-       
-    ]); 
-
-    Mail::to('contacto@bomoc.com.mx')->send(new ContactFormMailable($contact));
-
-    return back()->with('success_message', 'Hemos recibido tu mensaje correctamente y nos pondremos en contacto contigo en breve.');
-});
 
 Route::middleware([
     'auth:sanctum',

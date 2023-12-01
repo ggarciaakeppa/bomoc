@@ -1,5 +1,5 @@
     <div>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color:#ffff; color:black">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light " style="background-color:#ffff; color:black">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/"> <img
                         src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"></a>
@@ -32,12 +32,10 @@
                                 <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
                                 <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
                                 <li><a class="dropdown-item" href="{{ route('pentair') }}">Pentair</a></li>
-                                <li><a class="dropdown-item" href="{{ route('scott') }}">Scott pump</a></li>
                                 <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
                                 <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>
-                                <li><a class="dropdown-item" href="{{ route('wilo') }}">Wilo</a></li>
-                       
-                           <!--     <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li> -->
+                                <li><a class="dropdown-item" href="{{ route('wilo') }}">Wilo/Scott</a></li>
+                                <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
                             </ul>
                             <!-- end menu desplegable -->
                         </li>
