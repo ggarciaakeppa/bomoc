@@ -39,7 +39,7 @@
 
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/ansi/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo ansi">
                 </figure>
             </div>
 
@@ -50,7 +50,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#911s"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911s.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="911 S"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #00599c">911 S</h3>
                             </figcaption>
@@ -60,7 +60,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911m.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="911 M"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #00599c">911 M</h3>
                             </figcaption>
@@ -70,7 +70,7 @@
                    <div class="col">
                     <figure class="figure">
                         <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911l.jpg') }}"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                height="25%" class="figure-img img-fluid rounded" alt="911 L"></a>
                         <figcaption class="figure-caption ">
                             <h3 style="color: #00599c">911 L</h3>
                         </figcaption>
@@ -80,7 +80,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#911m"><img src="{{ asset('imagenes/bombas/barmesa/ansi/911lx.jpg') }}"
-                                height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                height="25%" class="figure-img img-fluid rounded" alt="911 LX"></a>
                         <figcaption class="figure-caption ">
                             <h3 style="color: #00599c">911 LX</h3>
                         </figcaption>
@@ -154,7 +154,7 @@
         
      <!-- Boton hacia arriba -->
      <img class='ir-arriba' javascript:void(0) title="Volver arriba"
-     src="{{ asset('imagenes/icons/up2.svg') }}" style="width: 48px; height: 48px;">
+     src="{{ asset('imagenes/icons/up2.svg') }}" style="width: 48px; height: 48px;" alt="flecha">
  <style>
      .ir-arriba {
          display: none;

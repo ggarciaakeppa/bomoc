@@ -45,7 +45,7 @@
               <div class="text-center">
                   <figure class="figure">
                       <img src="{{ asset('imagenes/bombas/armstrong/logo.png') }}" width="100%"
-                          class="figure-img img-fluid rounded" alt="...">
+                          class="figure-img img-fluid rounded" alt="logo armstrong">
                   </figure>
               </div>
               {{-- Imagenes al seleccionar --}}
@@ -57,7 +57,7 @@
                       <div class="col">
                           <figure class="figure">
                               <a href="#4300"><img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}"
-                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                      width="100%" class="figure-img img-fluid rounded" alt="Serie 4300"></a>
                               <figcaption class="figure-caption ">
                                   <h6 class="h6">Serie 4300</h6>
                               </figcaption>
@@ -69,7 +69,7 @@
                           <figure class="figure">
                               <a href="#circuladores"><img
                                       src="{{ asset('imagenes/bombas/armstrong/circuladores.png') }}" width="100%"
-                                      class="figure-img img-fluid rounded" alt=""></a>
+                                      class="figure-img img-fluid rounded" alt="Linea 1050-1060"></a>
                               <figcaption class="figure-caption ">
                                   <h6 class="h6">Linea 1050-1060</h6>
                               </figcaption>
@@ -80,7 +80,7 @@
                       <div class="col">
                           <figure class="figure">
                               <a href="#4030"><img src="{{ asset('imagenes/bombas/armstrong/4030.png') }}"
-                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                      width="100%" class="figure-img img-fluid rounded" alt="Serie 4030"></a>
                               <figcaption class="figure-caption ">
                                   <h6 class="h6">Serie 4030</h6>
                               </figcaption>
@@ -91,7 +91,7 @@
                       <div class="col">
                           <figure class="figure">
                               <a href="#4270"><img src="{{ asset('imagenes/bombas/armstrong/4270.png') }}"
-                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                      width="100%" class="figure-img img-fluid rounded" alt="Serie 4270"></a>
                               <figcaption class="figure-caption ">
                                   <h6 class="h6">Series 4270</h6>
                               </figcaption>
@@ -102,7 +102,7 @@
                       <div class="col">
                           <figure class="figure">
                               <a href="#FirePak"><img src="{{ asset('imagenes/bombas/armstrong/FirePak.png') }}"
-                                      width="100%" class="figure-img img-fluid rounded" alt=""></a>
+                                      width="100%" class="figure-img img-fluid rounded" alt="Firepak Horizontal Split"></a>
                               <figcaption class="figure-caption ">
                                   <h6 class="h6">Firepak Horizontal Split</h6>
                               </figcaption>
@@ -130,7 +130,7 @@
                   <div class="col-md-6 mt-3">
                       <figure class="figure">
                         <img src="{{ asset('imagenes/bombas/armstrong/4300.png') }}" width="100%"
-                              class="figure-img img-fluid rounded" alt="">
+                              class="figure-img img-fluid rounded" alt="Serie 4300">
                         </figure>
                               <figcaption class="d-flex justify-content-center">
                                 <h6>Serie 4300</h6>
@@ -467,7 +467,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                   <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/circuladores.png') }}"
-                              width="100%" class="figure-img img-fluid rounded" alt="">
+                              width="100%" class="figure-img img-fluid rounded" alt="Linea 1050-1060">
                       </figure>
                       <figcaption class="d-flex justify-content-center">
                           <h6 >Linea 1050-1060</h6>
@@ -663,7 +663,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                   <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4030.png') }}"
-                              width="100%" class="figure-img img-fluid rounded" alt="">
+                              width="100%" class="figure-img img-fluid rounded" alt="Serie 4030">
                       </figure>
                       <figcaption class="d-flex justify-content-center">
                           <h6 >Serie 4030</h6>
@@ -1020,7 +1020,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                   <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/4270.png') }}"
-                              width="100%" class="figure-img img-fluid rounded" alt="">
+                              width="100%" class="figure-img img-fluid rounded" alt="Series 4270">
                       </figure>
                       <figcaption class="d-flex justify-content-center">
                           <h6 >Series 4270</h6>
@@ -1175,7 +1175,7 @@
               <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                   <div class="col-md-6 mt-3">
                       <figure class="figure"><img src="{{ asset('imagenes/bombas/armstrong/FirePak.png') }}"
-                              width="100%" class="figure-img img-fluid rounded" alt="">
+                              width="100%" class="figure-img img-fluid rounded" alt="Firepak Horizontal Split">
                       </figure>
                       <figcaption class="d-flex justify-content-center">
                           <h6>Firepak Horizontal Split</h6>
@@ -1240,7 +1240,7 @@
       {{-- Fin de container --}}
       </div>
  <!-- Boton hacia arriba -->
- <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
+ <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2Arm.svg') }}"
  style="width: 48px; height: 48px;">
 <style>
  .ir-arriba {

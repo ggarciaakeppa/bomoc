@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta title="Bombas y Motores de Occidente Altamira">
+    <meta name="description" content="Equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.">
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
     <title>Bombas y Motores de Occidente</title>
 
@@ -42,9 +43,9 @@
         <div>
             {{-- Logo --}}
             <div class="text-center">
-                <figure class="figure">
+                <figure class="figure mt-2">
                     <img src="{{ asset('imagenes/bombas/altamira/logo.png') }}" width=40%
-                        class="figure-img img-fluid rounded" alt="...">
+                        class="figure-img img-fluid rounded" alt="logo altamira" title="Logo Altamiras">
                 </figure>
             </div>
 
@@ -56,8 +57,8 @@
                     {{-- Imagen de Series Tx --}}
                     <div class="col mb-3">
                         <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="47%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/TX.png') }}" width="47%"
+                                    class="figure-img img-fluid rounded" alt="Series TX" title="Series TX"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series TX</h6>
                             </figcaption>
@@ -68,7 +69,7 @@
                     <div class="col mb-3">
                         <figure class="figure">
                             <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="57%"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                                    class="figure-img img-fluid rounded" alt="Series KOR" title="Series KOR"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series KOR</h6>
                             </figcaption>
@@ -79,7 +80,7 @@
                     <div class="col mb-3">
                         <figure class="figure">
                             <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
-                                    class="figure-img img-fluid rounded" alt=""></a>
+                                    class="figure-img img-fluid rounded" alt="Series FLUX" title="Series flux"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series Flux</h6>
                             </figcaption>
@@ -89,7 +90,7 @@
                     {{-- Imagen de Series EKRC Y Eco-Kal --}}
                     <div class="col mb-3">
                         <figure class="figure">
-                            <a href="#ekrc"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="80%"
+                            <a href="#ekrc"><img src="{{ asset('imagenes/bombas/altamira/EKRC.jpg') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series EKRC y Eco-Kal</h6>
@@ -100,7 +101,7 @@
                     {{-- Imagen de Series XLB --}}
                     <div class="col mb-3">
                         <figure class="figure">
-                            <a href="#xlb"><img src="{{ asset('imagenes/bombas/altamira/xlb.png') }}" width="80%"
+                            <a href="#xlb"><img src="{{ asset('imagenes/bombas/altamira/XLB.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series XLB</h6>
@@ -880,7 +881,7 @@
         </div>
     </div>
     <!-- Boton hacia arriba -->
- <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
+ <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/upAlta.svg') }}"
             style="width: 48px; height: 48px;">
          <style>
             .ir-arriba {

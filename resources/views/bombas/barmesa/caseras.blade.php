@@ -39,7 +39,7 @@
 
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo barmesa">
                 </figure>
             </div>
 
@@ -50,7 +50,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#casera"><img src="{{ asset('imagenes/bombas/barmesa/caserasSomero/casera.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Casera"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Caseras</h3>
                             </figcaption>
@@ -60,7 +60,7 @@
                     <div class="col">
                         <figure class="figure">
                         <a href="#somero"><img src="{{ asset('imagenes/bombas/barmesa/caserasSomero/JB (1).png') }}"
-                        height="15%" class="figure-img img-fluid rounded" alt=""></a>
+                        height="15%" class="figure-img img-fluid rounded" alt="Somero"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Pozo somero</h3>
                             </figcaption>
@@ -75,14 +75,14 @@
             <div class="card">
                 {{-- Contenido Serie NB | NBT --}}
                 <div class="card-body">
-                    <h5 class="card-title">Serie NB | Serire NBT</h5>
+                    <h5 class="card-title">Serie NB | Serie NBT</h5>
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:casera-nb-table />
                             <div class=" justify-content-center">
                                 <h5>Serie NB</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_nb.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                 
                             </div>
@@ -91,7 +91,7 @@
                             <livewire:casera-nbt-table />
                             <div class=" justify-content-center">
                                 <h5>Serie NBT</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_nbt.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
                                
                             </div>
@@ -120,7 +120,7 @@
         </div>
 <!-- Boton hacia arriba -->
 <img class='ir-arriba' javascript:void(0) title="Volver arriba"
-src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;" alt="flecha">
 <style>
 .ir-arriba {
     display: none;

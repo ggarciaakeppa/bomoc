@@ -38,7 +38,7 @@
 
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo barmesa">
                 </figure>
             </div>
 
@@ -49,7 +49,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#bcs"><img src="{{ asset('imagenes/bombas/barmesa/inox316/BCS.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Serie BCS"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color:  #f68221">Serie BCS</h3>
                             </figcaption>
@@ -59,7 +59,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#bcsf"><img src="{{ asset('imagenes/bombas/barmesa/inox316/BCSF.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Serie BCSF"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color:  #f68221">Serie BCSF</h3>
                             </figcaption>
@@ -70,7 +70,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#cd"><img src="{{ asset('imagenes/bombas/barmesa/inox316/CD.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Serie CD"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color:  #f68221">Serie CD</h3>
                             </figcaption>
@@ -81,7 +81,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#ps"><img src="{{ asset('imagenes/bombas/barmesa/inox316/PS.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Serie PS"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color:  #f68221">Serie PS</h3>
                             </figcaption>
@@ -92,7 +92,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#sox"><img src="{{ asset('imagenes/bombas/barmesa/inox316/SOX.jpg') }}"
-                                    height="25%" class="figure-img img-fluid rounded" alt=""></a>
+                                    height="25%" class="figure-img img-fluid rounded" alt="Serie SOX"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color:  #f68221">Serie SOX</h3>
                             </figcaption>
@@ -117,20 +117,19 @@
                             <livewire:inox316-bcs-table />
                             <div class=" justify-content-center">
                                 <h5>Serie BCS</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bcs.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_bcs-bcsf.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                 <h5>Serie BCSF</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_bcsf.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_bcs-bcsf.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>  
                         </div>
                         <div class="col-md-6" id="bcsf">
                             <livewire:inox316-bcsf-table />
-                          
                         </div>
                     </div>
                 </div>
@@ -151,20 +150,19 @@
                             <livewire:inox304-cd-table />
                             <div class=" justify-content-center">
                                 <h5>Serie CD</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-cd.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-cd.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                                 <h5>Serie PS</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-ps.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-ps.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>  
                         </div>
                         <div class="col-md-6" id="ps">
                             <livewire:inox304-ps-table />
-                          
                         </div>
                     </div>
                 </div>
@@ -182,9 +180,9 @@
                             <livewire:inox304-sox-table />
                             <div class=" justify-content-center">
                                 <h5>Serie SOX</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_serie-sox.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_serie-sox.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>
                         </div>
@@ -194,7 +192,7 @@
         </div>
         <!-- Boton hacia arriba -->
         <img class='ir-arriba' javascript:void(0) title="Volver arriba"
-        src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+        src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;" alt="flecha">
     <style>
         .ir-arriba {
             display: none;

@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta title="Bombas y Motores de Occidente Inicio">
+    <meta name="description" content="Equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.">
     <title>Bombas y Motores de Occidente</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
     <!-- Fonts -->
@@ -29,7 +30,7 @@
    
 
     <div class="d-flex justify-content-center " style="height: 50vh; overflow: hidden;">
-        <video width="100%" height="100%" autoplay muted loop style="object-fit: cover;">
+        <video width="100%" height="100%" autoplay muted loop style="object-fit: cover;" alt="video inicio">
             <source src="{{ asset('videos/Portadabomoc.mp4') }}" type="video/mp4">
         </video>
     </div>
@@ -49,7 +50,7 @@
         Nuestra filosofía se basa en el principio inquebrantable de brindar una atención al cliente excepcional y un servicio de calidad.
         </p>
 
-    <p> Tenemos una amplia variedad en equipos para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.
+    <p> Tenemos una amplia variedad en equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.
         Solucionamos el manejo de aceites, ácidos, asfalto, barniz, chocolate, combustóleo, diesel, fructosa, glucosa, grasas, jabón, melaza, parafina, pegamento, resinas, salsas, tintas, silicón, gases, etc.
     </p>
 </div>
@@ -59,8 +60,6 @@
 
     </div>
 
- 
- 
         <livewire:inicio-carrusel/>
         <livewire:maps/>
         <livewire:footer/>

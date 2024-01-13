@@ -4,16 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomUserProfileController;
 use App\Http\Controllers\UsersController;
 use App\Http\Livewire\Producto\EditarProducto;
-use App\Http\Livewire\Ingreso\IngresoAuto;
 use App\Http\Livewire\Producto\CrearProducto;
 use App\Http\Livewire\Producto\Productos;
 use App\Mail\ContactFormMailable;
-use App\Models\Producto;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use Laravel\Socialite\Facades\Socialite;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
 
@@ -97,12 +94,11 @@ Route::view('/abb','otros.abb')->name('abb');
 Route::view('/motores','otros.motores')->name('motores');
 
 //Ruta de Blog
-Route::view('/blog','blog.index')->name('blog');
+Route::view('/blog','blog.blog')->name('blog');
+Route::view('/blog/impulsores','blog.entrada.impulsores')->name('impulsores');
 
 //Ruta de Contacto
 Route::view('/contacto','contacto.contacto')->name('contacto');
-
-
 
 //Ruta de Servicios
 Route::view('/servicios','servicios.servicios')->name('servicios');

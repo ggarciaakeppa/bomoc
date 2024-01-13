@@ -43,7 +43,7 @@
 
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo barmesa">
                 </figure>
             </div>
             <div>
@@ -52,7 +52,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#diesel"><img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor a diesel.webp') }}"
-                        width="75%"  class="figure-img img-fluid rounded" alt=""></a>
+                        width="75%"  class="figure-img img-fluid rounded" alt="motor diesel"></a>
                             <figcaption class="figure-caption">
                                 <h3 style="color: #f68221">Motor a diesel</h3>
                             </figcaption>
@@ -63,7 +63,7 @@
                         <figure class="figure">
                             <a href="#gasolina">
                             <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor a gasolina.webp') }}"
-                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                        width="75%"  class="figure-img img-fluid rounded" alt="motor a gasolina">
                             </a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Motor a gasolina</h3>
@@ -76,10 +76,10 @@
                         <figure class="figure">
                             <a href="#electrico">
                             <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/motor electrico.webp') }}"
-                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                        width="75%"  class="figure-img img-fluid rounded" alt="motor electrico">
                             </a>
                             <figcaption class="figure-caption ">
-                                <h3 style="color: #f68221">Motor eléctrico</h3>
+                                <h3 style="color: #f68221">Motor eléctrico </h3>
                             </figcaption>
                         </figure>
                     </div>
@@ -87,8 +87,8 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#universal">
-                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/transmisión universal.webp') }}"
-                        width="75%"  class="figure-img img-fluid rounded" alt="">
+                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/transmisión universal.webp') }}"
+                        width="75%"  class="figure-img img-fluid rounded" alt="transmision universal">
                             </a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Transmisión Universal</h3>
@@ -111,7 +111,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-lombardini-table />
-                          
                         </div>
                         <div class="col-md-6">
                             <h5 class="card-title">Curvas de operación</h5>
@@ -157,11 +156,10 @@
 
                             </div>
                             <div class="d-flex justify-content-center">
-                                 
                                 <h5>Serie IA</h5>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_ia.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_manual_ia.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>    
                         </div>
@@ -188,7 +186,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-john-table />
-
                         </div>
                     </div>
                 </div>
@@ -204,11 +201,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-tekpro-table />
-                         
                         </div>
                         <div class="col-md-6">
                             <livewire:centri-alta-briggs-table />
-                          
                         </div>
                     </div>
                 </div>
@@ -221,11 +216,9 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-kohler-table />
-                         
                         </div>
                         <div class="col-md-6">
-                            <livewire:centri-alta-honda-table />
-                          
+                            <livewire:centri-alta-honda-table />      
                         </div>
                     </div>
                 </div>
@@ -238,7 +231,6 @@
                     <div class="row">
                         <div class="col-md-6">
                             <livewire:centri-alta-barmesa-table />
-                         
                         </div>
                     </div>
                 </div>
@@ -254,7 +246,6 @@
                     <div class="row">
                         <div class="col-md-12">
                             <livewire:centri-alta-electrico-directa-table />
-                          
                         </div>
                     </div>
                 </div>
@@ -266,8 +257,7 @@
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-12">
-                            <livewire:centri-alta-electrico-flexible-table />
-                     
+                            <livewire:centri-alta-electrico-flexible-table />     
                         </div>
                     </div>
                 </div>
@@ -282,8 +272,7 @@
                     {{-- lh-base --}}
                     <div class="row">
                         <div class="col-md-12">
-                            <livewire:centri-alta-electrico-universal-table />
-                        
+                            <livewire:centri-alta-electrico-universal-table />          
                         </div>
                     </div>
                 </div>
@@ -292,7 +281,7 @@
 
         <!-- Boton hacia arriba -->
         <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up.svg') }}"
-            style="width: 48px; height: 48px;">
+            style="width: 48px; height: 48px;" alt="flecha">
         <style>
             .ir-arriba {
                 display: none;

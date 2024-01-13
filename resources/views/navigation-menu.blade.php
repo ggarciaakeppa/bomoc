@@ -14,7 +14,7 @@
 
             <!-- Brand -->
 
-            <img src="/assets/img/LogoProvi.png" class="img-fluid" alt="...">
+            <img src="/assets/img/LogoProvi.png" class="img-fluid" alt="logo bomoc">
 
 
             <!-- User (xs) -->
@@ -258,7 +258,7 @@
                         <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}"
                             class="avatar-img rounded-circle">
                     @else
-                        <img src="/assets/img/avatars/profiles/avatar-1.jpg" alt="Domiti profile"
+                        <img src="/assets/img/avatars/profiles/avatar-1.jpg" alt=" profile"
                             class="avatar-img rounded-circle">
                     @endif
                 </div>

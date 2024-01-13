@@ -43,7 +43,7 @@
 
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo barmesa">
                 </figure>
             </div>
         </div>
@@ -60,15 +60,15 @@
                         <div class="col-md-6">
                             <livewire:practik-table /> 
                             <div >
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;"> 
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf"> 
                                 <a href="https://www.barmesapumps.com/MX/productos/pdfs/mx_ficha-tecnica_practik-151.pdf" style="text-decoration: none; color: #f68221;">Ficha Técnica</a>
-                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;">
+                                <img src="/imagenes/icons/pdf.svg" style="width: 24px; height: 24px;" alt="pdf">
                                 <a href="https://barmesapumps.com/MX/productos/pdfs/mx_manual_practik-151.pdf" style="text-decoration: none; color: #f68221;">Manual</a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <img src="{{ asset('imagenes/bombas/barmesa/achique/practik.jpg') }}"
-                            style="vertical-align: middle" class="figure-img img-fluid rounded">
+                            style="vertical-align: middle" class="figure-img img-fluid rounded" alt="Serie Practik">
                             <P>
                                 Diseñada para aplicaciones de desagüe
                                 de cisternas, riego de jardín, norias,
@@ -81,7 +81,7 @@
         </div>
                <!-- Boton hacia arriba -->
                <img class='ir-arriba' javascript:void(0) title="Volver arriba"
-               src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;">
+               src="{{ asset('imagenes/icons/up.svg') }}" style="width: 48px; height: 48px;" alt="flecha">
            <style>
                .ir-arriba {
                    display: none;

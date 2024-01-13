@@ -1,9 +1,9 @@
 <div>
-    <div class="container m-0">
+    <div class="container mt-1">
         <p style="font-size: 14pt">
-            <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 14pt; height: 14pt;">
-            Fecha: <span id="fecha"></span><br>
-            <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 14pt; height: 14pt;"> 
+            <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 14pt; height: 14pt;" alt="día">
+            Fecha: <span id="fecha"></span>
+            <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 14pt; height: 14pt;" alt="coin"> 
             Valor del tipo de cambio: $<span id="tipo"></span>
         </p>
     </div>
@@ -23,7 +23,7 @@
     .then(data => {
     // Obtén el valor del campo "dato" & "fecha"
     const fechaString = data.bmx.series[0].datos[0].fecha;
-    console.log('Fecha original:', fechaString);
+   // console.log('Fecha original:', fechaString);
 
     // Formatea la cadena de fecha para que sea reconocida por new Date()
     const fechaParts = fechaString.split('T')[0].split('-');
@@ -37,7 +37,7 @@
     document.getElementById('tipo').innerText = dato.toFixed(2);
 
     // Puedes hacer lo que necesites con fecha y dato aquí
-    console.log(`Fecha: ${formattedFecha}, Dato: ${dato}`);
+   // console.log(`Fecha: ${formattedFecha}, Dato: ${dato}`);
 })
 .catch(error => {
     // Manejar el error si la solicitud falla.

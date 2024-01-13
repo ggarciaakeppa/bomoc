@@ -55,7 +55,7 @@
 
             <figure class="figure">
                 <img src="{{ asset('imagenes/bombas/aurora/logo.png') }}" width="50%"
-                    class="figure-img img-fluid rounded" alt="...">
+                    class="figure-img img-fluid rounded" alt="logo aurora">
             </figure>
 
         </div>
@@ -69,7 +69,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#3800"><img src="{{ asset('imagenes/bombas/aurora/3800.png') }}" width="80%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                                class="figure-img img-fluid rounded" alt="Serie 3800"></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie 3800</h6>
                         </figcaption>
@@ -80,7 +80,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#340"><img src="{{ asset('imagenes/bombas/aurora/340.png') }}" width="100%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                                class="figure-img img-fluid rounded" alt="Serie 340"></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie 340</h6>
                         </figcaption>
@@ -91,7 +91,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#380"><img src="{{ asset('imagenes/bombas/aurora/380.png') }}" width="100%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                                class="figure-img img-fluid rounded" alt="Serie 380"></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie 380</h6>
                         </figcaption>
@@ -102,7 +102,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#110A"><img src="{{ asset('imagenes/bombas/aurora/110A.png') }}" width="100%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                                class="figure-img img-fluid rounded" alt="Serie 110A"></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie 110A</h6>
                         </figcaption>
@@ -113,7 +113,7 @@
                 <div class="col">
                     <figure class="figure">
                         <a href="#630"><img src="{{ asset('imagenes/bombas/aurora/630.png') }}" width="100%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                                class="figure-img img-fluid rounded" alt="Serie 630"></a>
                         <figcaption class="figure-caption ">
                             <h6 class="h6">Serie 630</h6>
                         </figcaption>
@@ -141,7 +141,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/3800.png') }}" width="80%"
-                        class="figure-img img-fluid rounded" alt="">
+                        class="figure-img img-fluid rounded" alt="Serie 3800">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6>Serie 3800</h6>
@@ -452,7 +452,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/340.png') }}" width="100%"
-                        class="figure-img img-fluid rounded" alt="">
+                        class="figure-img img-fluid rounded" alt="Serie 340">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6>Serie 340</h6>
@@ -561,7 +561,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-6 mt-lg-5 text-justify">
+            <div class="col-md-6 mt-lg-5 text-justify" style="overflow-x:auto;">
                 <h4 class="h4">Especificaciones Técnicas de la Serie 340 (1750 RPM):</h4>
                 <table class="table table-striped">
                     <thead>
@@ -678,7 +678,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 ">
                 <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/380.png') }}" width="100%"
-                        class="figure-img img-fluid rounded" alt="">
+                        class="figure-img img-fluid rounded" alt="Serie 380">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">Serie 380</h6>
@@ -976,7 +976,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 ">
                 <figure class="figure"><img src="{{ asset('imagenes/bombas/aurora/110A.png') }}" width="100%"
-                        class="figure-img img-fluid rounded" alt="">
+                        class="figure-img img-fluid rounded" alt="Serie 110A">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6>Serie 110A</h6>
@@ -1137,7 +1137,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/aurora/630.png') }}" width="80%"
-                        class="figure-img img-fluid rounded" alt="">
+                        class="figure-img img-fluid rounded" alt="Serie 630">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">Serie 630</h6>

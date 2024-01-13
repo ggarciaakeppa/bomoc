@@ -4,6 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta title="barmsea">
+    <meta title="Bombas y Motores de Occidente Barmesa">
+    <meta name="description" content="Equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.">
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
     <title>Bombas y Motores de Occidente</title>
     <!-- Fonts -->
@@ -39,7 +42,7 @@
             <div class="text-center">
                 <figure class="figure">
                     <img src="{{ asset('imagenes/bombas/barmesa/logo.png') }}" class="figure-img img-fluid rounded"
-                        alt="...">
+                        alt="logo barmesa">
                 </figure>
             </div>
             {{-- Layout barmesa --}}
@@ -47,7 +50,7 @@
                 <div class="col">
                     <div class="card" id="autocebantes" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/8M.jpg') }}"
-                            alt="Card image">
+                            alt="Autocebantes">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Autocebantes</h4>
                         </div>
@@ -68,7 +71,7 @@
                 <div class="col">
                     <div class="card" id="tragasolidos" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/SH6-4TNNV98C.jpg') }}"
-                            alt="Card image">
+                            alt="Tragasolidos">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Autocebantes Tragasólidos</h4>
                         </div>
@@ -89,7 +92,7 @@
                 <div class="col">
                     <div class="card" id="centrifugadasAlta" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IA.jpg') }}"
-                            alt="Card image">
+                            alt="CentrifugadasAlta">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Centrífugas de alta presión</h4>
                         </div>
@@ -110,7 +113,7 @@
                 <div class="col">
                     <div class="card" id="centrifugadasMedia" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/IB.jpg') }}"
-                            alt="Card image">
+                            alt="CentrifugadasMedia">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Centrífugas de mediana presión</h4>
                         </div>
@@ -131,7 +134,7 @@
                 <div class="col">
                     <div class="card" id="centrifugadasInox" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PS.jpg') }}"
-                            alt="Card image">
+                            alt="CentrifugadasInox">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Centrífugas en acero inox.</h4>
                         </div>
@@ -152,7 +155,7 @@
                 <div class="col">
                     <div class="card" id="centrifugadasCaseras" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/NB.jpg') }}"
-                            alt="Card image">
+                            alt="CentrifugasCaseras">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Centrifugas caseras y pozo somero</h4>
                         </div>
@@ -173,7 +176,7 @@
                 <div class="col">
                     <div class="card" id="centrifugadasAnsi" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/911L.jpg') }}"
-                            alt="Card image">
+                            alt="CentrifugadasAnsi">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Centrífugas de proceso ANSI</h4>
                         </div>
@@ -194,7 +197,7 @@
                 <div class="col">
                     <div class="card" id="sumergiblesAchique" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/PRACTIK.jpg') }}"
-                            alt="Card image">
+                            alt="SumergiblesAchique">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Sumergibles de Achique</h4>
                         </div>
@@ -212,12 +215,10 @@
                         });
                     </script>
                 </div>
-
-
                 <div class="col">
                     <div class="card" id="sumergiblesInox" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/KLEIN.jpg') }}"
-                            alt="Card image">
+                            alt="SumergiblesInox">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Sumergibles inox. para desagüe</h4>
                         </div>
@@ -238,7 +239,7 @@
                 <div class="col">
                     <div class="card" id="sumergibleAguaSucia" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/2BS501.jpg') }}"
-                            alt="Card image">
+                            alt="SumergibleAguaSucia">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Sumergibles agua sucias</h4>
                         </div>
@@ -260,7 +261,7 @@
                     <div class="card" id="sumergibleAguaLimpia" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top"
                             src="{{ asset('imagenes/bombas/barmesa/inicios/BOMBAS SUMERGIBLES.jpg') }}"
-                            alt="Card image">
+                            alt="SumergibleAguaLimpia">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Sumergibles agua limpia</h4>
                         </div>
@@ -282,7 +283,7 @@
                     <div class="card" id="sumergibleMotores" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top"
                             src="{{ asset('imagenes/bombas/barmesa/inicios/MOTORES SUMERGIBLES.jpg') }}"
-                            alt="Card image">
+                            alt="SumergibleMotores">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Motores sumergibles</h4>
                         </div>
@@ -303,7 +304,7 @@
                 <div class="col">
                     <div class="card" id="verticalesLinea" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BVL.jpg') }}"
-                            alt="Card image">
+                            alt="VerticalesLinea">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Verticales en línea</h4>
                         </div>
@@ -324,7 +325,7 @@
                 <div class="col">
                     <div class="card" id="multiHorizontales" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/MH.jpg') }}"
-                            alt="Card image">
+                            alt="MultiHorizontales">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Multietapas horizontales</h4>
                         </div>
@@ -345,7 +346,7 @@
                 <div class="col">
                     <div class="card" id="multiVerticales" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/HMV.jpg') }}"
-                            alt="Card image">
+                            alt="MultiVerticales">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Multietapas verticales</h4>
                         </div>
@@ -365,7 +366,7 @@
                 <div class="col">
                     <div class="card" id="bipartidas" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/BIPARTIDA.jpg') }}"
-                            alt="Card image">
+                            alt="Bipartidas">
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Bipartidas</h4>
                         </div>
