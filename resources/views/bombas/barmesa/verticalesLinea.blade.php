@@ -130,7 +130,7 @@ function irArriba() {
     });
 }
 </script>
-
+<livewire:footer />
 </body>
 
 </html>

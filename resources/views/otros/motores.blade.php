@@ -19,7 +19,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <style>
+     <style>
         body {
             font-family: 'Nunito', sans-serif;
         }
@@ -91,7 +91,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de TRIFÁSICOS W22 EFICIENCIA PREMIUM IE3 --}}
                 <div class="col">
                     <figure class="figure">
@@ -102,7 +101,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de A PRUEBA DE EXPLOSIÓN --}}
                 <div class="col">
                     <figure class="figure">
@@ -113,7 +111,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de CRUSHER DUTY --}}
                 <div class="col">
                     <figure class="figure">
@@ -124,7 +121,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de ZÓN 56 DE LÁMINA ROLADA --}}
                 <div class="col">
                     <figure class="figure">
@@ -135,7 +131,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de ARMAZON DE LÁMINA ROLADA NEMA USO BOMBA --}}
                 <div class="col">
                     <figure class="figure">
@@ -146,7 +141,6 @@
                         </figcaption>
                     </figure>
                 </div>
-
                 {{-- Imagen de aplicaciones --}}
                 <div class="col">
                     <figure class="figure">
@@ -160,24 +154,21 @@
             </div>
         </div>
     </div>
-
-
-
     {{-- Contenido W22 ARMAZÓN DE ALUMINIO --}}
     <div>
         <div class="col m-2 mt-3 pb-3">
             <h4 id="tx" class="h4">W22 ARMAZÓN DE ALUMINIO</h4>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
-            <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="60%"
+            <div class="col-md-6 mt-3 ">
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="60%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS MULTIMONTAJE NEMA PREMIUM</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
                     <a href="https://drive.google.com/file/d/1zFP1jQyZVOP3WLXs6hBfMYOEPwkKRlJI/view"
-                        class="btn btn-primary ms-4">W22 Armazón de aluminio</a>
+                        class="btn btn-primary ms-4" target="_blank">W22 Armazón de aluminio</a>
                 </div>
             </div>
             {{-- lh-base --}}
@@ -591,9 +582,9 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -817,13 +808,13 @@
     {{-- Contenido W22 SEVERE DUTY-2 --}}
     <div>
         <div class="col m-2 mt-3 pb-3">
-            <h4 id="KOR" class="h4">W22 SEVERE DUTY</h4>
+            <h4>W22 SEVERE DUTY</h4>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -1048,10 +1039,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -1060,7 +1051,7 @@
                 </div>
             </div>
             {{-- lh-base --}}
-            <div class="col me-5 pe-5">
+            <div class="col-md-6 mt-lg-5 text-justify ">
                 <h4 class="h4">Características:</h4>
                 <ul>
                     <li>Totalmente cerrados con ventilación exterior (TEFC).</li>
@@ -1297,13 +1288,15 @@
         </div>
         <div class="row m-5">
             <div class="col ms-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/con freno.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/con freno.jpg') }}"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO EFICIENCIA</h6>
                 </figcaption>
+                <div class="d-flex justify-content-center">
                 <a href="https://drive.google.com/file/d/13AsAzL4d-TjCawnXybQJYXYiYXCkBjBt/view"
                     class="btn btn-primary ms-4">Ver Catalogo</a>
+                </div>
             </div>
             <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
                 <h4 class="h4">Características:</h4>
@@ -1437,9 +1430,6 @@
             </div>
         </div>
     </div>
-
-
-
     {{-- Contenido CON FRENO-2 --}}
     <div class=" m-2 p-2">
         <div class="row m-1">
@@ -1447,10 +1437,12 @@
         </div>
         <div class="row m-5">
             <div class="col ms-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/con freno.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/con freno.jpg') }}"
                         class="figure-img img-fluid rounded" alt=""></figure>
-                <a href="https://drive.google.com/file/d/13AsAzL4d-TjCawnXybQJYXYiYXCkBjBt/view"
+                <div class="d-flex justify-content-center">
+                        <a href="https://drive.google.com/file/d/13AsAzL4d-TjCawnXybQJYXYiYXCkBjBt/view"
                     class="btn btn-primary ms-4">Ver Catalogo</a>
+                </div>
             </div>
             <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
                 <h4 class="h4">Características:</h4>
@@ -1597,13 +1589,15 @@
         </div>
         <div class="row m-5">
             <div class="col">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}"
                         width="60%" alt=""></figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
                 </figcaption>
+                <div class="d-flex justify-content-center">
                 <a href="https://drive.google.com/file/d/1zFP1jQyZVOP3WLXs6hBfMYOEPwkKRlJI/view"
                     class="btn btn-primary ms-4">W22 SEVERE DUTY JM</a>
+                </div>
             </div>
             {{-- lh-base --}}
             <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
@@ -1774,10 +1768,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 aluminio.jpg') }}" width="60%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 aluminio.jpg') }}" width="60%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES IEC</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -1996,10 +1990,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO EFICIENCIA</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2161,10 +2155,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2175,6 +2169,7 @@
             {{-- lh-base --}}
             <div class="col-md-6 mt-lg-5 text-justify">
                 <div class="col-md-6 mt-lg-5 text-justify " style="overflow-x:auto;">
+                    <h4 class="h4">Características:</h4>
                     <ul>
                         <li>Totalmente cerrados con ventilación exterior (TEFC).</li>
                         <li>Montaje horizontal.</li>
@@ -2191,7 +2186,7 @@
                 </div>
             </div>
             <div class="col me-5">
-                <div style="overflow-x:auto;">
+                <div>
                     <h4 class="h4">Especificaciones </h4>
                     <table class="table table-striped">
                         <thead>
@@ -2322,10 +2317,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
                         alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO EFICIENCIA</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2519,10 +2514,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
                         width="60%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES W22 NEMA TRIFÁSICOS</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2665,10 +2660,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
                         width="50%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2838,10 +2833,10 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
                         width="50%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA MONOFÁSICOS ABIERTO</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
@@ -2996,16 +2991,17 @@
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
-                <figure class="figure"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
+                <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
                         width="50%" class="figure-img img-fluid rounded" alt="">
                 </figure>
-                <figcaption>
+                <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA MONOFÁSICOS</h6>
                 </figcaption>
                 <div class="d-flex justify-content-center">
                     <a href="https://drive.google.com/file/d/1DNkupI19zSXqNu6aZ03uWOQmxFJZsP0J/view"
                         class="btn btn-primary ms-4">LÁMINA ROLADA NEMA USO BOMBA</a>
                 </div>
+            </div>
                 {{-- lh-base --}}
                 <div class="col-md-6 mt-lg-5 text-justify">
                     <h4>Características:</h4>
@@ -3019,7 +3015,7 @@
                         <li>Norma NOM-014-ENER-2004</li>
                     </ul>
                 </div>
-            </div>
+            
             <div class="col me-5">
                 <div style="overflow-x:auto;">
                     <h4 class="h4">Especificaciones</h4>
@@ -3148,11 +3144,8 @@
                     }, 1000);
                 });
             }
-     
          </script>
-
-         <livewire:footer />
-  
+         <livewire:footer/>
 </body>
 
 </html>

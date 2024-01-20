@@ -57,7 +57,7 @@
                     {{-- Imagen de Series Tx --}}
                     <div class="col mb-3">
                         <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/TX.png') }}" width="47%"
+                            <a href="#tx"><img src="{{ asset('imagenes/bombas/altamira/tx1.png') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt="Series TX" title="Series TX"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series TX</h6>
@@ -68,7 +68,7 @@
                     {{-- Imagen de Series KOR --}}
                     <div class="col mb-3">
                         <figure class="figure">
-                            <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}" width="57%"
+                            <a href="#KOR"><img src="{{ asset('imagenes/bombas/altamira/kor.jpg') }}" width="80%"
                                     class="figure-img img-fluid rounded" alt="Series KOR" title="Series KOR"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series KOR</h6>
@@ -127,7 +127,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/tx.png') }}" width="40%"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/tx1.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series TX</h6>
@@ -277,8 +277,8 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/KOR.png') }}"
-                            width="40%" class="figure-img img-fluid rounded" alt=""></figure>
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/kor.jpg') }}"
+                            width="60%" class="figure-img img-fluid rounded" alt=""></figure>
                             <figcaption class="d-flex justify-content-center">
                                 <h6 class="h6">Series KOR</h6>
                     </figcaption>
