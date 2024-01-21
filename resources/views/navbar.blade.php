@@ -71,7 +71,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('servicios') }}">Servicios</a>
                         </li>
-                        @if (Route::has('login'))
+                        {{-- @if (Route::has('login'))
                         @auth
                         <li class="nav-item ">
                             <a class="nav-link" href="{{ route('profile.show') }}">Perfil</a>
@@ -100,7 +100,7 @@
                         </li>
                         @endif
                         @endauth
-                        @endif
+                        @endif --}}
 
                         @livewire('exchange-rate')
                     </ul>
