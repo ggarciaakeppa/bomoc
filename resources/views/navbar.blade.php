@@ -59,6 +59,7 @@
                                 <li><a class="dropdown-item" href="{{ route('abb') }}">Variadores</a>
                                 </li>
                                 <li><a class="dropdown-item" href="{{ route('motores') }}">Motores</a></li>
+                                <li><a class="dropdown-item" href="{{ route('controles') }}">Controles</a></li>
                             </ul>
                             <!-- end menu desplegable -->
                         </li>

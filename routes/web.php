@@ -92,6 +92,7 @@ Route::view('/contraincendios','otros.contraincendios')->name('contraincendios')
 Route::view('/tableros','otros.tableros')->name('tableros');
 Route::view('/abb','otros.abb')->name('abb');
 Route::view('/motores','otros.motores')->name('motores');
+Route::view('/controles','otros.controles')->name('controles');
 
 //Ruta de Blog
 Route::view('/blog','blog.blog')->name('blog');
