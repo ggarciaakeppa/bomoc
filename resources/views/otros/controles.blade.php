@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
     <title>Bombas y Motores de Occidente</title>
     <!-- Fonts -->
@@ -59,68 +59,68 @@
             {{-- Esto es la Fila --}}
             <div class="text-center border-bottom border-top border-2 row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
 
-                {{-- Imagen de Tablero de control para llenado de depósitos (Tinaco-Cisterna) --}}
+             
                 <div class="col">
                     <figure class="figure">
-                        <a href="#cld"><img src="{{ asset('imagenes/controles/01 - dlc-g2-205vu.jpg') }}"
-                                width="50%" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#205vu"><img src="{{ asset('imagenes/controles/01 - dlc-g2-205vu.jpg') }}"
+                                width="50%" class="figure-img img-fluid rounded" alt="dlc-g2-205vu"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">DLC G2-105VU Y DLC G2-205VU</h6>
+                            <h6>DLC G2-105VU Y DLC G2-205VU</h6>
                         </figcaption>
                     </figure>
                 </div>
 
-                {{-- Imagen de Tablero de Control para Sistemas Hidroneumáticos --}}
+           
                 <div class="col">
                     <figure class="figure">
-                        <a href="#CDH"><img src="{{ asset('imagenes/controles/02 - dlc-g2-406.jpg') }}"
-                                width="50%" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#406"><img src="{{ asset('imagenes/controles/02 - dlc-g2-406.jpg') }}"
+                                width="50%" class="figure-img img-fluid rounded" alt="dlc-g2-406"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">DLC G2-406</h6>
+                            <h6 >DLC G2-406</h6>
                         </figcaption>
                     </figure>
                 </div>
 
-                {{-- Imagen de Tableros Para Vaciado De Cárcamos --}}
+          
                 <div class="col">
                     <figure class="figure">
-                        <a href="#VC"><img src="{{ asset('imagenes/controles/03 - dlc-g3-608.jpg') }}"
-                                width="50%" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#608"><img src="{{ asset('imagenes/controles/03 - dlc-g3-608.jpg') }}"
+                                width="50%" class="figure-img img-fluid rounded" alt="dlc-g3-608"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">DLC G3-608</h6>
+                            <h6>DLC G3-608</h6>
                         </figcaption>
                     </figure>
                 </div>
 
-                {{-- Imagen de Arrancador a Tensión Reducida Tipo Autotransformador ATRW --}}
+        
                 <div class="col">
                     <figure class="figure">
-                        <a href="#TRTAA"><img src="{{ asset('imagenes/controles/04 - dlc-g2-d610.jpg') }}"
-                                width="50%" class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#d610"><img src="{{ asset('imagenes/controles/04 - dlc-g2-d610.jpg') }}"
+                                width="50%" class="figure-img img-fluid rounded" alt="dlc-g2-d610"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">DLC G2-D610</h6>
+                            <h6>DLC G2-D610</h6>
                         </figcaption>
                     </figure>
                 </div>
 
-                {{-- Imagen de Arrancador a Tensión Plena No Reversibles WEG ATPNRW --}}
+          
                 <div class="col">
                     <figure class="figure">
-                        <a href="#ATP"><img src="{{ asset('imagenes/controles/05- CBST.jpg') }}" width="50%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#CBST"><img src="{{ asset('imagenes/controles/05- CBST.jpg') }}" width="50%"
+                                class="figure-img img-fluid rounded" alt="CBST"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">CBST</h6>
+                            <h6>CBST</h6>
                         </figcaption>
                     </figure>
                 </div>
 
-                {{-- Imagen de Arrancador Suave en Gabinete Modelos WEG (ASW05, ASW08, ASW07, ASW900) --}}
+            
                 <div class="col">
                     <figure class="figure">
-                        <a href="#ASG"><img src="{{ asset('imagenes/controles/06 - CBDT-AS.jpg') }}" width="50%"
-                                class="figure-img img-fluid rounded" alt=""></a>
+                        <a href="#CBDT-AS"><img src="{{ asset('imagenes/controles/06 - CBDT-AS.jpg') }}" width="50%"
+                                class="figure-img img-fluid rounded" alt="CBDT-AS"></a>
                         <figcaption class="figure-caption ">
-                            <h6 class="h6">CBDT-AS
+                            <h6 >CBDT-AS
                             </h6>
                         </figcaption>
                     </figure>
@@ -170,7 +170,7 @@
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="205vu">
             {{-- Contenido DLC G2-105VU Y DLC G2-205VU --}}
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-lg-5 text-justify">
@@ -241,7 +241,7 @@
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="406">
             {{-- Contenido DLC G2-406 --}}
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-lg-5 text-justify">
@@ -310,7 +310,7 @@
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="608">
             {{-- Contenido DLC G3-608 --}}
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-lg-5 text-justify">
@@ -354,7 +354,7 @@
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="d610">
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-md-5 text-justify">
                     <h2>DLC G2-D610</h2>
@@ -363,8 +363,8 @@
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        La plataforma DLC G2-D610 es un equipo para aplicaciones industriales el cual 
-                        cuenta con 10 entradas digitales y 6 salidas de relevador, su versatilidad 
+                        La plataforma DLC G2-D610 es un equipo para aplicaciones industriales el cual
+                        cuenta con 10 entradas digitales y 6 salidas de relevador, su versatilidad
                         permite que se pueda utilizar en diferentes aplicaciones.
                     </figcaption>
                 </div>
@@ -403,12 +403,12 @@
                             </tr>
                         </tbody>
                     </table>
-                    
-                </div>    
+
+                </div>
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="CBST">
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-md-5 text-justify">
                     <h2>CBST</h2>
@@ -417,8 +417,11 @@
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        El CBST es un dispositivo diseñado para monitorear y gestionar los niveles de agua en tinacos y cisternas.
-                        Utiliza electrodos que al detectar la disminución de los niveles de agua, activan automáticamente la bomba para llenar el tinaco y la detienen una vez alcanzado el nivel óptimo, asegurando así un suministro constante y eficiente de agua en todo momento.                        
+                        El CBST es un dispositivo diseñado para monitorear y gestionar los niveles de agua en tinacos y
+                        cisternas.
+                        Utiliza electrodos que al detectar la disminución de los niveles de agua, activan
+                        automáticamente la bomba para llenar el tinaco y la detienen una vez alcanzado el nivel óptimo,
+                        asegurando así un suministro constante y eficiente de agua en todo momento.
                     </figcaption>
                 </div>
                 <div class="col-md.6 mt-lg-5 mt-md-5 g-2 g-lg-3">
@@ -445,25 +448,25 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td >CBST</td>
+                                <td>CBST</td>
                             </tr>
                             <tr>
                                 <td>Control de bombeo
                                     simple tinaco
                                     con cables.
-                                    </td>
+                                </td>
                             </tr>
                             <tr>
                                 <td>Hasta 1.5 hp en 127 v.</td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
-                </div>    
+                </div>
             </div>
         </div>
 
-        <div class="border-top border-bottom">
+        <div class="border-top border-bottom" id="CBDT-AS">
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 ">
                 <div class="col-md-6 mt-lg-5 mt-md-5 text-justify">
                     <h2>CBDT-AS</h2>
@@ -472,9 +475,11 @@
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption>
-                        El CBDT-AS, es un sistema de control de bombeo duplex, diseñado para optimizar la eficiencia y 
-                        la gestión del agua en entornos residenciales e industriales. Este dispositivo garantiza un control 
-                        preciso y automatizado de las bombas, asegurando un suministro constante y regulado de agua en tinacos y cisternas.
+                        El CBDT-AS, es un sistema de control de bombeo duplex, diseñado para optimizar la eficiencia y
+                        la gestión del agua en entornos residenciales e industriales. Este dispositivo garantiza un
+                        control
+                        preciso y automatizado de las bombas, asegurando un suministro constante y regulado de agua en
+                        tinacos y cisternas.
                     </figcaption>
                 </div>
                 <div class="col-md.6 mt-lg-5 mt-md-5 g-2 g-lg-3">
@@ -497,66 +502,68 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td >CBDT-AS</td>
+                                <td>CBDT-AS</td>
                             </tr>
                             <tr>
                                 <td>Control de bombeo
                                     dúplex tinaco
-                                    con cables.                                    
-                                    </td>
+                                    con cables.
+                                </td>
                             </tr>
                             <tr>
                                 <td>Hasta 1.5 hp en 127 v.</td>
                             </tr>
-                            
+
                         </tbody>
                     </table>
-                </div>    
+                </div>
             </div>
         </div>
 
     </div>
-<!-- Boton hacia arriba -->
-<img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
-style="width: 48px; height: 48px;">
-<style>
-.ir-arriba {
-    display: none;
-    background-repeat: no-repeat;
-    font-size: 20px;
-    color: black;
-    cursor: pointer;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 2;
-}
-</style>
-<script>
-$(document).ready(function() {
-    irArriba();
-}); //Hacia arriba
-function irArriba() {
-    $('.ir-arriba').click(function() {
-        $('body,html').animate({
-            scrollTop: '0px'
-        }, 1000);
-    });
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 0) {
-            $('.ir-arriba').slideDown(600);
-        } else {
-            $('.ir-arriba').slideUp(600);
+    
+    <!-- Boton hacia arriba -->
+    <img class='ir-arriba' javascript:void(0) title="Volver arriba" src="{{ asset('imagenes/icons/up2.svg') }}"
+        style="width: 48px; height: 48px;">
+    <style>
+        .ir-arriba {
+            display: none;
+            background-repeat: no-repeat;
+            font-size: 20px;
+            color: black;
+            cursor: pointer;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 2;
         }
-    });
-    $('.ir-abajo').click(function() {
-        $('body,html').animate({
-            scrollTop: '1000px'
-        }, 1000);
-    });
-}
-</script>
-<livewire:footer/> 
+    </style>
+    <script>
+        $(document).ready(function() {
+            irArriba();
+        }); //Hacia arriba
+        function irArriba() {
+            $('.ir-arriba').click(function() {
+                $('body,html').animate({
+                    scrollTop: '0px'
+                }, 1000);
+            });
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 0) {
+                    $('.ir-arriba').slideDown(600);
+                } else {
+                    $('.ir-arriba').slideUp(600);
+                }
+            });
+            $('.ir-abajo').click(function() {
+                $('body,html').animate({
+                    scrollTop: '1000px'
+                }, 1000);
+            });
+        }
+    </script>
+
+    <livewire:footer />
 </body>
 
 </html>
