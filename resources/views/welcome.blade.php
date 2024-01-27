@@ -55,13 +55,15 @@
     </p>
 </div>
 
-    <div class="d-flex justify-content-center border-top border-bottom">
+    <div class="d-flex justify-content-center border-top">
         <h1>Nuestras Marcas</h1>
 
     </div>
 
         <livewire:inicio-carrusel/>
+        <hr>
         <livewire:maps/>
+        <hr>
         <livewire:footer/>
 
 </body>
