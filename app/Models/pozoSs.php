@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class pozoSs extends Model
 {
-    protected $table = 'pozoSs';
+    protected $table = 'pozoss';
 }

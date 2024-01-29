@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class pozoSp extends Model
 {
-  protected $table = 'pozoSp';
+  protected $table = 'pozosp';
 }

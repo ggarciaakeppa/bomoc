@@ -81,7 +81,7 @@
                     {{-- Imagen Transmision Universal --}}
                     <div class="col">
                         <figure class="figure">
-                        <a href="#electrico"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisión universal.webp') }}"
+                        <a href="#electrico"><img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisionUniversal.webp') }}"
                         width="75%"  class="figure-img img-fluid rounded" alt="transmiasion universal"></a>
                             <figcaption class="figure-caption ">
                                 <h3 style="color: #f68221">Transmisión Universal</h3>
@@ -287,7 +287,7 @@
                             <livewire:centri-media-universal-barmesa-table />
                         </div>
                         <div class="col-md-6">
-                                <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisión universal.webp') }}"
+                                <img src="{{ asset('imagenes/bombas/barmesa/medianaPresion/transmisionUniversal.webp') }}"
                                 style="vertical-align: middle" class="figure-img img-fluid rounded" alt="Serie M-STD">
                         </div>
                     </div>

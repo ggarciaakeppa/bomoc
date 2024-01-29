@@ -108,7 +108,7 @@
                     {{-- Imagen de A PRUEBA DE EXPLOSIÓN --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#EXP"><img src="{{ asset('imagenes/motores/explosión.jpg') }}" width="80%"
+                            <a href="#EXP"><img src="{{ asset('imagenes/motores/explosion.jpg') }}" width="80%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">A PRUEBA DE EXPLOSIÓN</h6>
@@ -118,7 +118,7 @@
                     {{-- Imagen de CRUSHER DUTY --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#DUTY"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
+                            <a href="#DUTY"><img src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -822,6 +822,7 @@
         }
     </script>
     <livewire:footer />
+    <livewire:floating-whats/>
 </body>
 
 </html>

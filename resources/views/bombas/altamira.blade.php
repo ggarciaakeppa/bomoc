@@ -428,7 +428,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/FLUX(1).jpg') }}"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series Flux</h6>
@@ -536,7 +536,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/ekrc.jpg') }}" width="60%"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/EKRC.jpg') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption class="d-flex justify-content-center">
@@ -656,7 +656,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/ecokal.jpg') }}"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/ECOKAL.jpg') }}"
                             width="50%" class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption class="d-flex justify-content-center">
@@ -796,7 +796,7 @@
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Aplicaciones -->
-                    <h4 class="h4">Aplicaciones de las Series TX</h4>
+                    <h4 class="h4">Aplicaciones de las Series XLB</h4>
                     <ul>
 
                         <li>Sistemas de purificación de agua</li>

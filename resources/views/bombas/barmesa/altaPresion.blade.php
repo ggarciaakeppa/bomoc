@@ -87,7 +87,7 @@
                     <div class="col">
                         <figure class="figure">
                             <a href="#universal">
-                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/transmisión universal.webp') }}"
+                            <img src="{{ asset('imagenes/bombas/barmesa/altaPresion/transmisionUniversal.webp') }}"
                         width="75%"  class="figure-img img-fluid rounded" alt="transmision universal">
                             </a>
                             <figcaption class="figure-caption ">
