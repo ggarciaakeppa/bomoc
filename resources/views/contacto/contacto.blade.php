@@ -41,7 +41,7 @@
       </div>
 
       <livewire:footer />
-    
+      <livewire:floating-whats/>
    
 </body>
 

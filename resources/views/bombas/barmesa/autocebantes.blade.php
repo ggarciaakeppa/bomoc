@@ -483,6 +483,7 @@
                     });
                 }
             </script>
-   <livewire:footer/>         
+   <livewire:footer/>       
+   <livewire:floating-whats/>  
 </body>
 </html>

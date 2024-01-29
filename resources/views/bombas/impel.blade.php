@@ -1511,6 +1511,7 @@
             }
         </script>
         <livewire:footer />
+        <livewire:floating-whats/>
 </div>
 
 </body>

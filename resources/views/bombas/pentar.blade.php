@@ -940,6 +940,7 @@
          </script>
 
          <livewire:footer />
+         <livewire:floating-whats/>
 </body>
 
 </html>

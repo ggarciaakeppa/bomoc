@@ -41,7 +41,7 @@
                 <h1>Blog</h1>
             </div>
             <div class="text-center row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 g-lg-3 m-md-2 m-lg-2">
-    <a href="{{ route('barmesa') }}" class="text-decoration-none text-dark">
+    <a href="{{ route('impulsores') }}" class="text-decoration-none text-dark">
         <div class="col">
             <img src="{{ asset('imagenes/blog/impulsores.png') }}" width="100%" class="img-fluid rounded" alt="...">
             <div>
@@ -116,7 +116,7 @@
 
     <livewire:footer />
 
-
+    <livewire:floating-whats/>
 </body>
 
 </html>
