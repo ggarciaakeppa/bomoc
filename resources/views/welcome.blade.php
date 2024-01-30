@@ -55,11 +55,7 @@
         Solucionamos el manejo de aceites, ácidos, asfalto, barniz, chocolate, combustóleo, diesel, fructosa, glucosa, grasas, jabón, melaza, parafina, pegamento, resinas, salsas, tintas, silicón, gases, etc.
     </p>
 </div>
-
-    <div class="d-flex justify-content-center border-top">
-        <h1>Nuestras Marcas</h1>
-
-    </div>
+<hr>
 
         <livewire:inicio-carrusel/>
         <hr>

@@ -1,13 +1,27 @@
-<div>
-    <div class="container mt-1">
-        <p style="font-size: 14pt">
-            <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 14pt; height: 14pt;" alt="día">
+
+    <div class="mt-2">
+        <p style="font-size: 12pt">
+            <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 11pt; height: 11pt;" alt="día">
             Fecha: <span id="fecha"></span>
-            <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 14pt; height: 14pt;" alt="coin"> 
+
+            <br class="break-small-screen">
+         
+            <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 11pt; height: 11pt;" alt="coin"> 
             Valor del tipo de cambio: $<span id="tipo"></span>
         </p>
     </div>
-</div>
+    <style>
+        @media only screen and (min-width: 767px) {
+        .break-small-screen {
+            display: none; /* Oculta el salto de línea en dispositivos pequeños */
+        }
+        img{
+            margin-left: 10px;
+        }
+    }
+    
+    </style>
+
 {{--Modifcación 28/01/2024--}}
 <script>
     const endpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF43717/datos/oportuno';

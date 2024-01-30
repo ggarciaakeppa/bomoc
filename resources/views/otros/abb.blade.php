@@ -36,13 +36,12 @@
 <body>
 
     @include('navbar')
-   <div style=" background:  url(/imagenes/ABB/water.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 220px 100px 100px;
-    margin: auto;
+    <div
+    style="background: #ffffff;
+    padding: 70px 70px;
     font-size: 2.5rem;
-    font-weight: 800;">
-   </div>
+    font-weight: 100;">
+    </div>
    <div class="container-fluid">
     <div>
         {{-- Logo --}}
