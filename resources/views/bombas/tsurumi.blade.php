@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Bombas y Motores de Occidente</title>
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
-
+    <meta name="description" content="Equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -29,14 +28,13 @@
 <body>
     
     @include('navbar')
-   <div style=" background: url(/imagenes/bombas/tsurumi/Mineria.jpg) center center fixed;
-    background-position: center 70%;
+   <div style=" background: url(../imagenes/bombas/tsurumi/Mineria.jpg) center center no-repeat;
+    background-position: center 20%;
     background-size: cover;
     padding: 250px 70px 70px;
     margin: auto;
     font-size: 2.5rem;
-    font-weight: 800;
-">
+    font-weight: 800;">
    </div>
         
    <div class="container-fluid">

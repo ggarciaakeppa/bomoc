@@ -65,7 +65,7 @@
                     {{-- Imagen de W22 SEVERE DUTY --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#KOR"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
+                            <a href="#KOR"><img src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -87,7 +87,7 @@
                     {{-- Imagen de W22 SEVERE DUTY JM --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#JM"><img src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}"
+                            <a href="#JM"><img src="{{ asset('imagenes/motores/W22 severe duty jm.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -98,7 +98,7 @@
                     {{-- Imagen de TRIFÁSICOS W22 EFICIENCIA PREMIUM IE3 --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#IE3"><img src="{{ asset('imagenes/motores/w22 aluminio.jpg') }}" width="80%"
+                            <a href="#IE3"><img src="{{ asset('imagenes/motores/W22 aluminio.jpg') }}" width="80%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">TRIFÁSICOS W22 EFICIENCIA PREMIUM IE3</h6>
@@ -140,7 +140,7 @@
                     {{-- Imagen de ARMAZON DE LÁMINA ROLADA NEMA USO BOMBA --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#BOM"><img src="{{ asset('imagenes/MOTORES/lamina ralada.jpg') }}"
+                            <a href="#BOM"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -394,7 +394,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}" width="60%"
+                        src="{{ asset('imagenes/motores/W22 severe duty jm.jpg') }}" width="60%"
                         alt="w22_serve_duty">
                 </figure>
                 <figcaption class="d-flex justify-content-center">

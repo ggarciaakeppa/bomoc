@@ -117,7 +117,6 @@
         </div>
 
         {{-- Inicio de Contenidos --}}
-
         {{-- Contenido Series TX --}}
         <div>
             <div class="row">
@@ -767,7 +766,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/xlb.png') }}" width="60%"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/XLB.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series XLB</h6>
