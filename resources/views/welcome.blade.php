@@ -68,8 +68,7 @@
     <p> Tenemos una amplia variedad en equipos de bombeo para la industria alimentaria, azucarera, cerámica, electrónica, farmacéutica, química, petroquímica, minera, papelera, vinícola, pinturas, etc.
         Solucionamos el manejo de aceites, ácidos, asfalto, barniz, chocolate, combustóleo, diesel, fructosa, glucosa, grasas, jabón, melaza, parafina, pegamento, resinas, salsas, tintas, silicón, gases, etc.
     </p>
-    </div>
-
+</div>
 <hr>
 
         <livewire:inicio-carrusel/>

@@ -98,7 +98,7 @@
                         </figure>
                     </div>
 
-                    {{-- Imagen 4: Bomba de doble Etapa Flygt Serie 2400.402 --}}
+                    {{-- Imagen 4: Bomba de doble Etapa Flygt serie 2400.402 --}}
                     <div class="col  mt-2">
                         <figure class="figure">
                             <a href="#SCK"><img src="{{ asset('imagenes/bombas/flygt/Bombas Doble Etapa.jpg') }}"
@@ -334,7 +334,7 @@
         </div>
         <div class="col-md-6 mt-lg-5 text-justify">
             <p>
-                Esta <b>Bomba de achique sumergible de 2 etapas</b> se puede sumergir hasta 50 metros y está
+                Esta <b>Bomba de achique sumergible de 2 etapas</b> Se puede sumergir hasta 50 my está
                 construida en hierro fundido. Con geometrías
                 optimizadas y fabricadas en materiales para ofrecer una excelente resistencia al desgaste, su
                 diseño resistente soporta prácticamente todos los materiales que los usuarios más exigentes

@@ -1,3 +1,7 @@
+
+    <div class="mt-2">
+        <p style="font-size: 12pt">
+            <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 11pt; height: 11pt;" alt="día">
    <div class="mt-2">
         <p style="font-size: 12pt">
             <img src="{{ asset('imagenes/inicio/calendar.svg') }}" style="width: 11pt; height: 11pt;" alt="día">
@@ -6,9 +10,27 @@
             <br class="break-small-screen">
          
             <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 11pt; height: 11pt;" alt="coin"> 
+            Valor del tipo de cambio: $<span id="tipo"></span>
+
+            <br class="break-small-screen">
+         
+            <img src="{{ asset('imagenes/inicio/coin.svg') }}" style="width: 11pt; height: 11pt;" alt="coin"> 
             Tipo de cambio: $<span id="tipo"></span>
         </p>
     </div>
+    <style>
+        @media only screen and (min-width: 767px) {
+        .break-small-screen {
+            display: none; /* Oculta el salto de línea en dispositivos pequeños */
+        }
+        img{
+            margin-left: 10px;
+        }
+    }
+    
+    </style>
+
+{{--Modifcación 28/01/2024--}}
     <style>
         @media only screen and (min-width: 767px) {
         .break-small-screen {

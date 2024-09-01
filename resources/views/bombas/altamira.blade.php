@@ -126,7 +126,6 @@
         </div>
 
         {{-- Inicio de Contenidos --}}
-
         {{-- Contenido Series TX --}}
         <div>
             <div class="row">
