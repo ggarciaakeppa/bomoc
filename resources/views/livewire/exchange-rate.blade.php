@@ -24,9 +24,26 @@
     const apiTokenEndpoint = '/token';
     const banxicoEndpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF63528/datos/oportuno';
     
+    const apiTokenEndpoint = '/token';
+    const banxicoEndpoint = 'https://www.banxico.org.mx/SieAPIRest/service/v1/series/SF63528/datos/oportuno';
+    
     // Obtener la fecha actual
     const fechaActual = new Date();
     
+    // Formatear la fecha actual en formato dd/mm/yyyy
+    const formattedFechaActual = `${String(fechaActual.getDate()).padStart(2, '0')}/${String(fechaActual.getMonth() + 1).padStart(2, '0')}/${fechaActual.getFullYear()}`;
+    
+    fetch(apiTokenEndpoint)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            const token = data.token;
+            return fetch(`${banxicoEndpoint}?token=${token}`);
+        })
     // Formatear la fecha actual en formato dd/mm/yyyy
     const formattedFechaActual = `${String(fechaActual.getDate()).padStart(2, '0')}/${String(fechaActual.getMonth() + 1).padStart(2, '0')}/${fechaActual.getFullYear()}`;
     
@@ -56,6 +73,14 @@
                 dato = 17.1500;
             }
     
+            // Obtén el dato de la API y suma 0.2125
+            let dato = parseFloat(data.bmx.series[0].datos[0].dato) + 0.2125;
+    
+            // Verifica si el valor es igual o menor a 17.1499 y ajusta a 17.1500 si es necesario
+            if (dato <= 17.1499) {
+                dato = 17.1500;
+            }
+    
             // Actualiza los elementos HTML con los valores obtenidos
             document.getElementById('fecha').innerText = formattedFechaActual;
             document.getElementById('tipo').innerText = dato.toFixed(4);
@@ -67,6 +92,8 @@
             // Manejar el error si la solicitud falla.
             console.error('Error en la solicitud:', error);
         });
+    </script>
+    
     </script>
     
 
