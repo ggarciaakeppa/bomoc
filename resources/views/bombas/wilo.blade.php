@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,14 +53,12 @@
 <body>
     
     @include('navbar')
-   <div style="   background: #3789C8 url(../imagenes/inicio/wasteTreatment.jpg) center center no-repeat;
-   background-size: cover;
-   padding: 150px 70px 70px;
-   margin: auto;
-   font-size: 2.5rem;
-   font-weight: 800;">
-   </div>
-        
+ <div
+    style="background: #ffffff;
+    padding: 70px 70px;
+    font-size: 2.5rem;
+    font-weight: 100;">
+    </div>
    <div class="container-fluid">
         {{-- Menu --}}
         <div>

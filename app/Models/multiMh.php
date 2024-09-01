@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class multiMh extends Model
 {
-    protected $table = 'multiMh';
+    protected $table = 'multimh';
 }

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
    <head>
+       <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Bombas y Motores de Occidente</title>
@@ -172,7 +181,7 @@
             <iframe width="80%" height="315" src="https://www.youtube.com/embed/-V9knnU4QwA?si=m8tK8lSlaBaJYmZZ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <p class="mt-3">
-            La <b>bomba de piscina residencial Victoria Plus Silent de Velocidad variable </b> es una bomba como la palabra “Silenciosa”, silenciosa viene con motores de dos potencias, con variación y control automático de velocidad. Incluye una pantalla táctil para conexión en pared.
+            La <b>bomba de piscina residencial Victoria Plus Silent de velocidad variable </b> es una bomba silenciosa viene con motores de dos potencias, con variación y control automático de velocidad. Incluye una pantalla táctil para conexión en pared.
         </p>
     </div>
 </div>

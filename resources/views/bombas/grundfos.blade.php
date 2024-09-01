@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -62,7 +71,7 @@
                             <a href="#CR"><img src="{{ asset('imagenes/bombas/grundfos/CR.png') }}" width="100%"
                                     class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
-                                <h6 class="h6">Series AG</h6>
+                                <h6 class="h6">Series CR</h6>
                             </figcaption>
                         </figure>
                     </div>
@@ -146,11 +155,11 @@
                     <!-- Texto -->
                     <p>
                         Bombas centrifugas multietapas verticales en linea energeticamente eficientes. Disponibles en
-                        miles de configuraciones y en cuatro tipos de materiales de contruccion.
+                        miles de configuraciones y en cuatro tipos de materiales de contrucción.
                     </p>
                     <p>
-                        Acero Inoxidable AISI 304, Acero Inoxidable AISI 304 con base y parte superior en hierro
-                        fundido, Acero inoxidable AISI 316 & Titanio.
+                        Acero inoxidable AISI 304, acero inoxidable AISI 304 con base y parte superior en hierro
+                        fundido, acero inoxidable AISI 316 y titanio.
                     </p>
                 </div>
             </div>

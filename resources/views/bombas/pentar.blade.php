@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,14 +38,12 @@
 <body>
     
     @include('navbar')
-   <div style="background: url(../imagenes/bombas/pentair/portada.png) no-repeat;
-    background-position: center 50%;
-    background-size: cover;
-    padding: 250px 70px 70px;
-    margin: auto;
+   <div
+    style="background: #ffffff;
+    padding: 70px 70px;
     font-size: 2.5rem;
-    font-weight: 800;">
-   </div>
+    font-weight: 100;">
+    </div>
         
    <div class="container-fluid">
         {{-- Menu --}}
@@ -156,9 +163,9 @@
                 <div class="col-md-6 mt-lg-5 text-justify">
                     <!-- Texto -->
                     <p>
-                        Opcion de gran ahorro de energía para el calentamiento de las piscinas y spas. Su diseño brinda
+                        Opción de gran ahorro de energía para el calentamiento de las piscinas y spas. Su diseño brinda
                         una mejor circulacion de aire, eficiencia, salida de calor y bajo nivel de ruido al operar.
-                        Cargadaas con el gas refrigerane R410A, que es un gas seguro y ecologico porque no daña la capa
+                        Cargadas con el gas refrigerane R410A, que es un gas seguro y ecologico porque no daña la capa
                         de ozono
                     </p>
                 </div>
@@ -166,7 +173,7 @@
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <!-- Tabla -->
                 <div class="col-md-12 mt-lg-5 text-justify" style="overflow-x:auto;">
-                    <h4 class="h4">Especificaciones Técnicas de la Serie 911LX – 1780 RPM</h4>
+                    <h4 class="h4">Especificaciones Técnicas</h4>
                     <table class="table table-striped">
                         <thead>
                             <tr class="border-top border-danger">
@@ -463,7 +470,7 @@
                     <p>
                         La primera bomba de velocidad y flujo variable capaz de variar la velocidad con controles
                         digitales y un sofware propio que permite la programación personalizada de las velocidades de la
-                        bomba para las taread de filtrar, calentar, retrolavar, así como para uso en cascadas y el spa.
+                        bomba para las tareas de filtrar, calentar, retrolavar, así como para uso en cascadas y el spa.
                         El resultado de esta innovacion es el ahorro de energía que se traduce en dinero ahorrado.
                         Además , las caracteristicas de contruccion de su motor la hacen sorprendetemente silenciosa.
                     </p>

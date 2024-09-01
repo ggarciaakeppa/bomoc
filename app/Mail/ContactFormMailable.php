@@ -22,6 +22,7 @@ class ContactFormMailable extends Mailable
     {
         //
         $this->contact = $contact;
+        
     }
 
     /**
@@ -29,9 +30,11 @@ class ContactFormMailable extends Mailable
      *
      * @return $this
      */
+     
+    
     public function build()
     {
-        $this->from($this->contact['correo'])
+        $this->from('contacto@bomoc.com.mx')
             ->subject('Mensaje de contacto '. $this->contact['nombre'])
             ->markdown('emails.contact-form-email');
     }

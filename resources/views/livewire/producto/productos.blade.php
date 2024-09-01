@@ -12,11 +12,11 @@
 						Productos
 					</h1>
 				</div>
-				<div class="col-auto">
+				{{-- <div class="col-auto">
 					<a class="btn btn-primary lift" href="{{ route('productos.create') }}">
 					    Nuevo producto
                     </a>	
-				</div>
+				</div> --}}
 			</div>
 		</div>
 	</div>

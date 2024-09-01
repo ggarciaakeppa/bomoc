@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomUserProfileController;
 use App\Http\Controllers\UsersController;
+use App\Http\Livewire\Imagenes;
 use App\Http\Livewire\Producto\EditarProducto;
 use App\Http\Livewire\Producto\CrearProducto;
 use App\Http\Livewire\Producto\Productos;
@@ -78,6 +79,7 @@ Route::view('/bombas/impel', 'bombas.impel')->name('impel');
 Route::view('/bombas/jandy', 'bombas.jandy')->name('jandy');
 Route::view('/bombas/mann', 'bombas.mann')->name('mann');
 Route::view('/bombas/netzsch', 'bombas.netzsch')->name('netzsch');
+Route::redirect('/bombas/netzsch', '/');
 Route::view('/bombas/pentair', 'bombas.pentar')->name('pentair');
 Route::view('/bombas/scott', 'bombas.scott')->name('scott');
 Route::view('/bombas/tsurumi', 'bombas.tsurumi')->name('tsurumi');
@@ -100,6 +102,9 @@ Route::view('/blog/impulsores','blog.entrada.impulsores')->name('impulsores');
 
 //Ruta de Contacto
 Route::view('/contacto','contacto.contacto')->name('contacto');
+
+//Ruta de Galeria
+Route::view('/galeria','galeria.galeria')->name('galeria');
 
 //Ruta de Servicios
 Route::view('/servicios','servicios.servicios')->name('servicios');
@@ -173,5 +178,9 @@ Route::middleware([
     Route::get('/productos/create',CrearProducto::class)->name('productos.create');
     Route::get('/productos/edit/{id}',EditarProducto::class)->name('productos.edit');
     Route::get('/productos/delete/{id}',[Productos::class,'delete'])->name('productos.delete');
-    
+    Route::get('/listaImagenes', Imagenes::class)->name('imagenes.index');    
+});
+
+Route::get('/token', function () {
+    return response()->json(['token' => env('BANXICO_API_TOKEN')]);
 });

@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -468,13 +477,12 @@
                 <h4 class="h4">Aplicaciones</h4>
                 <ul>
                     <li>Bombas centrifugas</li>
-                    <li>ventiladores de inercia moderada</li>
-                    <li>compresores de tornillo</li>
-                    <li>compresores de aire</li>
-                    <li>sierras para corte de madera</li>
+                    <li>Ventiladores de inercia moderada</li>
+                    <li>Compresores de tornillo</li>
+                    <li>Compresores de aire</li>
+                    <li>Sierras para corte de madera</li>
                     <li>Extractores</li>
-                    <li>pequeños molinos</li>
-                    <li>muchas aplicaciones más.</li>
+                    <li>Pequeños molinos</li>
                 </ul>
             </div>
         </div>

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class sumergiblesGibliMono extends Model
 {
-    protected $table = 'gibliMono';
+    protected $table = 'giblimono';
 }

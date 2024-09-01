@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,7 +44,7 @@
    font-weight: 500;" class="d-flex justify-content-center">
     <h2>Nuestros servicios</h2>
 </div>
-<div class="container-fluid rounded-xl shadow">
+<div class="container rounded-xl shadow">
     <div class="row row-cols-1 g-5 mb-2">
         <div class="col">
             <div class="card">
@@ -59,7 +68,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/puesta_en_marcha.jpg" class="img-fluid rounded-end h-100" alt="...">
+                        <img src="/imagenes/servicios/puesta_en_marcha.jpg" class="img-fluid rounded-end " alt="...">
                     </div>
                 </div>
             </div>
@@ -69,7 +78,7 @@
             <div class="card">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/reparacion.avif" class="img-fluid rounded-start  h-90" alt="...">
+                        <img src="/imagenes/servicios/reparacion.avif" class="img-fluid rounded-start " alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
@@ -97,7 +106,7 @@
                 <div class="row g-0">
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h4 class="card-title text-center"><b>Mantenimiento</b></h4>
+                            <h4 class="card-title text-center mb-5"><b>Mantenimiento</b></h4>
                             <p class="card-text"><b>Mantenimiento Correctivo a Sistemas Contra Incendios ECI</b></p>
                             <p class="card-text text-sm-start"> <b>¡Programa tu visita de diagnóstico!</b> El mantenimiento correctivo se realiza con el objetivo de
                                 disminuir el riesgo de falla de tu
@@ -110,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/mantenimiento.jpg" class="img-fluid rounded-end h-100" alt="...">
+                        <img src="/imagenes/servicios/mantenimiento.jpg" class="img-fluid rounded-end" alt="...">
                     </div>
                 </div>
             </div>
@@ -119,11 +128,11 @@
             <div class="card">
                 <div class="row g-0">
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/accesorios y refacciones.jpg" class="img-fluid rounded-start h-100" alt="...">
+                        <img src="/imagenes/servicios/accesorios y refacciones.jpg" class="img-fluid rounded-start " alt="...">
                     </div>
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h4 class="card-title text-center"><b>Refacciones</b></h4>
+                            <h4 class="card-title text-center mb-5"><b>Refacciones</b></h4>
                             <p class="card-text"><b>¿Cómo encontrar las refacciones ágilmente?</b></p>
                             <p class="card-text text-sm-start">Encontrar las refacciones para la bomba que necesita no debe llevar mucho tiempo. Simplemente
                                 escríbanos a través de nuestros canales de contacto para encontrar las refacciones que necesita,
@@ -140,7 +149,7 @@
                 <div class="row g-0">
                     <div class="col-md-6">
                         <div class="card-body">
-                            <h4 class="card-title text-center"><b>Polizas de mantenimiento a sistemas contraincendios</b></h4>
+                            <h4 class="card-title text-center mb-5"><b>Polizas de mantenimiento a sistemas contraincendios</b></h4>
                             <p class="card-text"><b>Esta permitirá detectar anticipadamente deficiencias en su
                                 sistemas</b></p>
                             para así implementar acciones correctivas.
@@ -149,7 +158,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="/imagenes/servicios/polizas.jpg" class="img-fluid rounded-end h-100" alt="...">
+                        <img src="/imagenes/servicios/polizas.jpg" class="img-fluid rounded-end " alt="...">
                     </div>
                 </div>
             </div>
@@ -160,15 +169,15 @@
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <div class="col">
                         <div class="card">
-                            <img src="/imagenes/servicios/acoplamiento.jpg" class="card-img" alt="...">
+                            <img src="/imagenes/servicios/acoplamiento1.jpg" class="card-img" alt="...">
                             <div class="card-img-overlay">
                             </div>
                         </div>
                     </div>
 
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="card">
-                            <img src="/imagenes/servicios/acoplamiento1.jpg" class="card-img" alt="...">
+                            <img src="/imagenes/servicios/acoplamiento.jpg" class="card-img" alt="...">
                             <div class="card-img-overlay">
                             </div>
                         </div>
@@ -200,7 +209,7 @@
                             <div class="card-img-overlay">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -221,6 +230,12 @@
             bottom: 10px;
             right: 10px;
             z-index: 2;
+            }
+                       .rounded-start  {
+                margin-left: 0;
+            }
+                      .card-img  {
+                margin-left: 0;
             }
          </style>
          <script>

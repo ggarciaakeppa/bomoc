@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,7 +63,7 @@
         {{-- Imagenes al seleccionar --}}
         <div>
             {{-- Esto es la Fila --}}
-            <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+            <div class="text-center border-top border-bottom border-2 row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
 
                 {{-- Imagen de Series HE,QE,KE --}}
                 <div class="col">
@@ -155,8 +164,8 @@
             <div class="col-md-8 ">
                 <!-- Texto -->
                 <p>
-                    Las bombas de alta presión de WDM serie HE, QE, KE es amplia ya que van de tamaños de succión y
-                    descarga de 1 1/2” hasta los 6”. Altura Máx hasta los 175mca, Gasto de hasta 1750GPM.
+                    La serie HE, QE, KE son amplias ya que van de tamaños de succión y
+                    descarga de 1 1/2” hasta los 6”. Altura Máx hasta los 175mca y Gasto de hasta 1750GPM.
                 </p>
                 <p>
                     Construcción tipo monobloque en hierro de alta resistencia por lo que están fabricadas para una
