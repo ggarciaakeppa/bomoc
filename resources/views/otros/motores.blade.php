@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,7 +63,7 @@
                     {{-- Imagen de W22 ARMAZÓN DE ALUMINIO --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#tx"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
+                            <a href="#tx"><img src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -65,7 +74,7 @@
                     {{-- Imagen de W22 SEVERE DUTY --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#KOR"><img src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}"
+                            <a href="#KOR"><img src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -87,7 +96,7 @@
                     {{-- Imagen de W22 SEVERE DUTY JM --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#JM"><img src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}"
+                            <a href="#JM"><img src="{{ asset('imagenes/motores/W22 severe duty jm.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -98,7 +107,7 @@
                     {{-- Imagen de TRIFÁSICOS W22 EFICIENCIA PREMIUM IE3 --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#IE3"><img src="{{ asset('imagenes/motores/w22 aluminio.jpg') }}" width="80%"
+                            <a href="#IE3"><img src="{{ asset('imagenes/motores/W22 aluminio.jpg') }}" width="80%"
                                     height="25%" class="figure-img img-fluid rounded" alt=""></a>
                             <figcaption class="figure-caption ">
                                 <h6 class="h6">TRIFÁSICOS W22 EFICIENCIA PREMIUM IE3</h6>
@@ -140,7 +149,7 @@
                     {{-- Imagen de ARMAZON DE LÁMINA ROLADA NEMA USO BOMBA --}}
                     <div class="col">
                         <figure class="figure">
-                            <a href="#BOM"><img src="{{ asset('imagenes/MOTORES/lamina ralada.jpg') }}"
+                            <a href="#BOM"><img src="{{ asset('imagenes/motores/lamina ralada.jpg') }}"
                                     width="80%" height="25%" class="figure-img img-fluid rounded"
                                     alt=""></a>
                             <figcaption class="figure-caption ">
@@ -169,7 +178,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3 ">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="60%"
+                        src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}" width="60%"
                         class="figure-img img-fluid rounded" alt=""></figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS MULTIMONTAJE NEMA PREMIUM</h6>
@@ -208,7 +217,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                        src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt=""></figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
@@ -246,7 +255,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                        src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt=""></figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO NEMA PREMIUM</h6>
@@ -286,7 +295,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="65%"
+                        src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}" width="65%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -389,12 +398,12 @@
 
         {{-- Contenido W22 SEVERE DUTY JM --}}
         <div class="col m-2 mt-3 pb-3">
-            <h4>W22 SEVERE DUTY JM</h4>
+            <h4 id="JM">W22 SEVERE DUTY JM</h4>
         </div>
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 severe duty jm.jpg') }}" width="60%"
+                        src="{{ asset('imagenes/motores/W22 severe duty jm.jpg') }}" width="60%"
                         alt="w22_serve_duty">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -434,7 +443,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/w22 aluminio.jpg') }}" width="60%"
+                        src="{{ asset('imagenes/motores/W22 aluminio.jpg') }}" width="60%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -473,7 +482,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
+                        src="{{ asset('imagenes/motores/explosion.jpg') }}" width="50%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -512,7 +521,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%"
+                        src="{{ asset('imagenes/motores/explosion.jpg') }}" width="50%"
                         class="figure-img img-fluid rounded" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
@@ -555,7 +564,7 @@
         <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
             <div class="col-md-6 mt-3">
                 <figure class="figure d-flex justify-content-center"><img
-                        src="{{ asset('imagenes/motores/explosión.jpg') }}" width="50%" alt="">
+                        src="{{ asset('imagenes/motores/explosion.jpg') }}" width="50%" alt="">
                 </figure>
                 <figcaption class="d-flex justify-content-center">
                     <h6 class="h6">MOTORES NEMA TRIFÁSICOS ARMAZÓN DE HIERRO EFICIENCIA</h6>
@@ -593,7 +602,7 @@
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
                 <div class="col-md-6 mt-3">
                     <figure class="figure d-flex justify-content-center"><img
-                            src="{{ asset('imagenes/motores/w22 severe duty.jpg') }}" width="60%"
+                            src="{{ asset('imagenes/motores/W22 severe duty.jpg') }}" width="60%"
                             class="figure-img img-fluid rounded" alt="">
                     </figure>
                     <figcaption class="d-flex justify-content-center">
@@ -773,8 +782,8 @@
                         <li><a href="https://drive.google.com/file/d/1vjadjcDiI_vD1PiUNzgQ5cQJ080glbkn/view?usp=drive_link"
                                 target="_blank" style="text-decoration: none;">Soluciones
                                 para azúcar y Alcohol</a></li>
-                        <li><a href="https://drive.google.com/drive/folders/1mQ3_-0ey9yRtwfqe5mcZZOk5OkjDhaYx?usp=sharing"
-                                target="_blank" style="text-decoration: none;">Extras</a></li>
+                        <!--<li><a href="https://drive.google.com/drive/folders/1mQ3_-0ey9yRtwfqe5mcZZOk5OkjDhaYx?usp=sharing"-->
+                        <!--        target="_blank" style="text-decoration: none;">Extras</a></li>-->
                     </ul>
                 </div>
             </div>

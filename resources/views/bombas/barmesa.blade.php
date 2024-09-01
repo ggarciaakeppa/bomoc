@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta title="barmsea">
@@ -50,7 +59,7 @@
                 <div class="col">
                     <div class="card" id="autocebantes" style="max-width: 540px; cursor: pointer;">
                         <img class="card-img-top" src="{{ asset('imagenes/bombas/barmesa/inicios/8M.jpg') }}"
-                            alt="Autocebantes">
+                            alt="Autocebantes" >
                         <div class="card-img-overlay">
                             <h4 class="card-title text-center">Autocebantes</h4>
                         </div>
@@ -400,6 +409,9 @@
                 bottom: 10px;
                 right: 10px;
                 z-index: 2;
+            }
+            .card-img-top {
+                margin-left: 0;
             }
         </style>
         <script>

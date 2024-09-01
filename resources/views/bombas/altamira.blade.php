@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta title="Bombas y Motores de Occidente Altamira">
@@ -80,7 +89,7 @@
                     <div class="col mb-3">
                         <figure class="figure">
                             <a href="#flux"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
-                                    class="figure-img img-fluid rounded" alt="Series FLUX" title="Series flux"></a>
+                                    class="figure-img img-fluid rounded" alt="Series FLUX" title="Series flux" width="80%"></a>
                             <figcaption class="figure-caption">
                                 <h6 class="h6">Series Flux</h6>
                             </figcaption>
@@ -117,7 +126,6 @@
         </div>
 
         {{-- Inicio de Contenidos --}}
-
         {{-- Contenido Series TX --}}
         <div>
             <div class="row">
@@ -428,8 +436,8 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/FLUX(1).jpg') }}"
-                            class="figure-img img-fluid rounded" alt=""></figure>
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/FLUX.jpg') }}"
+                            class="figure-img img-fluid rounded" alt="" width="50%"></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series Flux</h6>
                     </figcaption>
@@ -767,7 +775,7 @@
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-2 g-lg-3 p-2">
                 <div class="col-md-6 mt-3">
-                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/xlb.png') }}" width="60%"
+                    <figure class="figure d-flex justify-content-center"><img src="{{ asset('imagenes/bombas/altamira/XLB.png') }}" width="60%"
                             class="figure-img img-fluid rounded" alt=""></figure>
                     <figcaption class="d-flex justify-content-center">
                         <h6 class="h6">Series XLB</h6>

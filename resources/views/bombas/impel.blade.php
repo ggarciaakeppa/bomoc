@@ -2,7 +2,16 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <meta charset="utf-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
+  <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/x-icon" href="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}">
@@ -1419,49 +1428,49 @@
                     <tr>
                         <td scope="col">ABV- 7.5</td>
                         <td scope="col">7.5</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 10</td>
                         <td scope="col">10</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 15</td>
                         <td scope="col">15</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 20</td>
                         <td scope="col">20</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 30</td>
                         <td scope="col">30</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 40</td>
                         <td scope="col">40</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr>
                         <td scope="col">ABV- 50</td>
                         <td scope="col">50</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                     <tr class="border-bottom border-dark">
                         <td scope="col">ABV- 100</td>
                         <td scope="col">100</td>
-                        <td scope="col">Consulte planta</td>
+                        <td scope="col">Consultar</td>
                         <td scope="col">220 o 440</td>
                     </tr>
                 </tbody>

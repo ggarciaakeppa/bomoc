@@ -13,9 +13,9 @@
             </button>
 
             <!-- Brand -->
-
+            <a href="/dashboard">
             <img src="/assets/img/LogoProvi.png" class="img-fluid" alt="logo bomoc">
-
+            </a>
 
             <!-- User (xs) -->
             <div class="navbar-user d-md-none">
@@ -83,15 +83,7 @@
                 </form>
 
                 <!-- Navigation -->
-                <ul class="navbar-nav">
-
-                    <li class="nav-item">
-                        <x-jet-responsive-nav-link class="nav-link" href="/dashboard" :active="request()->routeIs('dashboard')">
-                            <i class="fe fe-home"></i> Inicio
-                        </x-jet-responsive-nav-link>
-                    </li>
-
-                </ul>
+            
               
 @if (auth()->user()->can('usuarios'))
     <!-- Divider -->
@@ -103,7 +95,7 @@
     </h6>
 
   {{-- Usuarios --}}  
-  <ul class="navbar-nav">
+  {{-- <ul class="navbar-nav">
         <li class="nav-item">
             @if (Route::is('users.*'))
                 <a class="nav-link" href="#users" data-bs-toggle="collapse" role="button" aria-expanded="true"
@@ -128,8 +120,36 @@
             </ul>
             </div>
         </li>
-    </ul>
+    </ul> --}}
 
+    {{-- Imagenes --}}
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            @if (Route::is('imagenes.*'))
+                <a class="nav-link" href="#imagenes" data-bs-toggle="collapse" role="button" aria-expanded="true"
+                    aria-controls="imagenes" :active="request() - > routeIs('imagenes.*')">
+                @else
+                    <a class="nav-link" href="#imagenes" data-bs-toggle="collapse" role="button"
+                        aria-expanded="false" aria-controls="imagenes" :active="request() - > routeIs('imagenes.*')">
+            @endif
+            <i class="fe fe-users"></i> Imagenes Galería
+            </a>
+            @if (Route::is('imagenes.*'))
+                <div class="collapse show" id="imagenes">
+                @else
+                    <div class="collapse" id="imagenes">
+            @endif
+            <ul class="nav nav-sm flex-column">
+                <li class="nav-item">
+                    <x-jet-responsive-nav-link href="{{ route('imagenes.index') }}" class="nav-link" :active="request()->routeIs('imagenes.index')">
+                        Lista
+                    </x-jet-responsive-nav-link>
+                  
+                </li>
+            </ul>
+            </div>
+        </li>
+    </ul>
     {{-- Productos --}}
     <ul class="navbar-nav">
         <li class="nav-item">
@@ -140,7 +160,7 @@
                     <a class="nav-link" href="#productos" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="productos" :active="request() - > routeIs('productos.*')">
             @endif
-            <i class="fe fe-users"></i> Productos
+            <i class="fe fe-users"></i> Productos Barmesa
             </a>
             @if (Route::is('products.*'))
                 <div class="collapse show" id="productos">
@@ -152,16 +172,14 @@
                     <x-jet-responsive-nav-link href="{{ route('productos.index') }}" class="nav-link" :active="request()->routeIs('productos.index')">
                         Lista
                     </x-jet-responsive-nav-link>
-                    <x-jet-responsive-nav-link href="{{ route('productos.create') }}" class="nav-link" :active="request()->routeIs('productos.index')">
-                        Nuevo
-                    </x-jet-responsive-nav-link>
+                  
                 </li>
             </ul>
             </div>
         </li>
     </ul>
 
-    {{-- Catalogos --}}
+    {{-- Catalogos
     <ul class="navbar-nav">
         <li class="nav-item">
             @if (Route::is('catalogos.*'))
@@ -192,7 +210,6 @@
         </li>
     </ul>
 
-    {{-- Pedidos --}}
     <ul class="navbar-nav">
         <li class="nav-item">
             @if (Route::is('pedidos.*'))
@@ -218,7 +235,8 @@
             </ul>
             </div>
         </li>
-    </ul>
+    </ul> 
+--}}
 @endif
 
 

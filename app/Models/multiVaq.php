@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class multiVaq extends Model
 {
-   protected $table = 'multiVaq';
+   protected $table = 'multivaq';
 }

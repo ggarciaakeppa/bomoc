@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta title="Bombas y Motores de Occidente Inicio">
@@ -29,17 +38,22 @@
 <body>
     @include('navbar')
    
-
     <div class="d-flex justify-content-center " style="height: 50vh; overflow: hidden;">
         <video width="100%" height="100%" autoplay muted loop style="object-fit: cover;" alt="video inicio">
             <source src="{{ asset('videos/Portadabomoc.mp4') }}" type="video/mp4">
         </video>
     </div>
-    
-    <div class="d-flex justify-content-center border-top border-bottom m-3">
-        <h1>Bienvenido</h1>
 
+<hr>
+    <div class="container-fluid p-3">
+    <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-md-6 col-lg-3 col-sm-2 ">
+      <img class="img-fluid logo" src="{{ asset('imagenes/logo/logoBO04.png') }}" alt="Log_Bomoc">
     </div>
+    </div>
+    </div>
+<hr>
+
     <div class=" row text-align: justify m-3">
         <div class="col-md-12">
     <p> Somos una empresa 100% mexicana, establecida en 2017 en Guadalajara, Jalisco, México, con una visión innovadora y compromiso total. 
@@ -55,11 +69,7 @@
         Solucionamos el manejo de aceites, ácidos, asfalto, barniz, chocolate, combustóleo, diesel, fructosa, glucosa, grasas, jabón, melaza, parafina, pegamento, resinas, salsas, tintas, silicón, gases, etc.
     </p>
 </div>
-
-    <div class="d-flex justify-content-center border-top">
-        <h1>Nuestras Marcas</h1>
-
-    </div>
+<hr>
 
         <livewire:inicio-carrusel/>
         <hr>

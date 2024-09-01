@@ -78,6 +78,30 @@
                     </div>
                 </div>
             </div>
+              <div class="carousel-item  ">
+                <div class="row align-items-center">
+                    <div class="col ">
+                        <img src="{{ asset('/imagenes/marcas/42-aro.jpg') }}" class="d-block" width="50%"
+                             alt="logo_aro">
+                    </div>
+                    <div class="col">
+                        <img src="{{ asset('/imagenes/marcas/43-pump people.jpg') }}" class="d-block"
+                            width="50%"  alt="logo_pump_people">
+                    </div>
+                    <div class="col">
+                        <img src="{{ asset('/imagenes/marcas/44-myers.jpg') }}" class="d-block" width="50%"
+                             alt="logo_myers">
+                    </div>
+                    <div class="col">
+                        <img src="{{ asset('/imagenes/marcas/45-wilden.jpg') }}" class="d-block" width="50%"
+                             alt="logo_wilden">
+                    </div>
+                    <div class="col">
+                        <img src="{{ asset('/imagenes/marcas/46-Hidrostal.jpeg') }}" class="d-block" width="50%"
+                             alt="logo_hidrostal">
+                    </div>
+                </div>
+            </div>
             <div class="carousel-item ">
                 <div class="row align-items-center">
                     <div class="col">
@@ -207,6 +231,7 @@
                     </div>
                 </div>
             </div>
+           
             <!-- Sección -->
         </div>
     </div>
@@ -217,24 +242,28 @@
 
 </div>
 <script>
-    var myCarousel = document.querySelector('#myCarousel')
-    var carousel = new bootstrap.Carousel(myCarousel, {
+    var myCarousel = document.querySelector('#myCarousel');
+    var carousel1 = new bootstrap.Carousel(myCarousel, {
         interval: 2000,
-        wrap: true,
-    })
-    var myCarousel2 = document.querySelector('#myCarousel2')
-    var carousel = new bootstrap.Carousel(myCarousel2, {
+        wrap: true
+    });
+
+    var myCarousel2 = document.querySelector('#myCarousel2');
+    var carousel2 = new bootstrap.Carousel(myCarousel2, {
         interval: 2000,
-        wrap: true,
-    })
-    var myCarousel3 = document.querySelector('#myCarousel2')
-    var carousel = new bootstrap.Carousel(myCarousel2, {
+        wrap: true
+    });
+
+    var myCarousel3 = document.querySelector('#myCarousel3');
+    var carousel3 = new bootstrap.Carousel(myCarousel3, {
         interval: 2500,
-        wrap: true,
-    })
-    var myCarousel4 = document.querySelector('#myCarousel2')
-    var carousel = new bootstrap.Carousel(myCarousel2, {
+        wrap: true
+    });
+
+    var myCarousel4 = document.querySelector('#myCarousel4');
+    var carousel4 = new bootstrap.Carousel(myCarousel4, {
         interval: 2000,
-        wrap: true,
-    })
+        wrap: true
+    });
 </script>
+

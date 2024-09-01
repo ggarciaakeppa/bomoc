@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class multiPb extends Model
 {
-    protected $table = 'multiPb';
+    protected $table = 'multipb';
 }

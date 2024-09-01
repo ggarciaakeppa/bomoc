@@ -14,7 +14,7 @@
         </style>
         <nav class="navbar navbar-expand-lg fixed-top" style="background-color:#f6f6f6">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/"> <img src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"alt="logo_bomoc"></a>
+                <a class="navbar-brand" href="/"> <img src="{{ asset('imagenes/logo/cropped-logitoBO02-32x32.png') }}"alt="logo_bomoc" style="width: 32px; height: 32px;" ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <img src="{{ asset('imagenes/icons/Menu.svg') }}" alt="menu_drop">
                 </button>
@@ -37,18 +37,18 @@
                                 <li><a class="dropdown-item" href="{{ route('impel') }}">Impel</a></li>
                                 <li><a class="dropdown-item" href="{{ route('jandy') }}">Jandy/Astralpool</a></li>
                                 <li><a class="dropdown-item" href="{{ route('mann') }}">Mann pumps</a></li>
-                                <li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>
+                                <!--<li><a class="dropdown-item" href="{{ route('netzsch') }}">Netzsch</a></li>-->
                                 <li><a class="dropdown-item" href="{{ route('pentair') }}">Pentair</a></li>
                                 <li><a class="dropdown-item" href="{{ route('tsurumi') }}">Tsurumi Pump</a></li>
                                 <li><a class="dropdown-item" href="{{ route('wdm') }}">Wdm</a></li>
-                                <li><a class="dropdown-item" href="{{ route('wilo') }}">Wilo/Scott</a></li>
+                                <li><a class="dropdown-item" href="{{ route('wilo') }}">Wilo/Scot</a></li>
                                 <li><a class="dropdown-item" href="{{ route('zoeller') }}">Zoeller</a></li>
                             </ul>
                             <!-- end menu desplegable -->
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="otrasLineasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Otras lineas de productos
+                                Otros productos
                             </a>
                             <!-- start menu desplegable -->
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -63,6 +63,9 @@
                             </ul>
                             <!-- end menu desplegable -->
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('servicios') }}">Servicios</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('blog') }}">Blog</a>
                         </li>
@@ -70,8 +73,9 @@
                             <a class="nav-link" href="{{ route('contacto') }}">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('servicios') }}">Servicios</a>
+                            <a class="nav-link" href="{{ route('galeria') }}">Galería</a>
                         </li>
+                       
                         {{-- @if (Route::has('login'))
                         @auth
                         <li class="nav-item ">

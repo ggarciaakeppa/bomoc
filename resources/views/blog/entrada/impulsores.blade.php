@@ -2,6 +2,15 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-758Q24T3P5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-758Q24T3P5');
+</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -39,7 +48,7 @@
         <!-- Titulo -->
         <div class="row">
             <div class="text-center mt-5 mb-5">
-                <h1 class="">PRINCIPIOS BÁSICOS Y TIPOS DE BOMBAS</h1>
+                <h1 class="">Principios Básicos</h1>
             </div>
         </div>
     
@@ -83,7 +92,7 @@
                         también forman parte de nuestra gama.
                     </p>
                     <p>
-                        Las bombas de clasifican por el tipo de impulsor que utilizan, y los tipos principales de bombas
+                        Las bombas se clasifican por el tipo de impulsor que utilizan, y los tipos principales de impulsores
                         son:
                     </p>
                 </div>

@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class multiHmv extends Model
 {
-    protected $table ='multiHmv';
+    protected $table ='multihmv';
 }
